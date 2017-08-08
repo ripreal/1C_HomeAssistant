@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="BeforeWriteAtServer">ПередЗаписьюНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаШапка" id="41">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Наименование</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Description</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="42"/>
+			<ChildItems>
+				<InputField name="Наименование" id="4">
+					<DataPath>Объект.Description</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<EditMode>EnterOnInput</EditMode>
+					<InputHint>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя детали</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Detail name</v8:content>
+						</v8:item>
+					</InputHint>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаХарактеристики" id="39">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Физические характеристики</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Physical units</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа характеристики</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ExtendedTooltip name="ГруппаХарактеристикиРасширеннаяПодсказка" id="40"/>
+			<ChildItems>
+				<Table name="Характеристики" id="7">
+					<Representation>List</Representation>
+					<Header>false</Header>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>Объект.Характеристики</DataPath>
+					<CommandSet>
+						<ExcludedCommand>Add</ExcludedCommand>
+					</CommandSet>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="ХарактеристикиКонтекстноеМеню" id="8"/>
+					<AutoCommandBar name="ХарактеристикиКоманднаяПанель" id="9">
+						<Autofill>false</Autofill>
+						<ChildItems>
+							<Button name="ХарактеристикиДобавитьХарактеристику" id="29">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.ДобавитьХарактеристику</CommandName>
+								<ExtendedTooltip name="ХарактеристикиДобавитьХарактеристикуРасширеннаяПодсказка" id="30"/>
+							</Button>
+							<ButtonGroup name="ГруппаСтандартныеКоманды" id="31">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа стандартные команды</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа стандартные команды</v8:content>
+									</v8:item>
+								</ToolTip>
+								<CommandSource>Item.Характеристики</CommandSource>
+								<ExtendedTooltip name="ГруппаСтандартныеКомандыРасширеннаяПодсказка" id="32"/>
+							</ButtonGroup>
+						</ChildItems>
+					</AutoCommandBar>
+					<ExtendedTooltip name="ХарактеристикиРасширеннаяПодсказка" id="10"/>
+					<SearchStringAddition name="ХарактеристикиСтрокаПоиска" id="11">
+						<AdditionSource>
+							<Item>Характеристики</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ХарактеристикиСтрокаПоискаКонтекстноеМеню" id="12"/>
+						<ExtendedTooltip name="ХарактеристикиСтрокаПоискаРасширеннаяПодсказка" id="13"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="ХарактеристикиСостояниеПросмотра" id="14">
+						<AdditionSource>
+							<Item>Характеристики</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ХарактеристикиСостояниеПросмотраКонтекстноеМеню" id="15"/>
+						<ExtendedTooltip name="ХарактеристикиСостояниеПросмотраРасширеннаяПодсказка" id="16"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="ХарактеристикиУправлениеПоиском" id="17">
+						<AdditionSource>
+							<Item>Характеристики</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="ХарактеристикиУправлениеПоискомКонтекстноеМеню" id="18"/>
+						<ExtendedTooltip name="ХарактеристикиУправлениеПоискомРасширеннаяПодсказка" id="19"/>
+					</SearchControlAddition>
+					<Events>
+						<Event name="Selection">ХарактеристикиВыбор</Event>
+						<Event name="ChoiceProcessing">ХарактеристикиОбработкаВыбора</Event>
+						<Event name="OnStartEdit">ХарактеристикиПриНачалеРедактирования</Event>
+					</Events>
+					<ChildItems>
+						<InputField name="ХарактеристикиХарактеристика" id="33">
+							<DataPath>Объект.Характеристики.Характеристика</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ХарактеристикиХарактеристикаКонтекстноеМеню" id="34"/>
+							<ExtendedTooltip name="ХарактеристикиХарактеристикаРасширеннаяПодсказка" id="35"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Родитель" id="36">
+			<DataPath>Объект.Parent</DataPath>
+			<Visible>false</Visible>
+			<TitleLocation>None</TitleLocation>
+			<InputHint>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Родитель (по умолч. комплектующие)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Parent (комплектующие  by default)</v8:content>
+				</v8:item>
+			</InputHint>
+			<ContextMenu name="РодительКонтекстноеМеню" id="37"/>
+			<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="38"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.ДеталиПроекта</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<Columns>
+				<AdditionalColumns table="Объект.Характеристики"/>
+			</Columns>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ДобавитьХарактеристику" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить характеристику</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.CreateListItem</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ДобавитьХарактеристику</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+	</Commands>
+</Form>

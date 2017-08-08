@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Configuration uuid="d64d25ef-af89-4754-9ed8-9fd075861321">
+		<InternalInfo>
+			<xr:ContainedObject>
+				<xr:ClassId>9cd510cd-abfc-11d4-9434-004095e12fc7</xr:ClassId>
+				<xr:ObjectId>7bf78424-7e44-43c9-8db6-08bd12c6fc75</xr:ObjectId>
+			</xr:ContainedObject>
+			<xr:ContainedObject>
+				<xr:ClassId>9fcd25a0-4822-11d4-9414-008048da11f9</xr:ClassId>
+				<xr:ObjectId>ede7acce-40eb-4e01-bdd8-ce5aa5682161</xr:ObjectId>
+			</xr:ContainedObject>
+			<xr:ContainedObject>
+				<xr:ClassId>e3687481-0a87-462c-a166-9f34594f9bba</xr:ClassId>
+				<xr:ObjectId>95065b9f-4252-4f33-a7e5-3356bf87c7e5</xr:ObjectId>
+			</xr:ContainedObject>
+			<xr:ContainedObject>
+				<xr:ClassId>9de14907-ec23-4a07-96f0-85521cb6b53b</xr:ClassId>
+				<xr:ObjectId>22887e8d-c3b7-45dc-be6a-755f8026f845</xr:ObjectId>
+			</xr:ContainedObject>
+			<xr:ContainedObject>
+				<xr:ClassId>51f2d5d8-ea4d-4064-8892-82951750031e</xr:ClassId>
+				<xr:ObjectId>affcfad9-72f2-4ca5-9ebe-454b2e181412</xr:ObjectId>
+			</xr:ContainedObject>
+			<xr:ContainedObject>
+				<xr:ClassId>e68182ea-4237-4383-967f-90c1e3370bc7</xr:ClassId>
+				<xr:ObjectId>d5bb60c0-a215-4a8d-b50b-e9740a453b4c</xr:ObjectId>
+			</xr:ContainedObject>
+		</InternalInfo>
+		<Properties>
+			<Name>HomeAssistant</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Home Assistant by ripreal</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<NamePrefix/>
+			<ConfigurationExtensionCompatibilityMode>Version8_3_10</ConfigurationExtensionCompatibilityMode>
+			<DefaultRunMode>ManagedApplication</DefaultRunMode>
+			<UsePurposes>
+				<v8:Value xsi:type="app:ApplicationUsePurpose">PersonalComputer</v8:Value>
+				<v8:Value xsi:type="app:ApplicationUsePurpose">MobileDevice</v8:Value>
+			</UsePurposes>
+			<ScriptVariant>Russian</ScriptVariant>
+			<DefaultRoles/>
+			<Vendor>R.I.P.real</Vendor>
+			<Version>0.8</Version>
+			<UpdateCatalogAddress/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
+			<UseOrdinaryFormInManagedApplication>false</UseOrdinaryFormInManagedApplication>
+			<AdditionalFullTextSearchDictionaries/>
+			<CommonSettingsStorage/>
+			<ReportsUserSettingsStorage/>
+			<ReportsVariantsStorage/>
+			<FormDataSettingsStorage/>
+			<DynamicListsUserSettingsStorage/>
+			<Content/>
+			<DefaultReportForm/>
+			<DefaultReportVariantForm/>
+			<DefaultReportSettingsForm/>
+			<DefaultDynamicListSettingsForm/>
+			<DefaultSearchForm/>
+			<RequiredMobileApplicationPermissions>
+				<v8:pair>
+					<v8:Key xsi:type="app:RequiredMobileApplicationPermissions">Multimedia</v8:Key>
+					<v8:Value xsi:type="xs:boolean">false</v8:Value>
+				</v8:pair>
+				<v8:pair>
+					<v8:Key xsi:type="app:RequiredMobileApplicationPermissions">Location</v8:Key>
+					<v8:Value xsi:type="xs:boolean">false</v8:Value>
+				</v8:pair>
+				<v8:pair>
+					<v8:Key xsi:type="app:RequiredMobileApplicationPermissions">Contacts</v8:Key>
+					<v8:Value xsi:type="xs:boolean">false</v8:Value>
+				</v8:pair>
+				<v8:pair>
+					<v8:Key xsi:type="app:RequiredMobileApplicationPermissions">Calendars</v8:Key>
+					<v8:Value xsi:type="xs:boolean">false</v8:Value>
+				</v8:pair>
+				<v8:pair>
+					<v8:Key xsi:type="app:RequiredMobileApplicationPermissions">Telephony</v8:Key>
+					<v8:Value xsi:type="xs:boolean">false</v8:Value>
+				</v8:pair>
+				<v8:pair>
+					<v8:Key xsi:type="app:RequiredMobileApplicationPermissions">PushNotification</v8:Key>
+					<v8:Value xsi:type="xs:boolean">false</v8:Value>
+				</v8:pair>
+				<v8:pair>
+					<v8:Key xsi:type="app:RequiredMobileApplicationPermissions">LocalNotification</v8:Key>
+					<v8:Value xsi:type="xs:boolean">false</v8:Value>
+				</v8:pair>
+				<v8:pair>
+					<v8:Key xsi:type="app:RequiredMobileApplicationPermissions">Print</v8:Key>
+					<v8:Value xsi:type="xs:boolean">false</v8:Value>
+				</v8:pair>
+				<v8:pair>
+					<v8:Key xsi:type="app:RequiredMobileApplicationPermissions">InAppPurchases</v8:Key>
+					<v8:Value xsi:type="xs:boolean">false</v8:Value>
+				</v8:pair>
+				<v8:pair>
+					<v8:Key xsi:type="app:RequiredMobileApplicationPermissions">Ads</v8:Key>
+					<v8:Value xsi:type="xs:boolean">false</v8:Value>
+				</v8:pair>
+			</RequiredMobileApplicationPermissions>
+			<MainClientApplicationWindowMode>Normal</MainClientApplicationWindowMode>
+			<DefaultInterface/>
+			<DefaultStyle/>
+			<DefaultLanguage>Language.Русский</DefaultLanguage>
+			<BriefInformation/>
+			<DetailedInformation/>
+			<Copyright/>
+			<VendorInformationAddress/>
+			<ConfigurationInformationAddress/>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<ObjectAutonumerationMode>NotAutoFree</ObjectAutonumerationMode>
+			<ModalityUseMode>Use</ModalityUseMode>
+			<SynchronousPlatformExtensionAndAddInCallUseMode>Use</SynchronousPlatformExtensionAndAddInCallUseMode>
+			<InterfaceCompatibilityMode>Version8_2</InterfaceCompatibilityMode>
+			<CompatibilityMode>Version8_3_10</CompatibilityMode>
+			<DefaultConstantsForm/>
+		</Properties>
+		<ChildObjects>
+			<Language>Русский</Language>
+			<Language>English</Language>
+			<Subsystem>xUnitFor1C</Subsystem>
+			<Subsystem>ПрикрепленныеФайлы</Subsystem>
+			<Subsystem>ОбъектыДомена</Subsystem>
+			<CommonPicture>Аудиофайл</CommonPicture>
+			<CommonPicture>ВыполненоУспешно16</CommonPicture>
+			<CommonPicture>ГоризонтальнаяЛиния</CommonPicture>
+			<CommonPicture>Готово</CommonPicture>
+			<CommonPicture>ДлительнаяОперация48</CommonPicture>
+			<CommonPicture>ДобавитьЭлементВЯчейку</CommonPicture>
+			<CommonPicture>Камера48</CommonPicture>
+			<CommonPicture>КнопкаНастройки</CommonPicture>
+			<CommonPicture>КомандаЗаписать</CommonPicture>
+			<CommonPicture>КорзинаДляМусора48</CommonPicture>
+			<CommonPicture>ЛоготипЯндекс</CommonPicture>
+			<CommonPicture>МенюНеактуален16</CommonPicture>
+			<CommonPicture>Микрофон48</CommonPicture>
+			<CommonPicture>НоваяОперация</CommonPicture>
+			<CommonPicture>ОтчетДиаграмма</CommonPicture>
+			<CommonPicture>ОтчетРазвернутьГруппы</CommonPicture>
+			<CommonPicture>ОтчетСвернутьГруппы</CommonPicture>
+			<CommonPicture>ОтчетТаблица</CommonPicture>
+			<CommonPicture>ПолеДолг48</CommonPicture>
+			<CommonPicture>ПолеКалендарь48</CommonPicture>
+			<CommonPicture>ПолеКомментарий48</CommonPicture>
+			<CommonPicture>ПолеКонтакт48</CommonPicture>
+			<CommonPicture>ПолеКошелек48</CommonPicture>
+			<CommonPicture>ПолеПовтор</CommonPicture>
+			<CommonPicture>ПолеПроцент48</CommonPicture>
+			<CommonPicture>ПолеСтатья48</CommonPicture>
+			<CommonPicture>ПолеСумма48</CommonPicture>
+			<CommonPicture>ПометитьНаУдалениеСправочник16</CommonPicture>
+			<CommonPicture>Пустая16</CommonPicture>
+			<CommonPicture>РазделОтчеты48</CommonPicture>
+			<CommonPicture>Синхронизация</CommonPicture>
+			<CommonPicture>СинхронизацияВыполняется</CommonPicture>
+			<CommonPicture>СинхронизацияОшибка</CommonPicture>
+			<CommonPicture>СписокОпераций</CommonPicture>
+			<CommonPicture>СтрелкаВниз</CommonPicture>
+			<CommonPicture>ПолеФинансоваяЦель48</CommonPicture>
+			<CommonPicture>Crafting48</CommonPicture>
+			<CommonPicture>Function24</CommonPicture>
+			<CommonPicture>capacitor24</CommonPicture>
+			<CommonPicture>node24</CommonPicture>
+			<CommonPicture>locate24</CommonPicture>
+			<CommonPicture>ruler24</CommonPicture>
+			<CommonPicture>right_arrow24</CommonPicture>
+			<CommonPicture>instrument</CommonPicture>
+			<CommonPicture>ДваФлажка</CommonPicture>
+			<CommonPicture>ВзаимосвязанныеПоказатели</CommonPicture>
+			<CommonPicture>Hammer</CommonPicture>
+			<CommonPicture>android</CommonPicture>
+			<SessionParameter>ПредставленияФайлов</SessionParameter>
+			<CommonModule>ОбновлениеИнформационнойБазыВызовСервера</CommonModule>
+			<CommonModule>ОбщегоНазначения</CommonModule>
+			<CommonModule>ОбщегоНазначенияКлиентСервер</CommonModule>
+			<CommonModule>ПрикрепленныеФайлыКлиент</CommonModule>
+			<CommonModule>ПрикрепленныеФайлыКлиентСервер</CommonModule>
+			<CommonModule>ПрикрепленныеФайлыСервер</CommonModule>
+			<CommonModule>СтандартныеПодсистемыПовтИсп</CommonModule>
+			<CommonModule>СтроковыеФункцииКлиентСервер</CommonModule>
+			<CommonModule>УправлениеМультимедиаВызовСервера</CommonModule>
+			<CommonModule>УправлениеМультимедиаКлиент</CommonModule>
+			<CommonModule>ФормыОбщиеДействияСервер</CommonModule>
+			<CommonModule>ФормыПроектыКлиентСервер</CommonModule>
+			<CommonModule>ФормыПроектыСервер</CommonModule>
+			<CommonModule>ОбновлениеИнформационнойБазыКлиент</CommonModule>
+			<CommonModule>ДанныеИБ</CommonModule>
+			<XDTOPackage>ПакетXDTO1</XDTOPackage>
+			<CommonCommand>СделатьФотографию</CommonCommand>
+			<CommonCommand>СделатьАудиоЗапись</CommonCommand>
+			<CommonCommand>СписокФайлов</CommonCommand>
+			<Constant>ПервоначальноеЗаполнениеПройдено</Constant>
+			<Constant>ДелатьФотоАндроидАПИ</Constant>
+			<Constant>КаталогКартинок</Constant>
+			<Constant>КаталогФото</Constant>
+			<CommonForm>ОжиданиеДлительнойОперации</CommonForm>
+			<Catalog>ДеталиПроекта</Catalog>
+			<Catalog>КлассификаторЕдиницИзмерения</Catalog>
+			<Catalog>ПрикрепленныеФайлы</Catalog>
+			<Catalog>Проекты</Catalog>
+			<Catalog>Формулы</Catalog>
+			<Catalog>ФизическиеХарактеристики</Catalog>
+			<Document>Блокнот</Document>
+			<Enum>СпособОткрытияПрикрепленногоФайла</Enum>
+			<Enum>ТипыХарактеристик</Enum>
+			<Enum>АрифметическиеОператоры</Enum>
+			<DataProcessor>xddTestRunner</DataProcessor>
+			<DataProcessor>БазовыеУтверждения</DataProcessor>
+			<DataProcessor>ГенераторОтчетаMXL</DataProcessor>
+			<DataProcessor>ЗагрузчикИзПодсистемКонфигурации</DataProcessor>
+			<DataProcessor>ЗагрузчикФайла</DataProcessor>
+			<DataProcessor>НастройкиПрограммы</DataProcessor>
+			<DataProcessor>НачальнаяСтраница</DataProcessor>
+			<DataProcessor>ПостроительДереваТестов</DataProcessor>
+			<DataProcessor>ТестФормулы</DataProcessor>
+			<DataProcessor>ТестКлассификаторЕдиницИзм</DataProcessor>
+			<DataProcessor>УтвержденияBDD</DataProcessor>
+			<InformationRegister>ПринадлежностьФайлов</InformationRegister>
+		</ChildObjects>
+	</Configuration>
+</MetaDataObject>

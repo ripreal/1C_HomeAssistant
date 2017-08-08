@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.4">
+	<Item id="dccf42f0-e91e-4f18-a09e-9df27e9c6c0e">
+		<Name>ВЫСОТАтреуг</Name>
+		<Code/>
+		<Description>Высота треугольника</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="767ef40e-d415-4cf0-b331-63be76200e7a">
+		<Name>ГИПОТЕНУЗАтреуг</Name>
+		<Code/>
+		<Description>Гипотенуза треугольника</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="39fe67fb-b77a-4d97-9f87-90d4275ff306">
+		<Name>ОСНОВАНИЕтреуг</Name>
+		<Code/>
+		<Description>Катет треугольника</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="15c4bb9a-e220-4158-9092-30ed2a98062b">
+		<Name>М2_М3</Name>
+		<Code/>
+		<Description>м2 =&gt; м3</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="999acc90-5e2e-4e6c-a4aa-d8fecdb2190a">
+		<Name>М3_М2</Name>
+		<Code/>
+		<Description>м3 =&gt; м2</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="678ce711-0539-4993-bf25-b792b61845b7">
+		<Name>Pпрям</Name>
+		<Code/>
+		<Description>Периметр прямоугольника</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e37f5ccb-52bd-4c53-8442-9aaeb2ed4ecf">
+		<Name>Pтреуг</Name>
+		<Code/>
+		<Description>Периметр треугольника</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e3773d21-510f-4dcc-b4d6-87910b73781a">
+		<Name>Sпрям</Name>
+		<Code/>
+		<Description>Площадь прямоугольника</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="be6c251f-5a02-412b-9e5e-360ef665e854">
+		<Name>Sтреуг</Name>
+		<Code/>
+		<Description>Площадь треугольника</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="685dcf2c-37cb-49e6-b7e9-d48ab8cd2e32">
+		<Name>ФормулаГерона</Name>
+		<Code/>
+		<Description>Формула Герона</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

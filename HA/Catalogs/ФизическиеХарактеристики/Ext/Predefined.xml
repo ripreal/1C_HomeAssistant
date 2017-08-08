@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.4">
+	<Item id="5633374a-c34e-4176-bd20-8d70f86e274c">
+		<Name>Высота</Name>
+		<Code/>
+		<Description>Высота</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="6a73c497-2bca-41a8-b626-2e1687b985bb">
+				<Name>Высотам</Name>
+				<Code/>
+				<Description>Высота</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="9275dee9-60f0-48e4-af33-416f8ceedd4c">
+				<Name>Высотамм</Name>
+				<Code/>
+				<Description>Высота</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="05214c1b-3211-4a52-811c-cc6551ff875e">
+				<Name>Высотасм</Name>
+				<Code/>
+				<Description>Высота</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="3fd4ff29-a17d-4332-932c-17133def8ca3">
+				<Name>Высотаярд</Name>
+				<Code/>
+				<Description>Высота</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="3eb5cccb-5198-4f35-9ea9-01a85f971b28">
+				<Name>Высотафут</Name>
+				<Code/>
+				<Description>Высота</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="e12a0d53-1b71-4843-8554-666b2dbb79af">
+				<Name>Высотакм</Name>
+				<Code/>
+				<Description>Высота</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="8ee76b68-4775-4b40-ad40-1645b05d302e">
+				<Name>Высотадюйм</Name>
+				<Code/>
+				<Description>Высота</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="d3166633-45c4-4e2b-9dfa-11df25624795">
+		<Name>Длина</Name>
+		<Code/>
+		<Description>Длина</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="8c54f66e-b167-4b05-a21f-7ecd6ba36d9f">
+				<Name>Длинам</Name>
+				<Code/>
+				<Description>Длина</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="16ee74ff-5146-48d4-b726-a92f3b64a1fc">
+				<Name>Длинамм</Name>
+				<Code/>
+				<Description>Длина</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="234d3ef7-bd5d-47cc-8602-dbaaf1185509">
+				<Name>Длинасм</Name>
+				<Code/>
+				<Description>Длина</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="8d4bf527-5011-4101-8e58-3db499f25825">
+				<Name>Длинаярд</Name>
+				<Code/>
+				<Description>Длина</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="1d2710ad-26c4-410a-bd16-cd205129c1a2">
+				<Name>Длинафут</Name>
+				<Code/>
+				<Description>Длина</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="2e1ae2f0-059a-4dbd-bb83-840520f06ac0">
+				<Name>Длинадюйм</Name>
+				<Code/>
+				<Description>Длина</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="e76af0e8-c901-45d5-9b3b-5cf9b56ffc13">
+				<Name>Длинакм</Name>
+				<Code/>
+				<Description>Длина</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="b03af78b-ee39-41ea-b5cb-326b3a7d5ca6">
+		<Name>Инструменты</Name>
+		<Code/>
+		<Description>Инструменты</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="3f646c92-65eb-4cde-a035-b9684bdeb44c">
+				<Name>Дрельтреб</Name>
+				<Code/>
+				<Description>Дрель</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="5b5d10ea-3c3b-40aa-9372-a93f3b87e1a3">
+				<Name>Перфоратортреб</Name>
+				<Code/>
+				<Description>Перфоратор</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="c1fa67c9-7edf-40ab-8ee6-826c3431771f">
+				<Name>УгловаяМашинкатреб</Name>
+				<Code/>
+				<Description>Угловая машинка</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="4660ca6d-432e-4d6f-8de8-ef65f924f55e">
+				<Name>Шуруповерттреб</Name>
+				<Code/>
+				<Description>Шуруповерт</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="f45945d8-b0cb-48de-8ccf-07d15fa294aa">
+		<Name>Масса</Name>
+		<Code/>
+		<Description>Масса</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="7ae26069-baba-47c6-a0c7-dd4032b56e2d">
+				<Name>Массакг</Name>
+				<Code/>
+				<Description>Масса</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="a67df132-66af-4641-9f61-361616d55c77">
+				<Name>Массат</Name>
+				<Code/>
+				<Description>Масса</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="40ac29c4-a319-443b-b534-d665c2baf07d">
+				<Name>Массамг</Name>
+				<Code/>
+				<Description>Масса</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="25abe55c-64b1-40d2-8f42-8509cce4c347">
+				<Name>Массаг</Name>
+				<Code/>
+				<Description>Масса</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="fb0e7d4b-15d6-482f-8d28-34fc9d87fbf8">
+		<Name>Объем</Name>
+		<Code/>
+		<Description>Объем</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="eac88443-1ea8-481b-9509-90ecaaa6554b">
+				<Name>Объем_мм3</Name>
+				<Code/>
+				<Description>Объем</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="9277442f-fc56-48d2-94b4-59592eb2cf78">
+				<Name>Объем_см3</Name>
+				<Code/>
+				<Description>Объем</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="fad6b24e-da9e-40ee-bb32-dd82732369a0">
+				<Name>Объем_м3</Name>
+				<Code/>
+				<Description>Объем</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="82baf4e6-7996-47bd-a4a7-a9ff1dbb3cbb">
+				<Name>Объем_л</Name>
+				<Code/>
+				<Description>Объем</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="c7b91ef5-6174-4944-8221-ef8cdf8ff03e">
+		<Name>Площадь</Name>
+		<Code/>
+		<Description>Площадь</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="b193442e-0332-4960-a8d8-3949b4036120">
+				<Name>Площадьм2</Name>
+				<Code/>
+				<Description>Площадь</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="2b3f269e-4f33-4f95-89cf-4a631286293b">
+				<Name>Площадьмм2</Name>
+				<Code/>
+				<Description>Площадь</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="9f1fa9f8-bd16-4df0-af6d-ca9356999146">
+				<Name>Площадьсм2</Name>
+				<Code/>
+				<Description>Площадь</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="29e7b46b-2c57-402b-bc68-1be135254b61">
+				<Name>Площадьярд2</Name>
+				<Code/>
+				<Description>Площадь</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="4259e17c-3558-410f-a0c0-3ae609cd1bfa">
+				<Name>Площадьфут2</Name>
+				<Code/>
+				<Description>Площадь</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="17b88580-c35b-4aac-bf8d-8922e3d65868">
+				<Name>Площадькм2</Name>
+				<Code/>
+				<Description>Площадь</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="5b4f52e2-7128-4c31-be2a-c421ffa857f1">
+				<Name>Площадьдюйм2</Name>
+				<Code/>
+				<Description>Площадь</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="92b70a3a-6f75-4315-8721-e1e91b8ef7f8">
+		<Name>Прочие</Name>
+		<Code/>
+		<Description>Прочие</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="c11c6203-8f77-4601-887c-217de2a167b5">
+				<Name>Количествошт</Name>
+				<Code/>
+				<Description>Количество</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="c3e4f755-f306-4fd6-8af9-4f890e7ec213">
+		<Name>СторонаA</Name>
+		<Code/>
+		<Description>СторонаA</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="1e90e503-cae9-4fbb-acd3-a127b961b505">
+				<Name>СторонаAкм</Name>
+				<Code/>
+				<Description>Сторона</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="e4e698b0-4998-4d6a-9a42-8789a5121231">
+				<Name>СторонаAм</Name>
+				<Code/>
+				<Description>Сторона A</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="65dc2657-89a6-400a-9e44-8f6bd301cf3d">
+				<Name>СторонаAмм</Name>
+				<Code/>
+				<Description>Сторона A</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="eb7408c7-d054-4ab1-8945-a4f5788e848f">
+				<Name>СторонаAсм</Name>
+				<Code/>
+				<Description>Сторона A</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="4ef781fa-6f3f-4a16-a99e-ffc06d0cd850">
+		<Name>СторонаB</Name>
+		<Code/>
+		<Description>СторонаB</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="d0d3106d-606d-440d-aac2-b4272cda6531">
+				<Name>СторонаBмм</Name>
+				<Code/>
+				<Description>Сторона B</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="13eacadb-b880-4b4a-bc79-41d494306b9d">
+				<Name>СторонаBсм</Name>
+				<Code/>
+				<Description>Сторона B</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="0b2c2e0a-c99d-48e2-bfe0-8190adc0b213">
+				<Name>СторонаBм</Name>
+				<Code/>
+				<Description>Сторона B</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="59c9823d-4797-4087-a61d-cc7ac5f5483c">
+				<Name>СторонаBкм</Name>
+				<Code/>
+				<Description>Сторона b</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="9ca4750b-ed1a-460a-b5c4-24c3409f2318">
+		<Name>СторонаC</Name>
+		<Code/>
+		<Description>СторонаC</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="a4f7a218-1a95-4a2c-9afc-657ff4f8e956">
+				<Name>СторонаCм</Name>
+				<Code/>
+				<Description>Сторона C</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="0b882efc-0aed-45c0-8225-9b17895706fb">
+				<Name>СторонаCмм</Name>
+				<Code/>
+				<Description>Сторона C</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="7c743bd6-e027-4396-be2e-012a1a07a227">
+				<Name>СторонаCсм</Name>
+				<Code/>
+				<Description>Сторона C</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="96013fc3-aa26-4daf-a6d6-cf34533fd568">
+				<Name>СторонаCкм</Name>
+				<Code/>
+				<Description>Сторона c</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="205e966c-1bad-4133-894d-5d3a2f49e960">
+		<Name>Угол</Name>
+		<Code/>
+		<Description>Угол</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="dcbd0ddb-96c5-4f57-bd23-0454e2747bc0">
+				<Name>Угол_α</Name>
+				<Code/>
+				<Description>α</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="ff85289a-8cb9-42e0-ae04-123ff1dba3e3">
+		<Name>Ширина</Name>
+		<Code/>
+		<Description>Ширина</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="f6a105cf-f16f-4bdc-8a68-0e806e5ba3a8">
+				<Name>Ширинам</Name>
+				<Code/>
+				<Description>Ширина</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="fd573c6b-ffa9-431c-a43e-a9aace458ae6">
+				<Name>Ширинамм</Name>
+				<Code/>
+				<Description>Ширина</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="b38520ce-d147-48f6-934e-17d5deb71de7">
+				<Name>Ширинасм</Name>
+				<Code/>
+				<Description>Ширина</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="78c5c06f-6c7a-47bd-b920-4dc81567a93f">
+				<Name>Ширинаярд</Name>
+				<Code/>
+				<Description>Ширина</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="6500bb21-2835-4b16-9b9f-4db2472c04e3">
+				<Name>Ширинафут</Name>
+				<Code/>
+				<Description>Ширина</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="dcb8a9f7-b4ae-45c7-a2fb-2506c1d5cc0a">
+				<Name>Ширинакм</Name>
+				<Code/>
+				<Description>Ширина</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="6d34d958-8b45-4a46-9c1f-071692155650">
+				<Name>Ширинадюйм</Name>
+				<Code/>
+				<Description>Ширина</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>

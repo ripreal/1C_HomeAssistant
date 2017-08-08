@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Синхронизация через файлы</v8:content>
+		</v8:item>
+	</Title>
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<AutoTitle>false</AutoTitle>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+		<ChildItems>
+			<Button name="ФормаЗакрыть" id="73">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.StandardCommand.Close</CommandName>
+				<ExtendedTooltip name="ФормаЗакрытьРасширеннаяПодсказка" id="74"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаОписание" id="3">
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа описание</v8:content>
+				</v8:item>
+			</ToolTip>
+			<VerticalStretch>false</VerticalStretch>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаОписаниеРасширеннаяПодсказка" id="4"/>
+			<ChildItems>
+				<LabelDecoration name="Декорация1" id="96">
+					<Font ref="style:NormalTextFont" kind="StyleItem"/>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>1. Save the data file ha_message.xml and transfer it on the new device</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>1. Выгрузите данные в файл ha_message.xml и перенесите его на новое устройство.</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="Декорация1КонтекстноеМеню" id="97"/>
+					<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="98"/>
+				</LabelDecoration>
+				<Button name="ВыгрузитьФайл" id="94">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ВыгрузитьФайл</CommandName>
+					<Font ref="style:LargeTextFont" kind="StyleItem"/>
+					<ExtendedTooltip name="ВыгрузитьФайлРасширеннаяПодсказка" id="95"/>
+				</Button>
+				<LabelDecoration name="Декорация2" id="99">
+					<Font ref="style:NormalTextFont" kind="StyleItem"/>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>2. Download the data file on the new device.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>2. Перенесите файл на это устройство. Загрузите данные.</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="Декорация2КонтекстноеМеню" id="100"/>
+					<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="101"/>
+				</LabelDecoration>
+				<Button name="ЗагрузитьФайл" id="102">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ЗагрузитьФайл</CommandName>
+					<Font ref="style:LargeTextFont" kind="StyleItem"/>
+					<ExtendedTooltip name="ЗагрузитьФайлРасширеннаяПодсказка" id="103"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаПодвал" id="51">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа подвал</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа подвал</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаПодвалРасширеннаяПодсказка" id="52"/>
+			<ChildItems>
+				<LabelDecoration name="НадписьТекущиеНастройки" id="53">
+					<HorizontalStretch>true</HorizontalStretch>
+					<VerticalStretch>false</VerticalStretch>
+					<TextColor>#807A59</TextColor>
+					<Font ref="style:LargeTextFont" kind="StyleItem"/>
+					<Title formatted="true">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;b&gt;Путь к файлам выгрузки/загрузки:&lt;/&gt;</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>&lt;b&gt;Path to the file:&lt;/&gt;</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="НадписьТекущиеНастройкиКонтекстноеМеню" id="54"/>
+					<ExtendedTooltip name="НадписьТекущиеНастройкиРасширеннаяПодсказка" id="55"/>
+				</LabelDecoration>
+				<LabelField name="ПутьКФайламВыгрузки" id="75">
+					<DataPath>ПутьКФайламВыгрузки</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<Hiperlink>true</Hiperlink>
+					<ContextMenu name="ПутьКФайламВыгрузкиКонтекстноеМеню" id="76"/>
+					<ExtendedTooltip name="ПутьКФайламВыгрузкиРасширеннаяПодсказка" id="77"/>
+				</LabelField>
+				<LabelDecoration name="ГиперссылкаИзменитьНастройки" id="70">
+					<Width>25</Width>
+					<Height>1</Height>
+					<HorizontalStretch>true</HorizontalStretch>
+					<VerticalStretch>false</VerticalStretch>
+					<TextColor>#1C55AE</TextColor>
+					<Font ref="style:LargeTextFont" kind="StyleItem"/>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Изменить...</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Change...</v8:content>
+						</v8:item>
+					</Title>
+					<Hyperlink>true</Hyperlink>
+					<VerticalAlign>Top</VerticalAlign>
+					<ContextMenu name="ГиперссылкаИзменитьНастройкиКонтекстноеМеню" id="71"/>
+					<ExtendedTooltip name="ГиперссылкаИзменитьНастройкиРасширеннаяПодсказка" id="72"/>
+					<Events>
+						<Event name="Click">ГиперссылкаИзменитьНастройкиНажатие</Event>
+					</Events>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаСинхронизацияРезультат" id="35">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа синхронизация результат</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа синхронизация результат</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаСинхронизацияРезультатРасширеннаяПодсказка" id="36"/>
+			<ChildItems>
+				<LabelDecoration name="Отступ" id="37">
+					<Width>4</Width>
+					<VerticalStretch>false</VerticalStretch>
+					<Font ref="style:SmallTextFont" height="1" kind="StyleItem"/>
+					<ContextMenu name="ОтступКонтекстноеМеню" id="38"/>
+					<ExtendedTooltip name="ОтступРасширеннаяПодсказка" id="39"/>
+				</LabelDecoration>
+				<UsualGroup name="ГруппаСинхронизацияВыполнена" id="40">
+					<Visible>false</Visible>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа синхронизация выполнена</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа синхронизация выполнена</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Horizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаСинхронизацияВыполненаРасширеннаяПодсказка" id="41"/>
+					<ChildItems>
+						<PictureDecoration name="ИконкаСинхронизацияВыполнена" id="61">
+							<Width>2</Width>
+							<Height>1</Height>
+							<HorizontalStretch>false</HorizontalStretch>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Иконка синхронизация выполнена</v8:content>
+								</v8:item>
+							</Title>
+							<PictureSize>AutoSize</PictureSize>
+							<Picture>
+								<xr:Ref>CommonPicture.ВыполненоУспешно16</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="ИконкаСинхронизацияВыполненаКонтекстноеМеню" id="62"/>
+							<ExtendedTooltip name="ИконкаСинхронизацияВыполненаРасширеннаяПодсказка" id="63"/>
+						</PictureDecoration>
+						<LabelDecoration name="НадписьСинхронизацияВыполнена" id="45">
+							<Width>25</Width>
+							<Height>1</Height>
+							<HorizontalStretch>true</HorizontalStretch>
+							<TextColor>web:Green</TextColor>
+							<Font ref="style:LargeTextFont" kind="StyleItem"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Синхронизация выполнена</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Exchange completed</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="НадписьСинхронизацияВыполненаКонтекстноеМеню" id="46"/>
+							<ExtendedTooltip name="НадписьСинхронизацияВыполненаРасширеннаяПодсказка" id="47"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаСинхронизацияВыполняется" id="83">
+					<Visible>false</Visible>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа синхронизация выполнена1</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа синхронизация выполнена1</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Horizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаСинхронизацияВыполняетсяРасширеннаяПодсказка" id="84"/>
+					<ChildItems>
+						<PictureDecoration name="ИконкаСинхронизацияВыполнена1" id="85">
+							<Width>2</Width>
+							<Height>1</Height>
+							<HorizontalStretch>false</HorizontalStretch>
+							<TextColor>style:FieldSelectionBackColor</TextColor>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Иконка синхронизация выполнена</v8:content>
+								</v8:item>
+							</Title>
+							<PictureSize>AutoSize</PictureSize>
+							<Picture>
+								<xr:Ref>CommonPicture.СинхронизацияВыполняется</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="ИконкаСинхронизацияВыполнена1КонтекстноеМеню" id="86"/>
+							<ExtendedTooltip name="ИконкаСинхронизацияВыполнена1РасширеннаяПодсказка" id="87"/>
+						</PictureDecoration>
+						<LabelDecoration name="НадписьСинхронизацияВыполнена1" id="88">
+							<Width>25</Width>
+							<Height>1</Height>
+							<HorizontalStretch>true</HorizontalStretch>
+							<TextColor>style:FieldSelectionBackColor</TextColor>
+							<Font ref="style:LargeTextFont" kind="StyleItem"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Синхронизация выполняется...</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Exchange processing...</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="НадписьСинхронизацияВыполнена1КонтекстноеМеню" id="89"/>
+							<ExtendedTooltip name="НадписьСинхронизацияВыполнена1РасширеннаяПодсказка" id="90"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ПутьКФайламВыгрузки" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Путь к файлам выгрузки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<SavedData>true</SavedData>
+			<Save>
+				<Field>ПутьКФайламВыгрузки</Field>
+			</Save>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ВыгрузитьФайл" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузить</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузить файл</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыгрузитьФайлКлиент</Action>
+		</Command>
+		<Command name="ЗагрузитьФайл" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Download</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить файл</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗагрузитьФайлКлиент</Action>
+		</Command>
+	</Commands>
+</Form>

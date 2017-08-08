@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<CommandBarLocation>None</CommandBarLocation>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="ГруппаСредстваМультимедиа" id="21">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Средства мультимедиа</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Multimedia</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа средства мультимедиа</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="ГруппаСредстваМультимедиаРасширеннаяПодсказка" id="22"/>
+			<ChildItems>
+				<CheckBoxField name="ДелатьФотоАндроидАПИ" id="23">
+					<DataPath>НаборКонстант.ДелатьФотоАндроидАПИ</DataPath>
+					<TitleLocation>Right</TitleLocation>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ДелатьФотоАндроидАПИКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="ДелатьФотоАндроидАПИРасширеннаяПодсказка" id="25"/>
+					<Events>
+						<Event name="OnChange">ДелатьФотоАндроидАПИПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+				<Button name="УстановитьHA_Paint" id="40">
+					<Type>UsualButton</Type>
+					<Height>1</Height>
+					<CommandName>Form.Command.УстановитьHA_Paint</CommandName>
+					<ExtendedTooltip name="УстановитьHA_PaintРасширеннаяПодсказка" id="41"/>
+				</Button>
+				<UsualGroup name="ГруппаКаталогФото" id="36">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа каталог фото</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа каталог фото</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаКаталогФотоРасширеннаяПодсказка" id="37"/>
+					<ChildItems>
+						<InputField name="КаталогФото" id="30">
+							<DataPath>НаборКонстант.КаталогФото</DataPath>
+							<ContextMenu name="КаталогФотоКонтекстноеМеню" id="31"/>
+							<ExtendedTooltip name="КаталогФотоРасширеннаяПодсказка" id="32"/>
+							<Events>
+								<Event name="OnChange">КаталогФотоПриИзменении</Event>
+							</Events>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<InputField name="КаталогКартинок" id="33">
+					<DataPath>НаборКонстант.КаталогКартинок</DataPath>
+					<ContextMenu name="КаталогКартинокКонтекстноеМеню" id="34"/>
+					<ExtendedTooltip name="КаталогКартинокРасширеннаяПодсказка" id="35"/>
+					<Events>
+						<Event name="OnChange">КаталогКартинокПриИзменении</Event>
+					</Events>
+				</InputField>
+				<UsualGroup name="Группа1" id="38">
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="39"/>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="РегламентныеОперации" id="26">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Регламентные операции</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Maintenance</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Регламентные операции</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="РегламентныеОперацииРасширеннаяПодсказка" id="27"/>
+			<ChildItems>
+				<Button name="ЗаполнитьБазу" id="6">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ЗаполнитьДанные</CommandName>
+					<Picture>
+						<xr:Ref>CommonPicture.Готово</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<ExtendedTooltip name="ЗаполнитьБазуРасширеннаяПодсказка" id="7"/>
+				</Button>
+				<Button name="ОчиститьЛишниеФайлы" id="8">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ОчиститьЛишниеФайлы</CommandName>
+					<ExtendedTooltip name="ОчиститьЛишниеФайлыРасширеннаяПодсказка" id="9"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ОбменДанными" id="28">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обмен данными</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Exchange</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обмен данными</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="ОбменДаннымиРасширеннаяПодсказка" id="29"/>
+			<ChildItems>
+				<Button name="СинхронизоватьСДругимУстройством" id="12">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.СинхронизоватьСДругимУстройством</CommandName>
+					<ExtendedTooltip name="СинхронизоватьСДругимУстройствомРасширеннаяПодсказка" id="13"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="НаборКонстант" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Набор констант</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:ConstantsSet</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ЗаполнитьДанные" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить базу начальными данными</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Fill with initial data</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить данные</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.ПолеФинансоваяЦель48</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ЗаполнитьДанные</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="ОчиститьЛишниеФайлы" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить неиспользуемые файлы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Clear unused files</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить лишние файлы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.КорзинаДляМусора48</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ОчиститьЛишниеФото</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="СинхронизоватьСДругимУстройством" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обмен с др. устройством</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Exhange with other phone</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Синхронизовать с другим устройством</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.Синхронизация</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>СинхронизоватьСДругимУстройством</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="ПроверитьКаталогФото" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить каталог фото</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Check path</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить каталог фото</v8:content>
+				</v8:item>
+			</ToolTip>
+		</Command>
+		<Command name="ПроверитьКаталогКартинок" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить каталог картинок</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить каталог картинок</v8:content>
+				</v8:item>
+			</ToolTip>
+		</Command>
+		<Command name="УстановитьHA_Paint" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить приложение HA-Paint</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Install android HA-Paint app</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить h a paint</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.android</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>УстановитьHA_Paint</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+	</Commands>
+</Form>

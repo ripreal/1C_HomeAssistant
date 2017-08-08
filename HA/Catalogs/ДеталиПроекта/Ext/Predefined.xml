@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.4">
+	<Item id="a65579e9-179b-47a5-8202-116ea84bdaf4">
+		<Name>Инструменты</Name>
+		<Code/>
+		<Description>Инструменты и метизы</Description>
+		<IsFolder>true</IsFolder>
+	</Item>
+	<Item id="9fbca34d-1fdb-4d12-808c-f935da49c666">
+		<Name>Комплектующие</Name>
+		<Code/>
+		<Description>Комплектующие</Description>
+		<IsFolder>true</IsFolder>
+	</Item>
+	<Item id="d75d240b-d003-4e13-9ec3-3d6fd58c3747">
+		<Name>ОбщиеГабариты</Name>
+		<Code/>
+		<Description>Общие габариты</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="9ad1d87f-b953-4861-ae3f-c33edd0b0d85">
+				<Name>Габариты</Name>
+				<Code/>
+				<Description>Габариты</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.4">
+	<Item id="f76e28c1-4c38-49b4-9e0c-7f8937a40956">
+		<Name>ЕдиницыВремени</Name>
+		<Code>9995</Code>
+		<Description>Единицы времени</Description>
+		<IsFolder>true</IsFolder>
+	</Item>
+	<Item id="12f20373-4f57-40a8-9097-c717a89decfb">
+		<Name>ЕдиницыДлины</Name>
+		<Code>9990</Code>
+		<Description>Единицы длины</Description>
+		<IsFolder>true</IsFolder>
+	</Item>
+	<Item id="40fd0b64-8049-47b5-940b-622c48bb193e">
+		<Name>ЕдиницыМассы</Name>
+		<Code>9993</Code>
+		<Description>Единицы массы</Description>
+		<IsFolder>true</IsFolder>
+	</Item>
+	<Item id="436bbe40-7877-4897-a6fa-1f25c192a0e0">
+		<Name>ЕдиницыОбъема</Name>
+		<Code>9992</Code>
+		<Description>Единицы объема</Description>
+		<IsFolder>true</IsFolder>
+	</Item>
+	<Item id="d341600b-ba6e-4d0c-9ca0-e0df8a42c908">
+		<Name>ЕдиницыПлощади</Name>
+		<Code>9991</Code>
+		<Description>Единицы площади</Description>
+		<IsFolder>true</IsFolder>
+	</Item>
+	<Item id="ce85df3f-fbf4-43b6-bcaa-791f178fa4de">
+		<Name>Прочие</Name>
+		<Code>9997</Code>
+		<Description>Прочие</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="1dd5ecec-4540-4ea0-97f6-bb7757c08452">
+				<Name>ГрадусУгла</Name>
+				<Code>9999</Code>
+				<Description>°</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="c1191d6b-f092-4a45-9ceb-6b8a11e46433">
+				<Name>Треб</Name>
+				<Code>9998</Code>
+				<Description>треб</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="71e64a5d-2458-4190-aef6-8c929a18f231">
+		<Name>ТехническиеЕдиницы</Name>
+		<Code>9994</Code>
+		<Description>Технические единицы</Description>
+		<IsFolder>true</IsFolder>
+	</Item>
+	<Item id="e68363e5-b6f3-4e08-9370-d80dc6e6870e">
+		<Name>ЭкономическиеЕдиницы</Name>
+		<Code>9996</Code>
+		<Description>Экономические единицы</Description>
+		<IsFolder>true</IsFolder>
+	</Item>
+</PredefinedData>

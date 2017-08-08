@@ -1,0 +1,522 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<CommandSet>
+		<ExcludedCommand>Help</ExcludedCommand>
+	</CommandSet>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаПодсказка" id="39">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Подсказка</CommandName>
+				<ExtendedTooltip name="ФормаПодсказкаРасширеннаяПодсказка" id="40"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<UsualGroup name="ГруппаШапка" id="37">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="38"/>
+			<ChildItems>
+				<InputField name="Наименование" id="4">
+					<DataPath>Объект.Description</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<EditMode>EnterOnInput</EditMode>
+					<InputHint>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя формулы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Formula name</v8:content>
+						</v8:item>
+					</InputHint>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+				</InputField>
+				<InputField name="Сокращение" id="34">
+					<DataPath>Объект.Сокращение</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сокр.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>ID</v8:content>
+						</v8:item>
+					</Title>
+					<TitleLocation>None</TitleLocation>
+					<Width>5</Width>
+					<InputHint>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сокр.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>ID</v8:content>
+						</v8:item>
+					</InputHint>
+					<ContextMenu name="СокращениеКонтекстноеМеню" id="35"/>
+					<ExtendedTooltip name="СокращениеРасширеннаяПодсказка" id="36"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаФормула" id="10">
+			<TitleFont ref="style:LargeTextFont" kind="StyleItem"/>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа формула</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаФормулаРасширеннаяПодсказка" id="11"/>
+			<ChildItems>
+				<UsualGroup name="АрифметическиеОперации" id="20">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Арифметические операции</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Арифметические операции</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Horizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="АрифметическиеОперацииРасширеннаяПодсказка" id="21"/>
+					<ChildItems>
+						<Button name="ДобавитьПеременную" id="12">
+							<Type>UsualButton</Type>
+							<Width>4</Width>
+							<Height>1</Height>
+							<CommandName>Form.Command.ДобавитьПеременную</CommandName>
+							<Font ref="style:LargeTextFont" kind="StyleItem"/>
+							<ExtendedTooltip name="ДобавитьПеременнуюРасширеннаяПодсказка" id="13"/>
+						</Button>
+						<Button name="Сложить" id="16">
+							<Type>UsualButton</Type>
+							<Width>3</Width>
+							<CommandName>Form.Command.Сложить</CommandName>
+							<Font ref="style:LargeTextFont" kind="StyleItem"/>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>+</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>+</v8:content>
+								</v8:item>
+							</Title>
+							<Shape>Oval</Shape>
+							<ShapeRepresentation>Always</ShapeRepresentation>
+							<ExtendedTooltip name="СложитьРасширеннаяПодсказка" id="17"/>
+						</Button>
+						<Button name="Вычесть" id="18">
+							<Type>UsualButton</Type>
+							<Width>3</Width>
+							<CommandName>Form.Command.Вычесть</CommandName>
+							<Font ref="style:LargeTextFont" kind="StyleItem"/>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>-</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>-</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="ВычестьРасширеннаяПодсказка" id="19"/>
+						</Button>
+						<Button name="Умножить" id="24">
+							<Type>UsualButton</Type>
+							<Width>3</Width>
+							<CommandName>Form.Command.Умножить</CommandName>
+							<Font ref="style:LargeTextFont" kind="StyleItem"/>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>*</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>*</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="УмножитьРасширеннаяПодсказка" id="25"/>
+						</Button>
+						<Button name="Разделить" id="22">
+							<Type>UsualButton</Type>
+							<Width>3</Width>
+							<CommandName>Form.Command.Разделить</CommandName>
+							<Font ref="style:LargeTextFont" kind="StyleItem"/>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>/</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>/</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="РазделитьРасширеннаяПодсказка" id="23"/>
+						</Button>
+						<Button name="СкобкаОткрывается" id="26">
+							<Type>UsualButton</Type>
+							<Width>3</Width>
+							<CommandName>Form.Command.СкобкаОткрывается</CommandName>
+							<Font ref="style:LargeTextFont" kind="StyleItem"/>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>(</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>(</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="СкобкаОткрываетсяРасширеннаяПодсказка" id="27"/>
+						</Button>
+						<Button name="СкобкаЗакрывается" id="28">
+							<Type>UsualButton</Type>
+							<Width>3</Width>
+							<CommandName>Form.Command.СкобкаЗакрывается</CommandName>
+							<Font ref="style:LargeTextFont" kind="StyleItem"/>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>)</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>)</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="СкобкаЗакрываетсяРасширеннаяПодсказка" id="29"/>
+						</Button>
+						<CommandBar name="ГруппаПрочиеФормулы" id="41">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа прочие формулы</v8:content>
+								</v8:item>
+							</Title>
+							<TitleFont ref="style:LargeTextFont" kind="StyleItem"/>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа прочие формулы</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="ГруппаПрочиеФормулыРасширеннаяПодсказка" id="42"/>
+							<ChildItems>
+								<Popup name="ГруппаПрочиеПодменю" id="43">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Еще</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>More</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа прочие подменю</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="ГруппаПрочиеПодменюРасширеннаяПодсказка" id="44"/>
+									<ChildItems>
+										<Button name="Степень" id="32">
+											<Type>CommandBarButton</Type>
+											<Width>3</Width>
+											<CommandName>Form.Command.Степень</CommandName>
+											<ExtendedTooltip name="СтепеньРасширеннаяПодсказка" id="33"/>
+										</Button>
+										<Button name="Синус" id="30">
+											<Type>CommandBarButton</Type>
+											<CommandName>Form.Command.Синус</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Sin_α</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Sinα</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="СинусРасширеннаяПодсказка" id="31"/>
+										</Button>
+									</ChildItems>
+								</Popup>
+							</ChildItems>
+						</CommandBar>
+					</ChildItems>
+				</UsualGroup>
+				<InputField name="Формула" id="7">
+					<DataPath>Объект.Формула</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Формула</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Formula</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Height>10</Height>
+					<MultiLine>true</MultiLine>
+					<Font ref="style:LargeTextFont" kind="StyleItem"/>
+					<InputHint>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Формула</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Formula</v8:content>
+						</v8:item>
+					</InputHint>
+					<ContextMenu name="ФормулаКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="ФормулаРасширеннаяПодсказка" id="9"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.Формулы</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ДобавитьПеременную" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить переменную</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.ruler24</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ДобавитьПеременную</Action>
+			<Representation>Picture</Representation>
+		</Command>
+		<Command name="Сложить" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>+</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>+</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сложить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>АрифметическоеДействие</Action>
+		</Command>
+		<Command name="Вычесть" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>─</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>─</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вычесть</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>АрифметическоеДействие</Action>
+		</Command>
+		<Command name="Разделить" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>÷</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>÷</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Разделить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>АрифметическоеДействие</Action>
+		</Command>
+		<Command name="Умножить" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Х</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Умножить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>АрифметическоеДействие</Action>
+		</Command>
+		<Command name="СкобкаОткрывается" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>(</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>(</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Скобка открывается</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>АрифметическоеДействие</Action>
+		</Command>
+		<Command name="СкобкаЗакрывается" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>)</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Скобка закрывается</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>АрифметическоеДействие</Action>
+		</Command>
+		<Command name="Синус" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Синус</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Sine</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Синус</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>АрифметическоеДействие</Action>
+		</Command>
+		<Command name="Степень" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Степень</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Pow</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Степень</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Степень</Action>
+		</Command>
+		<Command name="Подсказка" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подсказка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подсказка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Help</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>Подсказка</Action>
+			<Representation>Picture</Representation>
+		</Command>
+	</Commands>
+</Form>
