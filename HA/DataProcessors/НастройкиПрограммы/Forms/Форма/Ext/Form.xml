@@ -58,6 +58,8 @@
 					<ChildItems>
 						<InputField name="КаталогФото" id="30">
 							<DataPath>НаборКонстант.КаталогФото</DataPath>
+							<TextColor>#555555</TextColor>
+							<Font ref="style:NormalTextFont" bold="false" italic="true" underline="false" strikeout="false" kind="StyleItem"/>
 							<ContextMenu name="КаталогФотоКонтекстноеМеню" id="31"/>
 							<ExtendedTooltip name="КаталогФотоРасширеннаяПодсказка" id="32"/>
 							<Events>
@@ -68,6 +70,8 @@
 				</UsualGroup>
 				<InputField name="КаталогКартинок" id="33">
 					<DataPath>НаборКонстант.КаталогКартинок</DataPath>
+					<TextColor>#555555</TextColor>
+					<Font ref="style:NormalTextFont" bold="false" italic="true" underline="false" strikeout="false" kind="StyleItem"/>
 					<ContextMenu name="КаталогКартинокКонтекстноеМеню" id="34"/>
 					<ExtendedTooltip name="КаталогКартинокРасширеннаяПодсказка" id="35"/>
 					<Events>

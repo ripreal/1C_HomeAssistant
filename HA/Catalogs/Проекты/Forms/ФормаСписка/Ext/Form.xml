@@ -203,6 +203,9 @@
 							<EnableStartDrag>true</EnableStartDrag>
 							<DataPath>СписокЗавершенных</DataPath>
 							<RowPictureDataPath>СписокЗавершенных.DefaultPicture</RowPictureDataPath>
+							<CommandSet>
+								<ExcludedCommand>SetDeletionMark</ExcludedCommand>
+							</CommandSet>
 							<AutoRefresh>false</AutoRefresh>
 							<AutoRefreshPeriod>60</AutoRefreshPeriod>
 							<Period>
@@ -216,7 +219,20 @@
 							<ShowRoot>true</ShowRoot>
 							<AllowRootChoice>false</AllowRootChoice>
 							<UpdateOnDataChange>Auto</UpdateOnDataChange>
-							<ContextMenu name="СписокЗавершенныхКонтекстноеМеню" id="40"/>
+							<ContextMenu name="СписокЗавершенныхКонтекстноеМеню" id="40">
+								<ChildItems>
+									<Button name="СписокЗавершенныхКонтекстноеМенюСкопировать" id="74">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Item.СписокЗавершенных.StandardCommand.Copy</CommandName>
+										<ExtendedTooltip name="СписокЗавершенныхКонтекстноеМенюСкопироватьРасширеннаяПодсказка" id="75"/>
+									</Button>
+									<Button name="СписокЗавершенныхКонтекстноеМенюУдалить" id="76">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Item.СписокЗавершенных.StandardCommand.Delete</CommandName>
+										<ExtendedTooltip name="СписокЗавершенныхКонтекстноеМенюУдалитьРасширеннаяПодсказка" id="77"/>
+									</Button>
+								</ChildItems>
+							</ContextMenu>
 							<AutoCommandBar name="СписокЗавершенныхКоманднаяПанель" id="41">
 								<Autofill>false</Autofill>
 								<ChildItems>

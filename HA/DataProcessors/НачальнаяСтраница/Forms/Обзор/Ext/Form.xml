@@ -398,11 +398,6 @@
 				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
-		<Button name="ТестПервыйЗапуск" id="162">
-			<Type>UsualButton</Type>
-			<CommandName>Form.Command.ТестПервыйЗапуск</CommandName>
-			<ExtendedTooltip name="ТестПервыйЗапускРасширеннаяПодсказка" id="163"/>
-		</Button>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -1287,21 +1282,6 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ВыйтиБезСинхронизации</Action>
-		</Command>
-		<Command name="ТестПервыйЗапуск" id="8">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Тест первый запуск</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Тест первый запуск</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>ТестПервыйЗапуск</Action>
 		</Command>
 	</Commands>
 </Form>

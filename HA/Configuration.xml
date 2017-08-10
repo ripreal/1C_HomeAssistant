@@ -32,7 +32,7 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Home Assistant by ripreal</v8:content>
+					<v8:content>Home Assistant</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -45,8 +45,8 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
-			<Vendor>R.I.P.real</Vendor>
-			<Version>0.8</Version>
+			<Vendor>R.I.P.real (Кудаков Роман)</Vendor>
+			<Version>1.0</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -109,9 +109,32 @@
 			<DefaultInterface/>
 			<DefaultStyle/>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
-			<BriefInformation/>
-			<DetailedInformation/>
-			<Copyright/>
+			<BriefInformation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Home Assistant - организатор домохозяйства</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Home Assistant - householding organizer</v8:content>
+				</v8:item>
+			</BriefInformation>
+			<DetailedInformation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Мобильное приложение для Android, которая помогает с организацией различных работ по дому (ремонт, строительство и т.д.).</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Mobile application for Android OS that helps with organizing home repairs and other householdings projects (contruction, painting etc). App is built on the 1C Enterpise platform and Android Java. App uses 1C 8.3.10.2252 platform and Android Studio </v8:content>
+				</v8:item>
+			</DetailedInformation>
+			<Copyright>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Кудаков Роман</v8:content>
+				</v8:item>
+			</Copyright>
 			<VendorInformationAddress/>
 			<ConfigurationInformationAddress/>
 			<DataLockControlMode>Managed</DataLockControlMode>
@@ -128,10 +151,22 @@
 			<Subsystem>xUnitFor1C</Subsystem>
 			<Subsystem>ПрикрепленныеФайлы</Subsystem>
 			<Subsystem>ОбъектыДомена</Subsystem>
+			<CommonPicture>android</CommonPicture>
+			<CommonPicture>capacitor24</CommonPicture>
+			<CommonPicture>Crafting48</CommonPicture>
+			<CommonPicture>Function24</CommonPicture>
+			<CommonPicture>Hammer</CommonPicture>
+			<CommonPicture>instrument</CommonPicture>
+			<CommonPicture>locate24</CommonPicture>
+			<CommonPicture>node24</CommonPicture>
+			<CommonPicture>right_arrow24</CommonPicture>
+			<CommonPicture>ruler24</CommonPicture>
 			<CommonPicture>Аудиофайл</CommonPicture>
+			<CommonPicture>ВзаимосвязанныеПоказатели</CommonPicture>
 			<CommonPicture>ВыполненоУспешно16</CommonPicture>
 			<CommonPicture>ГоризонтальнаяЛиния</CommonPicture>
 			<CommonPicture>Готово</CommonPicture>
+			<CommonPicture>ДваФлажка</CommonPicture>
 			<CommonPicture>ДлительнаяОперация48</CommonPicture>
 			<CommonPicture>ДобавитьЭлементВЯчейку</CommonPicture>
 			<CommonPicture>Камера48</CommonPicture>
@@ -155,6 +190,7 @@
 			<CommonPicture>ПолеПроцент48</CommonPicture>
 			<CommonPicture>ПолеСтатья48</CommonPicture>
 			<CommonPicture>ПолеСумма48</CommonPicture>
+			<CommonPicture>ПолеФинансоваяЦель48</CommonPicture>
 			<CommonPicture>ПометитьНаУдалениеСправочник16</CommonPicture>
 			<CommonPicture>Пустая16</CommonPicture>
 			<CommonPicture>РазделОтчеты48</CommonPicture>
@@ -163,21 +199,10 @@
 			<CommonPicture>СинхронизацияОшибка</CommonPicture>
 			<CommonPicture>СписокОпераций</CommonPicture>
 			<CommonPicture>СтрелкаВниз</CommonPicture>
-			<CommonPicture>ПолеФинансоваяЦель48</CommonPicture>
-			<CommonPicture>Crafting48</CommonPicture>
-			<CommonPicture>Function24</CommonPicture>
-			<CommonPicture>capacitor24</CommonPicture>
-			<CommonPicture>node24</CommonPicture>
-			<CommonPicture>locate24</CommonPicture>
-			<CommonPicture>ruler24</CommonPicture>
-			<CommonPicture>right_arrow24</CommonPicture>
-			<CommonPicture>instrument</CommonPicture>
-			<CommonPicture>ДваФлажка</CommonPicture>
-			<CommonPicture>ВзаимосвязанныеПоказатели</CommonPicture>
-			<CommonPicture>Hammer</CommonPicture>
-			<CommonPicture>android</CommonPicture>
 			<SessionParameter>ПредставленияФайлов</SessionParameter>
+			<CommonModule>ДанныеИБ</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыВызовСервера</CommonModule>
+			<CommonModule>ОбновлениеИнформационнойБазыКлиент</CommonModule>
 			<CommonModule>ОбщегоНазначения</CommonModule>
 			<CommonModule>ОбщегоНазначенияКлиентСервер</CommonModule>
 			<CommonModule>ПрикрепленныеФайлыКлиент</CommonModule>
@@ -190,27 +215,24 @@
 			<CommonModule>ФормыОбщиеДействияСервер</CommonModule>
 			<CommonModule>ФормыПроектыКлиентСервер</CommonModule>
 			<CommonModule>ФормыПроектыСервер</CommonModule>
-			<CommonModule>ОбновлениеИнформационнойБазыКлиент</CommonModule>
-			<CommonModule>ДанныеИБ</CommonModule>
-			<XDTOPackage>ПакетXDTO1</XDTOPackage>
-			<CommonCommand>СделатьФотографию</CommonCommand>
 			<CommonCommand>СделатьАудиоЗапись</CommonCommand>
+			<CommonCommand>СделатьФотографию</CommonCommand>
 			<CommonCommand>СписокФайлов</CommonCommand>
-			<Constant>ПервоначальноеЗаполнениеПройдено</Constant>
 			<Constant>ДелатьФотоАндроидАПИ</Constant>
 			<Constant>КаталогКартинок</Constant>
 			<Constant>КаталогФото</Constant>
+			<Constant>ПервоначальноеЗаполнениеПройдено</Constant>
 			<CommonForm>ОжиданиеДлительнойОперации</CommonForm>
 			<Catalog>ДеталиПроекта</Catalog>
 			<Catalog>КлассификаторЕдиницИзмерения</Catalog>
 			<Catalog>ПрикрепленныеФайлы</Catalog>
 			<Catalog>Проекты</Catalog>
-			<Catalog>Формулы</Catalog>
 			<Catalog>ФизическиеХарактеристики</Catalog>
+			<Catalog>Формулы</Catalog>
 			<Document>Блокнот</Document>
+			<Enum>АрифметическиеОператоры</Enum>
 			<Enum>СпособОткрытияПрикрепленногоФайла</Enum>
 			<Enum>ТипыХарактеристик</Enum>
-			<Enum>АрифметическиеОператоры</Enum>
 			<DataProcessor>xddTestRunner</DataProcessor>
 			<DataProcessor>БазовыеУтверждения</DataProcessor>
 			<DataProcessor>ГенераторОтчетаMXL</DataProcessor>
@@ -219,8 +241,9 @@
 			<DataProcessor>НастройкиПрограммы</DataProcessor>
 			<DataProcessor>НачальнаяСтраница</DataProcessor>
 			<DataProcessor>ПостроительДереваТестов</DataProcessor>
-			<DataProcessor>ТестФормулы</DataProcessor>
 			<DataProcessor>ТестКлассификаторЕдиницИзм</DataProcessor>
+			<DataProcessor>ТестОбщее</DataProcessor>
+			<DataProcessor>ТестФормулы</DataProcessor>
 			<DataProcessor>УтвержденияBDD</DataProcessor>
 			<InformationRegister>ПринадлежностьФайлов</InformationRegister>
 		</ChildObjects>
