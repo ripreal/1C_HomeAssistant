@@ -258,6 +258,12 @@
 				<Description>Количество</Description>
 				<IsFolder>false</IsFolder>
 			</Item>
+			<Item id="8243e623-0829-4719-b145-82dc6a14c12b">
+				<Name>Описание</Name>
+				<Code/>
+				<Description>Описание</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
 		</ChildItems>
 	</Item>
 	<Item id="c3e4f755-f306-4fd6-8af9-4f890e7ec213">

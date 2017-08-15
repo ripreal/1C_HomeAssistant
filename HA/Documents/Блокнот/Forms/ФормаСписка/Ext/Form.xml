@@ -7,6 +7,7 @@
 		<ExcludedCommand>SaveValues</ExcludedCommand>
 		<ExcludedCommand>SetDeletionMark</ExcludedCommand>
 		<ExcludedCommand>Help</ExcludedCommand>
+		<ExcludedCommand>Delete</ExcludedCommand>
 		<ExcludedCommand>Abort</ExcludedCommand>
 		<ExcludedCommand>Retry</ExcludedCommand>
 		<ExcludedCommand>Yes</ExcludedCommand>

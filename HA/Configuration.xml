@@ -122,7 +122,7 @@
 			<DetailedInformation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Мобильное приложение для Android, которая помогает с организацией различных работ по дому (ремонт, строительство и т.д.).</v8:content>
+					<v8:content>Мобильное приложение для Android, которое помогает с организацией различных работ по дому (ремонт, строительство и т.д.).</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
@@ -199,6 +199,7 @@
 			<CommonPicture>СинхронизацияОшибка</CommonPicture>
 			<CommonPicture>СписокОпераций</CommonPicture>
 			<CommonPicture>СтрелкаВниз</CommonPicture>
+			<CommonPicture>ОжиданиеКот</CommonPicture>
 			<SessionParameter>ПредставленияФайлов</SessionParameter>
 			<CommonModule>ДанныеИБ</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыВызовСервера</CommonModule>
@@ -223,9 +224,9 @@
 			<Constant>КаталогФото</Constant>
 			<Constant>ПервоначальноеЗаполнениеПройдено</Constant>
 			<CommonForm>ОжиданиеДлительнойОперации</CommonForm>
-			<Catalog>ДеталиПроекта</Catalog>
 			<Catalog>КлассификаторЕдиницИзмерения</Catalog>
 			<Catalog>ПрикрепленныеФайлы</Catalog>
+			<Catalog>ДеталиПроекта</Catalog>
 			<Catalog>Проекты</Catalog>
 			<Catalog>ФизическиеХарактеристики</Catalog>
 			<Catalog>Формулы</Catalog>

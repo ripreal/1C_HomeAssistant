@@ -230,7 +230,7 @@
 				</xr:StandardAttribute>
 				<xr:StandardAttribute name="Description">
 					<xr:LinkByType/>
-					<xr:FillChecking>ShowError</xr:FillChecking>
+					<xr:FillChecking>DontCheck</xr:FillChecking>
 					<xr:MultiLine>false</xr:MultiLine>
 					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
 					<xr:CreateOnInput>Auto</xr:CreateOnInput>
@@ -448,7 +448,7 @@
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xr:DesignTimeRef">Enum.ТипыХарактеристик.EnumValue.Строка</FillValue>
+					<FillValue xsi:type="xr:DesignTimeRef">Enum.ТипыХарактеристик.EnumValue.ДробноеЧисло</FillValue>
 					<FillChecking>ShowError</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
@@ -502,10 +502,10 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Attribute>
-			<Form>ФормаСписка</Form>
 			<Form>ФормаЭлемента</Form>
-			<Form>ФормаВыбора</Form>
 			<Form>ФормаВыбораИзКлассификатора</Form>
+			<Form>ФормаВыбора</Form>
+			<Form>ФормаСписка</Form>
 			<Template>КлассификаторЕдиницИзмерения</Template>
 			<Template>ПравилаПересчета</Template>
 		</ChildObjects>

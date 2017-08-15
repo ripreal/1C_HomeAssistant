@@ -28,11 +28,11 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Строительные проекты</v8:content>
+					<v8:content>Проекты</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Construction Projects</v8:content>
+					<v8:content>Projects</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -1200,8 +1200,8 @@
 				</ChildObjects>
 			</TabularSection>
 			<Form>ФормаСписка</Form>
-			<Form>ФормаКонвертацииЕдИзм</Form>
 			<Form>Форма</Form>
+			<Form>ФормаКонвертацииЕдИзм</Form>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

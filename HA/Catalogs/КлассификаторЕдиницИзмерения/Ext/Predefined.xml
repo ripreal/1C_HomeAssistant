@@ -36,6 +36,12 @@
 		<Description>Прочие</Description>
 		<IsFolder>true</IsFolder>
 		<ChildItems>
+			<Item id="f67804d0-fc6a-43b9-aefc-0550d5ddfbd0">
+				<Name>Текст</Name>
+				<Code>9989</Code>
+				<Description/>
+				<IsFolder>false</IsFolder>
+			</Item>
 			<Item id="1dd5ecec-4540-4ea0-97f6-bb7757c08452">
 				<Name>ГрадусУгла</Name>
 				<Code>9999</Code>

@@ -62,7 +62,11 @@
 							<InitialTreeView>ExpandTopLevel</InitialTreeView>
 							<EnableStartDrag>true</EnableStartDrag>
 							<DataPath>СписокАктивных</DataPath>
-							<RowPictureDataPath>СписокАктивных.DefaultPicture</RowPictureDataPath>
+							<RowPictureDataPath>СписокАктивных.КартинкаПроект</RowPictureDataPath>
+							<RowsPicture>
+								<xr:Ref>CommonPicture.ДваФлажка</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</RowsPicture>
 							<CommandSet>
 								<ExcludedCommand>SetDeletionMark</ExcludedCommand>
 							</CommandSet>
@@ -161,12 +165,14 @@
 									<ContextMenu name="НаименованиеКонтекстноеМеню" id="17"/>
 									<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="18"/>
 								</LabelField>
+								<LabelField name="Дата" id="84">
+									<DataPath>СписокАктивных.Дата</DataPath>
+									<ContextMenu name="ДатаКонтекстноеМеню" id="85"/>
+									<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="86"/>
+								</LabelField>
 								<PictureField name="КартинкаПроект" id="61">
 									<DataPath>СписокАктивных.КартинкаПроект</DataPath>
-									<ValuesPicture>
-										<xr:Ref>CommonPicture.instrument</xr:Ref>
-										<xr:LoadTransparent>true</xr:LoadTransparent>
-									</ValuesPicture>
+									<Visible>false</Visible>
 									<ContextMenu name="КартинкаПроектКонтекстноеМеню" id="62"/>
 									<ExtendedTooltip name="КартинкаПроектРасширеннаяПодсказка" id="63"/>
 								</PictureField>
@@ -197,15 +203,23 @@
 					</Picture>
 					<ExtendedTooltip name="СтраницаЗавершенныеРасширеннаяПодсказка" id="38"/>
 					<ChildItems>
-						<Table name="СписокЗавершенных" id="39">
+						<Table name="СписокЗавершенных" id="87">
+							<Representation>List</Representation>
 							<Header>false</Header>
 							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<InitialTreeView>ExpandTopLevel</InitialTreeView>
 							<EnableStartDrag>true</EnableStartDrag>
 							<DataPath>СписокЗавершенных</DataPath>
-							<RowPictureDataPath>СписокЗавершенных.DefaultPicture</RowPictureDataPath>
+							<RowPictureDataPath>СписокЗавершенных.КартинкаПРоекта</RowPictureDataPath>
+							<RowsPicture>
+								<xr:Ref>CommonPicture.Готово</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</RowsPicture>
 							<CommandSet>
+								<ExcludedCommand>Create</ExcludedCommand>
 								<ExcludedCommand>SetDeletionMark</ExcludedCommand>
 							</CommandSet>
+							<SearchStringLocation>None</SearchStringLocation>
 							<AutoRefresh>false</AutoRefresh>
 							<AutoRefreshPeriod>60</AutoRefreshPeriod>
 							<Period>
@@ -219,34 +233,37 @@
 							<ShowRoot>true</ShowRoot>
 							<AllowRootChoice>false</AllowRootChoice>
 							<UpdateOnDataChange>Auto</UpdateOnDataChange>
-							<ContextMenu name="СписокЗавершенныхКонтекстноеМеню" id="40">
+							<UserSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</UserSettingsGroup>
+							<ContextMenu name="СписокЗавершенныхКонтекстноеМеню" id="88">
 								<ChildItems>
-									<Button name="СписокЗавершенныхКонтекстноеМенюСкопировать" id="74">
+									<Button name="СписокКонтекстноеМенюСкопировать1" id="109">
 										<Type>CommandBarButton</Type>
-										<CommandName>Form.Item.СписокЗавершенных.StandardCommand.Copy</CommandName>
-										<ExtendedTooltip name="СписокЗавершенныхКонтекстноеМенюСкопироватьРасширеннаяПодсказка" id="75"/>
+										<OnlyInAllActions>true</OnlyInAllActions>
+										<CommandName>Form.Item.Список.StandardCommand.Copy</CommandName>
+										<ExtendedTooltip name="СписокКонтекстноеМенюСкопировать1РасширеннаяПодсказка" id="110"/>
 									</Button>
-									<Button name="СписокЗавершенныхКонтекстноеМенюУдалить" id="76">
+									<Button name="СписокКонтекстноеМенюУдалить1" id="111">
 										<Type>CommandBarButton</Type>
-										<CommandName>Form.Item.СписокЗавершенных.StandardCommand.Delete</CommandName>
-										<ExtendedTooltip name="СписокЗавершенныхКонтекстноеМенюУдалитьРасширеннаяПодсказка" id="77"/>
+										<OnlyInAllActions>true</OnlyInAllActions>
+										<CommandName>Form.Item.Список.StandardCommand.Delete</CommandName>
+										<ExtendedTooltip name="СписокКонтекстноеМенюУдалить1РасширеннаяПодсказка" id="112"/>
 									</Button>
 								</ChildItems>
 							</ContextMenu>
-							<AutoCommandBar name="СписокЗавершенныхКоманднаяПанель" id="41">
+							<AutoCommandBar name="СписокЗавершенныхКоманднаяПанель" id="89">
 								<Autofill>false</Autofill>
 								<ChildItems>
-									<Button name="СписокСоздать1" id="69">
+									<Button name="СписокСоздать1" id="113">
 										<Type>CommandBarButton</Type>
 										<Representation>PictureAndText</Representation>
-										<CommandName>Form.Item.СписокЗавершенных.StandardCommand.Create</CommandName>
+										<CommandName>Form.Item.Список.StandardCommand.Create</CommandName>
 										<Picture>
 											<xr:Ref>StdPicture.NewWindow</xr:Ref>
 											<xr:LoadTransparent>true</xr:LoadTransparent>
 										</Picture>
-										<ExtendedTooltip name="СписокСоздать1РасширеннаяПодсказка" id="70"/>
+										<ExtendedTooltip name="СписокСоздать1РасширеннаяПодсказка" id="114"/>
 									</Button>
-									<ButtonGroup name="ГруппаСтандартныеКоманды1" id="67">
+									<ButtonGroup name="ГруппаСтандартныеКоманды1" id="115">
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -260,57 +277,45 @@
 											</v8:item>
 										</ToolTip>
 										<CommandSource>Item.СписокЗавершенных</CommandSource>
-										<ExtendedTooltip name="ГруппаСтандартныеКоманды1РасширеннаяПодсказка" id="68"/>
+										<ExtendedTooltip name="ГруппаСтандартныеКоманды1РасширеннаяПодсказка" id="116"/>
 									</ButtonGroup>
 								</ChildItems>
 							</AutoCommandBar>
-							<ExtendedTooltip name="СписокЗавершенныхРасширеннаяПодсказка" id="42"/>
-							<SearchStringAddition name="СписокЗавершенныхСтрокаПоиска" id="43">
+							<ExtendedTooltip name="СписокЗавершенныхРасширеннаяПодсказка" id="90"/>
+							<SearchStringAddition name="СписокЗавершенныхСтрокаПоиска" id="91">
 								<AdditionSource>
 									<Item>СписокЗавершенных</Item>
 									<Type>SearchStringRepresentation</Type>
 								</AdditionSource>
-								<ContextMenu name="СписокЗавершенныхСтрокаПоискаКонтекстноеМеню" id="44"/>
-								<ExtendedTooltip name="СписокЗавершенныхСтрокаПоискаРасширеннаяПодсказка" id="45"/>
+								<ContextMenu name="СписокЗавершенныхСтрокаПоискаКонтекстноеМеню" id="92"/>
+								<ExtendedTooltip name="СписокЗавершенныхСтрокаПоискаРасширеннаяПодсказка" id="93"/>
 							</SearchStringAddition>
-							<ViewStatusAddition name="СписокЗавершенныхСостояниеПросмотра" id="46">
+							<ViewStatusAddition name="СписокЗавершенныхСостояниеПросмотра" id="94">
 								<AdditionSource>
 									<Item>СписокЗавершенных</Item>
 									<Type>ViewStatusRepresentation</Type>
 								</AdditionSource>
-								<ContextMenu name="СписокЗавершенныхСостояниеПросмотраКонтекстноеМеню" id="47"/>
-								<ExtendedTooltip name="СписокЗавершенныхСостояниеПросмотраРасширеннаяПодсказка" id="48"/>
+								<ContextMenu name="СписокЗавершенныхСостояниеПросмотраКонтекстноеМеню" id="95"/>
+								<ExtendedTooltip name="СписокЗавершенныхСостояниеПросмотраРасширеннаяПодсказка" id="96"/>
 							</ViewStatusAddition>
-							<SearchControlAddition name="СписокЗавершенныхУправлениеПоиском" id="49">
+							<SearchControlAddition name="СписокЗавершенныхУправлениеПоиском" id="97">
 								<AdditionSource>
 									<Item>СписокЗавершенных</Item>
 									<Type>SearchControl</Type>
 								</AdditionSource>
-								<ContextMenu name="СписокЗавершенныхУправлениеПоискомКонтекстноеМеню" id="50"/>
-								<ExtendedTooltip name="СписокЗавершенныхУправлениеПоискомРасширеннаяПодсказка" id="51"/>
+								<ContextMenu name="СписокЗавершенныхУправлениеПоискомКонтекстноеМеню" id="98"/>
+								<ExtendedTooltip name="СписокЗавершенныхУправлениеПоискомРасширеннаяПодсказка" id="99"/>
 							</SearchControlAddition>
 							<ChildItems>
-								<LabelField name="СписокЗавершенныхНаименование" id="52">
+								<LabelField name="СписокЗавершенныхНаименование" id="117">
 									<DataPath>СписокЗавершенных.Наименование</DataPath>
-									<ContextMenu name="СписокЗавершенныхНаименованиеКонтекстноеМеню" id="53"/>
-									<ExtendedTooltip name="СписокЗавершенныхНаименованиеРасширеннаяПодсказка" id="54"/>
+									<ContextMenu name="СписокЗавершенныхНаименованиеКонтекстноеМеню" id="118"/>
+									<ExtendedTooltip name="СписокЗавершенныхНаименованиеРасширеннаяПодсказка" id="119"/>
 								</LabelField>
-								<CheckBoxField name="СписокЗавершенныхЗавершен" id="58">
-									<DataPath>СписокЗавершенных.Завершен</DataPath>
-									<CheckBoxType>Auto</CheckBoxType>
-									<ContextMenu name="СписокЗавершенныхЗавершенКонтекстноеМеню" id="59"/>
-									<ExtendedTooltip name="СписокЗавершенныхЗавершенРасширеннаяПодсказка" id="60"/>
-								</CheckBoxField>
-								<LabelField name="СписокЗавершенныхДата" id="71">
+								<LabelField name="СписокЗавершенныхДата" id="120">
 									<DataPath>СписокЗавершенных.Дата</DataPath>
-									<Format>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>ДФ='MMM yyyy'</v8:content>
-										</v8:item>
-									</Format>
-									<ContextMenu name="СписокЗавершенныхДатаКонтекстноеМеню" id="72"/>
-									<ExtendedTooltip name="СписокЗавершенныхДатаРасширеннаяПодсказка" id="73"/>
+									<ContextMenu name="СписокЗавершенныхДатаКонтекстноеМеню" id="121"/>
+									<ExtendedTooltip name="СписокЗавершенныхДатаРасширеннаяПодсказка" id="122"/>
 								</LabelField>
 							</ChildItems>
 						</Table>
@@ -340,10 +345,24 @@
 	СправочникПроекты.Наименование КАК Наименование,
 	СправочникПроекты.Завершен КАК Завершен,
 	СправочникПроекты.Предопределенный КАК Предопределенный,
-	ИСТИНА КАК КартинкаПроект
+	ВЫБОР
+		КОГДА ДеталиПроекта.Завершен ЕСТЬ NULL
+				ИЛИ ДеталиПроекта.Завершен
+			ТОГДА 0
+		ИНАЧЕ 1
+	КОНЕЦ КАК КартинкаПроект
 ИЗ
 	Справочник.Проекты КАК СправочникПроекты
-	ГДЕ СправочникПроекты.Завершен = ЛОЖЬ</QueryText>
+		ЛЕВОЕ СОЕДИНЕНИЕ (ВЫБРАТЬ РАЗЛИЧНЫЕ
+			ПроектыДетали.Ссылка КАК Ссылка,
+			ПроектыДетали.Завершен КАК Завершен
+		ИЗ
+			Справочник.Проекты.Детали КАК ПроектыДетали
+		ГДЕ
+			ПроектыДетали.Завершен = ЛОЖЬ) КАК ДеталиПроекта
+		ПО СправочникПроекты.Ссылка = ДеталиПроекта.Ссылка
+ГДЕ
+	СправочникПроекты.Завершен = ЛОЖЬ</QueryText>
 				<MainTable>Catalog.Проекты</MainTable>
 				<ListSettings>
 					<dcsset:filter>
@@ -353,7 +372,7 @@
 					<dcsset:order>
 						<dcsset:item xsi:type="dcsset:OrderItemField">
 							<dcsset:field>Дата</dcsset:field>
-							<dcsset:orderType>Asc</dcsset:orderType>
+							<dcsset:orderType>Desc</dcsset:orderType>
 						</dcsset:item>
 						<dcsset:item xsi:type="dcsset:OrderItemField">
 							<dcsset:field>Наименование</dcsset:field>
@@ -381,15 +400,17 @@
 			<Type>
 				<v8:Type>cfg:DynamicList</v8:Type>
 			</Type>
+			<UseAlways>
+				<Field>СписокЗавершенных.Дата</Field>
+			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
 				<QueryText>ВЫБРАТЬ
 	СправочникПроекты.Ссылка КАК Ссылка,
 	СправочникПроекты.Наименование КАК Наименование,
-	СправочникПроекты.Завершен КАК Завершен,
 	СправочникПроекты.Предопределенный КАК Предопределенный,
-	ИСТИНА КАК КартинкаПРоекта,
+	0 КАК КартинкаПРоекта,
 	СправочникПроекты.Дата КАК Дата
 ИЗ
 	Справочник.Проекты КАК СправочникПроекты
@@ -404,7 +425,7 @@
 					<dcsset:order>
 						<dcsset:item xsi:type="dcsset:OrderItemField">
 							<dcsset:field>Дата</dcsset:field>
-							<dcsset:orderType>Asc</dcsset:orderType>
+							<dcsset:orderType>Desc</dcsset:orderType>
 						</dcsset:item>
 						<dcsset:item xsi:type="dcsset:OrderItemField">
 							<dcsset:field>Наименование</dcsset:field>

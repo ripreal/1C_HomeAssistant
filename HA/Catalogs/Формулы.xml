@@ -217,8 +217,8 @@
 				</Properties>
 			</Attribute>
 			<Form>ФормаВыбора</Form>
-			<Form>ФормаЭлемента</Form>
 			<Form>ФормаСписка</Form>
+			<Form>ФормаЭлемента</Form>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>
