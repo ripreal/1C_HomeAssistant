@@ -315,8 +315,8 @@
 		<Metadata name="DataProcessor.НастройкиПрограммы.Form.Форма" id="cbfaefb9-0df1-4e39-80dd-000ca745117a" configVersion="1c6a85fe1f7202429cbedb07386c389100000000"/>
 		<Metadata name="DataProcessor.НастройкиПрограммы.Form.Форма.Form" id="cbfaefb9-0df1-4e39-80dd-000ca745117a.0" configVersion="136c03003bd3bd45a6441fe2bed601f800000000"/>
 		<Metadata name="DataProcessor.НастройкиПрограммы.ManagerModule" id="5339b953-8ae7-4ffa-b19a-f2d6b4e9a48e.2" configVersion="31f428bb5749fc4c8e3cf6d277756ff500000000"/>
-		<Metadata name="DataProcessor.НастройкиПрограммы.Template.HA_Paint" id="4c43516a-f52c-4497-b321-477fcf47b887" configVersion="a67d396b08832745a78823114ac2d5ba00000000"/>
-		<Metadata name="DataProcessor.НастройкиПрограммы.Template.HA_Paint.Template" id="4c43516a-f52c-4497-b321-477fcf47b887.0" configVersion="ccd92a6efb93434aabe944793fd53e1f00000000"/>
+		<Metadata name="DataProcessor.НастройкиПрограммы.Template.HA_Paint" id="4c43516a-f52c-4497-b321-477fcf47b887" configVersion="35cf7bbe9ffecb48907a25a4950bb89200000000"/>
+		<Metadata name="DataProcessor.НастройкиПрограммы.Template.HA_Paint.Template" id="4c43516a-f52c-4497-b321-477fcf47b887.0" configVersion="24ed7586dc1ad54f9d13632d1f47d6bf00000000"/>
 		<Metadata name="DataProcessor.НачальнаяСтраница" id="d4ee2c40-97c5-449d-a173-1e40343feb69" configVersion="7b1c35bb6d44a544becde69c4a2def8300000000"/>
 		<Metadata name="DataProcessor.НачальнаяСтраница.Form.Обзор" id="7faf8f61-70fa-48db-b82f-ac046c6b2cc0" configVersion="bb12ed7a48be654ea9f099bed0987aa200000000"/>
 		<Metadata name="DataProcessor.НачальнаяСтраница.Form.Обзор.Form" id="7faf8f61-70fa-48db-b82f-ac046c6b2cc0.0" configVersion="241d548b8cac7742baab1a52ffdcf1f000000000"/>
