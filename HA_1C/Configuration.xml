@@ -112,7 +112,7 @@
 			<BriefInformation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Home Assistant - организатор домохозяйства</v8:content>
+					<v8:content>Home Assistant - Домашний помощник</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
@@ -201,7 +201,7 @@
 			<CommonPicture>СтрелкаВниз</CommonPicture>
 			<CommonPicture>ОжиданиеКот</CommonPicture>
 			<SessionParameter>ПредставленияФайлов</SessionParameter>
-			<CommonModule>ДанныеИБ</CommonModule>
+			<CommonModule>ДанныеИБВызовСервера</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыВызовСервера</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыКлиент</CommonModule>
 			<CommonModule>ОбщегоНазначения</CommonModule>
@@ -211,8 +211,8 @@
 			<CommonModule>ПрикрепленныеФайлыСервер</CommonModule>
 			<CommonModule>СтандартныеПодсистемыПовтИсп</CommonModule>
 			<CommonModule>СтроковыеФункцииКлиентСервер</CommonModule>
-			<CommonModule>УправлениеМультимедиаВызовСервера</CommonModule>
 			<CommonModule>УправлениеМультимедиаКлиент</CommonModule>
+			<CommonModule>УправлениеМультимедиаВызовСервера</CommonModule>
 			<CommonModule>ФормыОбщиеДействияСервер</CommonModule>
 			<CommonModule>ФормыПроектыКлиентСервер</CommonModule>
 			<CommonModule>ФормыПроектыСервер</CommonModule>

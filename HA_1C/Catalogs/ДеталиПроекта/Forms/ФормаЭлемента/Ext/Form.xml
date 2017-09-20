@@ -139,6 +139,7 @@
 							<DataPath>Объект.Характеристики.Характеристика</DataPath>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
+							<TextEdit>false</TextEdit>
 							<ContextMenu name="ХарактеристикиХарактеристикаКонтекстноеМеню" id="34"/>
 							<ExtendedTooltip name="ХарактеристикиХарактеристикаРасширеннаяПодсказка" id="35"/>
 						</InputField>

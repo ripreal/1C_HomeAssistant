@@ -144,6 +144,11 @@
 							<RowFilter xsi:nil="true"/>
 							<ContextMenu name="ДеталиКонтекстноеМеню" id="173">
 								<ChildItems>
+									<Button name="ДеталиКонтекстноеМенюОтметитьСделано" id="375">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ОтметитьСделано</CommandName>
+										<ExtendedTooltip name="ДеталиКонтекстноеМенюОтметитьСделаноРасширеннаяПодсказка" id="376"/>
+									</Button>
 									<Button name="ДеталиКонтекстноеМенюИзменитьДеталь" id="361">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.ИзменитьДеталь</CommandName>
@@ -158,11 +163,6 @@
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Item.Детали.StandardCommand.Delete</CommandName>
 										<ExtendedTooltip name="ДеталиКонтекстноеМенюУдалитьРасширеннаяПодсказка" id="385"/>
-									</Button>
-									<Button name="ДеталиКонтекстноеМенюОтметитьСделано" id="375">
-										<Type>CommandBarButton</Type>
-										<CommandName>Form.Command.ОтметитьСделано</CommandName>
-										<ExtendedTooltip name="ДеталиКонтекстноеМенюОтметитьСделаноРасширеннаяПодсказка" id="376"/>
 									</Button>
 								</ChildItems>
 							</ContextMenu>
