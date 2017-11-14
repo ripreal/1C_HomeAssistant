@@ -34756,7 +34756,13 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>hm</v8:content>
+						</v8:item>
+					</tl>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -34827,7 +34833,13 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>mile</v8:content>
+						</v8:item>
+					</tl>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -34896,7 +34908,7 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>19</f>
+					<f>45</f>
 				</c>
 			</c>
 			<c>
@@ -34951,7 +34963,13 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>acre</v8:content>
+						</v8:item>
+					</tl>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -35022,7 +35040,13 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>mile2</v8:content>
+						</v8:item>
+					</tl>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -35091,7 +35115,7 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>19</f>
+					<f>45</f>
 				</c>
 			</c>
 			<c>
@@ -35146,7 +35170,13 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>fl oz (UK)</v8:content>
+						</v8:item>
+					</tl>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -35217,7 +35247,13 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>gill (UK)</v8:content>
+						</v8:item>
+					</tl>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -35288,7 +35324,13 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>pt (UK)</v8:content>
+						</v8:item>
+					</tl>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -35359,7 +35401,13 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>qt (UK)</v8:content>
+						</v8:item>
+					</tl>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -35430,7 +35478,13 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>gal (UK)</v8:content>
+						</v8:item>
+					</tl>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -35501,7 +35555,13 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>bu (UK)</v8:content>
+						</v8:item>
+					</tl>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -35572,7 +35632,13 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>fl oz (US)</v8:content>
+						</v8:item>
+					</tl>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -35643,7 +35709,13 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>gill  (US)</v8:content>
+						</v8:item>
+					</tl>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -35714,7 +35786,13 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>liq pt (US)</v8:content>
+						</v8:item>
+					</tl>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -35785,7 +35863,13 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>liq qt (US)</v8:content>
+						</v8:item>
+					</tl>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -35856,7 +35940,13 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>gal (US)</v8:content>
+						</v8:item>
+					</tl>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -35927,7 +36017,13 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>barrel (US)</v8:content>
+						</v8:item>
+					</tl>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -35998,7 +36094,13 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>dry pt (US)</v8:content>
+						</v8:item>
+					</tl>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -36069,7 +36171,13 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>dry qt (US)</v8:content>
+						</v8:item>
+					</tl>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -36140,7 +36248,13 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>dry gal (US)</v8:content>
+						</v8:item>
+					</tl>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -36211,7 +36325,13 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>bu (US)</v8:content>
+						</v8:item>
+					</tl>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -36282,7 +36402,13 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>bbl (US)</v8:content>
+						</v8:item>
+					</tl>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -36803,6 +36929,12 @@ NMB</v8:content>
 			<c>
 				<c>
 					<f>29</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>pound</v8:content>
+						</v8:item>
+					</tl>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -36873,7 +37005,13 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>oz</v8:content>
+						</v8:item>
+					</tl>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -36944,7 +37082,13 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>dr</v8:content>
+						</v8:item>
+					</tl>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -37015,7 +37159,13 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>gn</v8:content>
+						</v8:item>
+					</tl>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -37086,7 +37236,13 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>st</v8:content>
+						</v8:item>
+					</tl>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -37157,7 +37313,13 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>qtr</v8:content>
+						</v8:item>
+					</tl>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -37228,7 +37390,8 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl/>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -37294,7 +37457,13 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>cwt</v8:content>
+						</v8:item>
+					</tl>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -37365,7 +37534,13 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>cwt (UK)</v8:content>
+						</v8:item>
+					</tl>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -37436,7 +37611,13 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>sht</v8:content>
+						</v8:item>
+					</tl>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -37530,7 +37711,13 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>lt</v8:content>
+						</v8:item>
+					</tl>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -37601,7 +37788,13 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>scr</v8:content>
+						</v8:item>
+					</tl>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -37672,7 +37865,13 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>dwt</v8:content>
+						</v8:item>
+					</tl>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -37743,7 +37942,13 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>drm</v8:content>
+						</v8:item>
+					</tl>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -37814,7 +38019,8 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl/>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -37881,7 +38087,13 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>apoz</v8:content>
+						</v8:item>
+					</tl>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -37952,7 +38164,8 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl/>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -38016,7 +38229,7 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>19</f>
+					<f>45</f>
 				</c>
 			</c>
 			<c>
@@ -38071,7 +38284,13 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>B.h.p.</v8:content>
+						</v8:item>
+					</tl>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -38142,7 +38361,13 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Btu</v8:content>
+						</v8:item>
+					</tl>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -38211,7 +38436,7 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>19</f>
+					<f>45</f>
 				</c>
 			</c>
 			<c>
@@ -38266,7 +38491,14 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>gr
+144</v8:content>
+						</v8:item>
+					</tl>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -38338,7 +38570,13 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>1728</v8:content>
+						</v8:item>
+					</tl>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -38409,7 +38647,8 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl/>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -38475,7 +38714,8 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl/>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -38541,7 +38781,8 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
+					<f>38</f>
+					<tl/>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
@@ -38583,7 +38824,7 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>45</f>
+					<f>46</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -38595,7 +38836,7 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>46</f>
+					<f>47</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -38607,26 +38848,26 @@ NMB</v8:content>
 			</c>
 			<c>
 				<c>
-					<f>47</f>
+					<f>48</f>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>46</f>
+					<f>47</f>
 					<tl/>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>47</f>
+					<f>48</f>
 					<detailParameter>Расшифровка</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>48</f>
+					<f>49</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -38675,7 +38916,7 @@ NMB</v8:content>
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>49</defaultFormatIndex>
+	<defaultFormatIndex>50</defaultFormatIndex>
 	<height>529</height>
 	<vgLevels>2</vgLevels>
 	<vgRows>529</vgRows>
@@ -38686,37 +38927,30 @@ NMB</v8:content>
 	<vg>
 		<b>5</b>
 		<e>14</e>
-		<o>false</o>
 	</vg>
 	<vg>
 		<b>16</b>
 		<e>26</e>
-		<o>false</o>
 	</vg>
 	<vg>
 		<b>28</b>
 		<e>38</e>
-		<o>false</o>
 	</vg>
 	<vg>
 		<b>40</b>
 		<e>50</e>
-		<o>false</o>
 	</vg>
 	<vg>
 		<b>52</b>
 		<e>105</e>
-		<o>false</o>
 	</vg>
 	<vg>
 		<b>107</b>
 		<e>117</e>
-		<o>false</o>
 	</vg>
 	<vg>
 		<b>119</b>
 		<e>164</e>
-		<o>false</o>
 	</vg>
 	<vg>
 		<b>167</b>
@@ -38725,37 +38959,30 @@ NMB</v8:content>
 	<vg>
 		<b>169</b>
 		<e>173</e>
-		<o>false</o>
 	</vg>
 	<vg>
 		<b>175</b>
 		<e>190</e>
-		<o>false</o>
 	</vg>
 	<vg>
 		<b>192</b>
 		<e>204</e>
-		<o>false</o>
 	</vg>
 	<vg>
 		<b>206</b>
 		<e>216</e>
-		<o>false</o>
 	</vg>
 	<vg>
 		<b>218</b>
 		<e>246</e>
-		<o>false</o>
 	</vg>
 	<vg>
 		<b>248</b>
 		<e>249</e>
-		<o>false</o>
 	</vg>
 	<vg>
 		<b>251</b>
 		<e>436</e>
-		<o>false</o>
 	</vg>
 	<vg>
 		<b>439</b>
@@ -38764,12 +38991,10 @@ NMB</v8:content>
 	<vg>
 		<b>441</b>
 		<e>446</e>
-		<o>false</o>
 	</vg>
 	<vg>
 		<b>448</b>
 		<e>466</e>
-		<o>false</o>
 	</vg>
 	<vg>
 		<b>469</b>
@@ -38778,32 +39003,26 @@ NMB</v8:content>
 	<vg>
 		<b>471</b>
 		<e>472</e>
-		<o>false</o>
 	</vg>
 	<vg>
 		<b>474</b>
 		<e>475</e>
-		<o>false</o>
 	</vg>
 	<vg>
 		<b>477</b>
 		<e>496</e>
-		<o>false</o>
 	</vg>
 	<vg>
 		<b>498</b>
 		<e>517</e>
-		<o>false</o>
 	</vg>
 	<vg>
 		<b>519</b>
 		<e>520</e>
-		<o>false</o>
 	</vg>
 	<vg>
 		<b>522</b>
 		<e>527</e>
-		<o>false</o>
 	</vg>
 	<namedItem xsi:type="NamedItemCells">
 		<name>КодЧисловой</name>
@@ -38971,7 +39190,6 @@ NMB</v8:content>
 	</format>
 	<format>
 		<verticalAlignment>Top</verticalAlignment>
-		<hidden>true</hidden>
 	</format>
 	<format>
 		<width>150</width>
@@ -39101,6 +39319,15 @@ NMB</v8:content>
 		<width>150</width>
 		<verticalAlignment>Top</verticalAlignment>
 		<hidden>true</hidden>
+	</format>
+	<format>
+		<font>0</font>
+		<leftBorder>2</leftBorder>
+		<topBorder>1</topBorder>
+		<rightBorder>2</rightBorder>
+		<bottomBorder>1</bottomBorder>
+		<width>120</width>
+		<verticalAlignment>Top</verticalAlignment>
 	</format>
 	<format>
 		<leftBorder>0</leftBorder>
