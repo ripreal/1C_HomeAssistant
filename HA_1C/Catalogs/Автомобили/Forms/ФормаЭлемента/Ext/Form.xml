@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<Visible>false</Visible>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Модель</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Model</v8:content>
+				</v8:item>
+			</Title>
+			<EditMode>EnterOnInput</EditMode>
+			<InputHint>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Введите модель авто</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Print model auto </v8:content>
+				</v8:item>
+			</InputHint>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="ДатаПриобретения" id="35">
+			<DataPath>Объект.ДатаПриобретения</DataPath>
+			<ContextMenu name="ДатаПриобретенияКонтекстноеМеню" id="36"/>
+			<ExtendedTooltip name="ДатаПриобретенияРасширеннаяПодсказка" id="37"/>
+		</InputField>
+		<UsualGroup name="ГруппаРегламентныеРаботы" id="33">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Регламентные работы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа регламентные работы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ExtendedTooltip name="ГруппаРегламентныеРаботыРасширеннаяПодсказка" id="34"/>
+			<ChildItems>
+				<Table name="РегламентныеРаботы" id="7">
+					<Representation>List</Representation>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>Объект.РегламентныеРаботы</DataPath>
+					<CommandSet>
+						<ExcludedCommand>Add</ExcludedCommand>
+					</CommandSet>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="РегламентныеРаботыКонтекстноеМеню" id="8"/>
+					<AutoCommandBar name="РегламентныеРаботыКоманднаяПанель" id="9">
+						<Autofill>false</Autofill>
+						<ChildItems>
+							<Button name="РегламентныеРаботыДобавитьРаботу" id="31">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.ДобавитьРаботу</CommandName>
+								<ExtendedTooltip name="РегламентныеРаботыДобавитьРаботуРасширеннаяПодсказка" id="32"/>
+							</Button>
+							<ButtonGroup name="ГруппаСтандартныеКоманды" id="29">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа стандартные команды</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа стандартные команды</v8:content>
+									</v8:item>
+								</ToolTip>
+								<CommandSource>Item.РегламентныеРаботы</CommandSource>
+								<ExtendedTooltip name="ГруппаСтандартныеКомандыРасширеннаяПодсказка" id="30"/>
+							</ButtonGroup>
+						</ChildItems>
+					</AutoCommandBar>
+					<ExtendedTooltip name="РегламентныеРаботыРасширеннаяПодсказка" id="10"/>
+					<SearchStringAddition name="РегламентныеРаботыСтрокаПоиска" id="11">
+						<AdditionSource>
+							<Item>РегламентныеРаботы</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="РегламентныеРаботыСтрокаПоискаКонтекстноеМеню" id="12"/>
+						<ExtendedTooltip name="РегламентныеРаботыСтрокаПоискаРасширеннаяПодсказка" id="13"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="РегламентныеРаботыСостояниеПросмотра" id="14">
+						<AdditionSource>
+							<Item>РегламентныеРаботы</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="РегламентныеРаботыСостояниеПросмотраКонтекстноеМеню" id="15"/>
+						<ExtendedTooltip name="РегламентныеРаботыСостояниеПросмотраРасширеннаяПодсказка" id="16"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="РегламентныеРаботыУправлениеПоиском" id="17">
+						<AdditionSource>
+							<Item>РегламентныеРаботы</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="РегламентныеРаботыУправлениеПоискомКонтекстноеМеню" id="18"/>
+						<ExtendedTooltip name="РегламентныеРаботыУправлениеПоискомРасширеннаяПодсказка" id="19"/>
+					</SearchControlAddition>
+					<Events>
+						<Event name="Selection">РегламентныеРаботыВыбор</Event>
+						<Event name="ChoiceProcessing">РегламентныеРаботыОбработкаВыбора</Event>
+					</Events>
+					<ChildItems>
+						<LabelField name="РегламентныеРаботыНомерСтроки" id="20">
+							<DataPath>Объект.РегламентныеРаботы.LineNumber</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="РегламентныеРаботыНомерСтрокиКонтекстноеМеню" id="21"/>
+							<ExtendedTooltip name="РегламентныеРаботыНомерСтрокиРасширеннаяПодсказка" id="22"/>
+						</LabelField>
+						<InputField name="РегламентныеРаботыРабота" id="23">
+							<DataPath>Объект.РегламентныеРаботы.РегламентнаяРабота</DataPath>
+							<EditMode>Directly</EditMode>
+							<TextEdit>false</TextEdit>
+							<ContextMenu name="РегламентныеРаботыРаботаКонтекстноеМеню" id="24"/>
+							<ExtendedTooltip name="РегламентныеРаботыРаботаРасширеннаяПодсказка" id="25"/>
+						</InputField>
+						<InputField name="РегламентныеРаботыИнтервал" id="26">
+							<DataPath>Объект.РегламентныеРаботы.Интервал</DataPath>
+							<EditMode>Directly</EditMode>
+							<ContextMenu name="РегламентныеРаботыИнтервалКонтекстноеМеню" id="27"/>
+							<ExtendedTooltip name="РегламентныеРаботыИнтервалРасширеннаяПодсказка" id="28"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.Автомобили</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ДобавитьРаботу" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить работу</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.CreateListItem</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ДобавитьРаботу</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+	</Commands>
+</Form>

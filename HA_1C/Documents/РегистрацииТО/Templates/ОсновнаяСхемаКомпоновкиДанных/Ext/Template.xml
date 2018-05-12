@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаПоследнегоТО</dataPath>
+			<field>ДатаПоследнегоТО</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата последнего ТО</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>РегламентнаяРабота</dataPath>
+			<field>РегламентнаяРабота</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаПредстоящегоТО</dataPath>
+			<field>ДатаПредстоящегоТО</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата предстоящего ТО</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтатусПоследнегоТО</dataPath>
+			<field>СтатусПоследнегоТО</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статус последнего ТО</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	АвтомобилиРегламентныеРаботы.РегламентнаяРабота КАК РегламентнаяРабота,
+	МАКСИМУМ(ЗарегистрированныеТО.Период) КАК ДатаПоследнегоТО,
+	ДОБАВИТЬКДАТЕ(ЕСТЬNULL(ЗарегистрированныеТО.Период, АвтомобилиРегламентныеРаботы.Ссылка.ДатаПриобретения), МЕСЯЦ, АвтомобилиРегламентныеРаботы.Интервал) КАК ДатаПредстоящегоТО,
+	ЗарегистрированныеТО.СтатусТО КАК СтатусПоследнегоТО
+ИЗ
+	Справочник.Автомобили.РегламентныеРаботы КАК АвтомобилиРегламентныеРаботы
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ЗарегистрированныеТО КАК ЗарегистрированныеТО
+		ПО АвтомобилиРегламентныеРаботы.РегламентнаяРабота = ЗарегистрированныеТО.РегламентнаяРабота
+			И АвтомобилиРегламентныеРаботы.Ссылка = ЗарегистрированныеТО.Автомобиль
+			И (ЗарегистрированныеТО.Период &lt;= &amp;ДатаАнализа)
+			И (ЗарегистрированныеТО.Период &gt;= АвтомобилиРегламентныеРаботы.Ссылка.ДатаПриобретения)
+ГДЕ
+	АвтомобилиРегламентныеРаботы.Ссылка = &amp;Автомобиль
+
+СГРУППИРОВАТЬ ПО
+	АвтомобилиРегламентныеРаботы.Ссылка,
+	АвтомобилиРегламентныеРаботы.РегламентнаяРабота,
+	ЗарегистрированныеТО.СтатусТО,
+	АвтомобилиРегламентныеРаботы.Интервал,
+	ДОБАВИТЬКДАТЕ(ЕСТЬNULL(ЗарегистрированныеТО.Период, АвтомобилиРегламентныеРаботы.Ссылка.ДатаПриобретения), МЕСЯЦ, АвтомобилиРегламентныеРаботы.Интервал)</query>
+	</dataSet>
+	<parameter>
+		<name>Автомобиль</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Автомобиль</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Автомобили</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ДатаАнализа</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата анализа</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>РегламентнаяРабота</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СтатусПоследнегоТО</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаПредстоящегоТО</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаПоследнегоТО</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>Автомобиль</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

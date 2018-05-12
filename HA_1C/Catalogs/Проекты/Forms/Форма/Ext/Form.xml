@@ -323,6 +323,8 @@
 													<SkipOnInput>true</SkipOnInput>
 													<TitleLocation>None</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
+													<Width>30</Width>
+													<HorizontalStretch>true</HorizontalStretch>
 													<Font ref="style:SmallTextFont" kind="StyleItem"/>
 													<ContextMenu name="ДеталиХаракт1КонтекстноеМеню" id="214"/>
 													<ExtendedTooltip name="ДеталиХаракт1РасширеннаяПодсказка" id="215"/>
@@ -387,6 +389,8 @@
 													<SkipOnInput>true</SkipOnInput>
 													<TitleLocation>None</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
+													<Width>30</Width>
+													<HorizontalStretch>true</HorizontalStretch>
 													<Font ref="style:SmallTextFont" kind="StyleItem"/>
 													<ContextMenu name="ДеталиХаракт2КонтекстноеМеню" id="220"/>
 													<ExtendedTooltip name="ДеталиХаракт2РасширеннаяПодсказка" id="221"/>
@@ -451,6 +455,8 @@
 													<SkipOnInput>true</SkipOnInput>
 													<TitleLocation>None</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
+													<Width>30</Width>
+													<HorizontalStretch>true</HorizontalStretch>
 													<Font ref="style:SmallTextFont" kind="StyleItem"/>
 													<ContextMenu name="ДеталиХаракт3КонтекстноеМеню" id="226"/>
 													<ExtendedTooltip name="ДеталиХаракт3РасширеннаяПодсказка" id="227"/>
@@ -513,6 +519,8 @@
 													<DataPath>Объект.Детали.ДеталиХаракт4</DataPath>
 													<TitleLocation>None</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
+													<Width>30</Width>
+													<HorizontalStretch>true</HorizontalStretch>
 													<Font ref="style:SmallTextFont" kind="StyleItem"/>
 													<ContextMenu name="ДеталиХаракт4КонтекстноеМеню" id="338"/>
 													<ExtendedTooltip name="ДеталиХаракт4РасширеннаяПодсказка" id="339"/>
@@ -575,6 +583,8 @@
 													<DataPath>Объект.Детали.ДеталиХаракт5</DataPath>
 													<TitleLocation>None</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
+													<Width>30</Width>
+													<HorizontalStretch>true</HorizontalStretch>
 													<Font ref="style:SmallTextFont" kind="StyleItem"/>
 													<ContextMenu name="ДеталиХаракт5КонтекстноеМеню" id="332"/>
 													<ExtendedTooltip name="ДеталиХаракт5РасширеннаяПодсказка" id="333"/>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.4">
+	<Item id="20d73a18-d014-4a98-93ae-b7e1c149adb3">
+		<Name>ЗаменаВоздушногоФильтра</Name>
+		<Code>000000002</Code>
+		<Description>Замена воздушного фильтра</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ce8ff4a4-77ee-40eb-87df-b7ff8450bd55">
+		<Name>ЗаменаМаслаФильтра</Name>
+		<Code>000000001</Code>
+		<Description>Замена масла и фильтра</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="65a9b4d2-ad45-4a56-8453-229283543afe">
+		<Name>ЗаменаФильтраСалона</Name>
+		<Code>000000003</Code>
+		<Description>Замена фильтра салона</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

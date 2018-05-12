@@ -148,9 +148,9 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Language>English</Language>
-			<Subsystem>xUnitFor1C</Subsystem>
-			<Subsystem>ПрикрепленныеФайлы</Subsystem>
-			<Subsystem>ОбъектыДомена</Subsystem>
+			<Subsystem>СтроительныеПроекты</Subsystem>
+			<Subsystem>Инфраструктура</Subsystem>
+			<Subsystem>ТехническоеОбслуживание</Subsystem>
 			<CommonPicture>android</CommonPicture>
 			<CommonPicture>capacitor24</CommonPicture>
 			<CommonPicture>Crafting48</CommonPicture>
@@ -216,6 +216,7 @@
 			<CommonModule>ФормыОбщиеДействияСервер</CommonModule>
 			<CommonModule>ФормыПроектыКлиентСервер</CommonModule>
 			<CommonModule>ФормыПроектыСервер</CommonModule>
+			<CommonModule>ОтчетыОбщиеФункции</CommonModule>
 			<CommonCommand>СделатьАудиоЗапись</CommonCommand>
 			<CommonCommand>СделатьФотографию</CommonCommand>
 			<CommonCommand>СписокФайлов</CommonCommand>
@@ -230,23 +231,21 @@
 			<Catalog>Проекты</Catalog>
 			<Catalog>ФизическиеХарактеристики</Catalog>
 			<Catalog>Формулы</Catalog>
+			<Catalog>Автомобили</Catalog>
+			<Catalog>РегламентныеРаботы</Catalog>
 			<Document>Блокнот</Document>
+			<Document>РегистрацииТО</Document>
 			<Enum>АрифметическиеОператоры</Enum>
 			<Enum>СпособОткрытияПрикрепленногоФайла</Enum>
 			<Enum>ТипыХарактеристик</Enum>
-			<DataProcessor>xddTestRunner</DataProcessor>
-			<DataProcessor>БазовыеУтверждения</DataProcessor>
-			<DataProcessor>ГенераторОтчетаMXL</DataProcessor>
-			<DataProcessor>ЗагрузчикИзПодсистемКонфигурации</DataProcessor>
-			<DataProcessor>ЗагрузчикФайла</DataProcessor>
+			<Enum>СтатусыВыполненияТО</Enum>
 			<DataProcessor>НастройкиПрограммы</DataProcessor>
 			<DataProcessor>НачальнаяСтраница</DataProcessor>
-			<DataProcessor>ПостроительДереваТестов</DataProcessor>
 			<DataProcessor>ТестКлассификаторЕдиницИзм</DataProcessor>
 			<DataProcessor>ТестОбщее</DataProcessor>
 			<DataProcessor>ТестФормулы</DataProcessor>
-			<DataProcessor>УтвержденияBDD</DataProcessor>
 			<InformationRegister>ПринадлежностьФайлов</InformationRegister>
+			<InformationRegister>ЗарегистрированныеТО</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

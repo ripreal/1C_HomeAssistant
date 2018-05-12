@@ -258,7 +258,7 @@
 									<v8:AllowedSign>Any</v8:AllowedSign>
 								</v8:NumberQualifiers>
 								<v8:StringQualifiers>
-									<v8:Length>10</v8:Length>
+									<v8:Length>100</v8:Length>
 									<v8:AllowedLength>Variable</v8:AllowedLength>
 								</v8:StringQualifiers>
 								<v8:DateQualifiers>
@@ -309,7 +309,7 @@
 									<v8:AllowedSign>Any</v8:AllowedSign>
 								</v8:NumberQualifiers>
 								<v8:StringQualifiers>
-									<v8:Length>10</v8:Length>
+									<v8:Length>100</v8:Length>
 									<v8:AllowedLength>Variable</v8:AllowedLength>
 								</v8:StringQualifiers>
 								<v8:DateQualifiers>
@@ -360,7 +360,7 @@
 									<v8:AllowedSign>Any</v8:AllowedSign>
 								</v8:NumberQualifiers>
 								<v8:StringQualifiers>
-									<v8:Length>10</v8:Length>
+									<v8:Length>100</v8:Length>
 									<v8:AllowedLength>Variable</v8:AllowedLength>
 								</v8:StringQualifiers>
 								<v8:DateQualifiers>
@@ -411,7 +411,7 @@
 									<v8:AllowedSign>Any</v8:AllowedSign>
 								</v8:NumberQualifiers>
 								<v8:StringQualifiers>
-									<v8:Length>10</v8:Length>
+									<v8:Length>100</v8:Length>
 									<v8:AllowedLength>Variable</v8:AllowedLength>
 								</v8:StringQualifiers>
 								<v8:DateQualifiers>
@@ -462,7 +462,7 @@
 									<v8:AllowedSign>Any</v8:AllowedSign>
 								</v8:NumberQualifiers>
 								<v8:StringQualifiers>
-									<v8:Length>10</v8:Length>
+									<v8:Length>100</v8:Length>
 									<v8:AllowedLength>Variable</v8:AllowedLength>
 								</v8:StringQualifiers>
 								<v8:DateQualifiers>

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Subsystem uuid="84753ccc-d36e-440d-8111-f37190ae7013">
+		<Properties>
+			<Name>Инфраструктура</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Инфраструктура</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>false</IncludeInCommandInterface>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ДанныеИБВызовСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбновлениеИнформационнойБазыВызовСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбновлениеИнформационнойБазыКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбщегоНазначения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбщегоНазначенияКлиентСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ПрикрепленныеФайлыКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ПрикрепленныеФайлыКлиентСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ПрикрепленныеФайлыСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.СтандартныеПодсистемыПовтИсп</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.СтроковыеФункцииКлиентСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.УправлениеМультимедиаКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.УправлениеМультимедиаВызовСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ФормыОбщиеДействияСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.ПредставленияФайлов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ОжиданиеДлительнойОперации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.СделатьАудиоЗапись</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.СделатьФотографию</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.СписокФайлов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.android</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.capacitor24</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Crafting48</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Function24</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Hammer</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.instrument</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.locate24</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.node24</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.right_arrow24</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ruler24</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Аудиофайл</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ВзаимосвязанныеПоказатели</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ВыполненоУспешно16</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ГоризонтальнаяЛиния</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Готово</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ДваФлажка</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ДлительнаяОперация48</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ДобавитьЭлементВЯчейку</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Камера48</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КнопкаНастройки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КомандаЗаписать</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КорзинаДляМусора48</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ЛоготипЯндекс</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.МенюНеактуален16</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Микрофон48</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.НоваяОперация</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ОтчетДиаграмма</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ОтчетРазвернутьГруппы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ОтчетСвернутьГруппы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ОтчетТаблица</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ПолеДолг48</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ПолеКомментарий48</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ПолеКалендарь48</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ПолеКонтакт48</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ПолеКошелек48</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ПолеПовтор</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ПолеПроцент48</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ПолеСтатья48</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ПолеСумма48</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ПолеФинансоваяЦель48</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ПометитьНаУдалениеСправочник16</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Пустая16</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.РазделОтчеты48</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Синхронизация</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.СинхронизацияВыполняется</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.СинхронизацияОшибка</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.СписокОпераций</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.СтрелкаВниз</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ОжиданиеКот</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ДелатьФотоАндроидАПИ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.КаталогКартинок</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.КаталогФото</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ПервоначальноеЗаполнениеПройдено</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ПрикрепленныеФайлы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.СпособОткрытияПрикрепленногоФайла</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.НастройкиПрограммы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.НачальнаяСтраница</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПринадлежностьФайлов</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>

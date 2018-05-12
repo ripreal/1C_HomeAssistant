@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
 	<CommandsVisibility>
-		<Command name="DataProcessor.ГенераторОтчетаMXL.StandardCommand.Open">
+		<Command name="0:29e9becb-2ae1-455d-9ca9-be8fa72cbfc7">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
@@ -11,7 +11,7 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="DataProcessor.ЗагрузчикФайла.StandardCommand.Open">
+		<Command name="0:d408de14-1bf8-442a-92a5-8789b04ff8b8">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
@@ -21,7 +21,7 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="DataProcessor.ПостроительДереваТестов.StandardCommand.Open">
+		<Command name="0:a2897189-b6a7-4280-9bcc-0066c4f74082">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
