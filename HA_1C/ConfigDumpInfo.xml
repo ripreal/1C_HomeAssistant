@@ -102,6 +102,7 @@
 			<Metadata name="Catalog.РегламентныеРаботы.TabularSection.ТабличнаяЧасть1" id="f38ca2aa-4239-433b-8923-19ea29047e15"/>
 		</Metadata>
 		<Metadata name="Catalog.РегламентныеРаботы.Predefined" id="316dc8f1-1c3f-4309-9e36-d1c6f491ee1b.1c" configVersion="c62269811d23a0428fc466f8e8311c5400000000"/>
+		<Metadata name="Catalog.СервисныеМастерские" id="d0b02df8-6e03-415d-8a13-97fc4162d951" configVersion="22ccb25206e7b2479777732fd6f606d500000000"/>
 		<Metadata name="Catalog.ФизическиеХарактеристики" id="ff27058f-7287-40eb-bc52-408abd473fa2" configVersion="af507a2838350f438081249e6e85bab600000000">
 			<Metadata name="Catalog.ФизическиеХарактеристики.Attribute.ЕдиницаИзмерения" id="05e76c51-a261-4231-be12-0a74b87d6383"/>
 		</Metadata>
@@ -269,7 +270,7 @@
 		<Metadata name="CommonPicture.СписокОпераций.Picture" id="af81ab2f-8661-4a56-9f83-aaf72e205aa0.0" configVersion="d0ad457d096168479722b5f44b938c6600000000"/>
 		<Metadata name="CommonPicture.СтрелкаВниз" id="0ef50fe9-bb8d-4900-b810-08e5436bf0e7" configVersion="1dae957d8b7dea449fbab935a4cb26d700000000"/>
 		<Metadata name="CommonPicture.СтрелкаВниз.Picture" id="0ef50fe9-bb8d-4900-b810-08e5436bf0e7.0" configVersion="6f86fb4c84da7743885c072b8176eabc00000000"/>
-		<Metadata name="Configuration.HomeAssistant" id="d64d25ef-af89-4754-9ed8-9fd075861321" configVersion="ba8883f32b06704684adddfa8a25c4f900000000"/>
+		<Metadata name="Configuration.HomeAssistant" id="d64d25ef-af89-4754-9ed8-9fd075861321" configVersion="a861ee05d10fad4ebe8d4b9c48bb5c0e00000000"/>
 		<Metadata name="Configuration.HomeAssistant.HomePageWorkArea" id="7bf78424-7e44-43c9-8db6-08bd12c6fc75.8" configVersion="033a08069cccd4408bb122e8051e093300000000"/>
 		<Metadata name="Configuration.HomeAssistant.Logo" id="7bf78424-7e44-43c9-8db6-08bd12c6fc75.1" configVersion="d36ff61abe057340873fce5e338886c600000000"/>
 		<Metadata name="Configuration.HomeAssistant.MainSectionCommandInterface" id="7bf78424-7e44-43c9-8db6-08bd12c6fc75.9" configVersion="a831eef259c09e4fa21035d2163a223700000000"/>
@@ -312,15 +313,16 @@
 		<Metadata name="Document.Блокнот.Form.ФормаСписка" id="da877cad-ee36-4943-812d-4ce0827ba40c" configVersion="d7c75d16b0308941a5b1a6283781394400000000"/>
 		<Metadata name="Document.Блокнот.Form.ФормаСписка.Form" id="da877cad-ee36-4943-812d-4ce0827ba40c.0" configVersion="9f80a66b3660e945aae7c96a5ce9878700000000"/>
 		<Metadata name="Document.Блокнот.ManagerModule" id="e42cd564-5b03-449f-8594-19036aa72419.2" configVersion="1170017696bc664bb6196bb99f21474d00000000"/>
-		<Metadata name="Document.РегистрацииТО" id="e048924e-00eb-494b-802a-42065b31bab6" configVersion="d2a9f04c7d83784cb1b8a2d958879ef100000000">
+		<Metadata name="Document.РегистрацииТО" id="e048924e-00eb-494b-802a-42065b31bab6" configVersion="82b92ce8ef2e03479daefc59d845335c00000000">
+			<Metadata name="Document.РегистрацииТО.Attribute.Мастерская" id="2ad178cf-81b9-4a1c-9a18-d88cdd128c1a"/>
 			<Metadata name="Document.РегистрацииТО.TabularSection.ВыполненныеРаботы.Attribute.СтатусТО" id="8c06f45e-a2d3-4baa-9118-bf4c9ba6a8fb"/>
 			<Metadata name="Document.РегистрацииТО.Attribute.Автомобиль" id="92158fa0-d0a0-485f-86fe-83eb43da2eac"/>
 			<Metadata name="Document.РегистрацииТО.TabularSection.ВыполненныеРаботы.Attribute.ДатаВыполнения" id="b615a59c-b4fc-46c8-aa47-fbf88bbf63a4"/>
 			<Metadata name="Document.РегистрацииТО.TabularSection.ВыполненныеРаботы.Attribute.РегламентнаяРабота" id="c3fcff01-cac0-4cfd-ab8a-e5f2bcfb72fc"/>
 			<Metadata name="Document.РегистрацииТО.TabularSection.ВыполненныеРаботы" id="cb5e5e83-71c6-46cb-bee0-784ac3f01baa"/>
 		</Metadata>
-		<Metadata name="Document.РегистрацииТО.Form.ФормаДокумента" id="a373008e-cc3d-4cfb-9722-654b8b9f01b6" configVersion="ca3c7e8c1a914542ae7d722f7018207400000000"/>
-		<Metadata name="Document.РегистрацииТО.Form.ФормаДокумента.Form" id="a373008e-cc3d-4cfb-9722-654b8b9f01b6.0" configVersion="f8664c0bfa2d8b4a99a6ff57196d56da00000000"/>
+		<Metadata name="Document.РегистрацииТО.Form.ФормаДокумента" id="a373008e-cc3d-4cfb-9722-654b8b9f01b6" configVersion="156f73779452bb4e930aa9846df3c73c00000000"/>
+		<Metadata name="Document.РегистрацииТО.Form.ФормаДокумента.Form" id="a373008e-cc3d-4cfb-9722-654b8b9f01b6.0" configVersion="c6fa8d6a9b05434c920b71745d6a7b6900000000"/>
 		<Metadata name="Document.РегистрацииТО.Form.ФормаСписка" id="0ded5bd0-6146-4790-9423-93046f4fbe5a" configVersion="246984ebcb44f140bac48542f75d44c500000000"/>
 		<Metadata name="Document.РегистрацииТО.Form.ФормаСписка.Form" id="0ded5bd0-6146-4790-9423-93046f4fbe5a.0" configVersion="eab5eacf38e63c4eb8f80e7d200de48a00000000"/>
 		<Metadata name="Document.РегистрацииТО.ManagerModule" id="e048924e-00eb-494b-802a-42065b31bab6.2" configVersion="9fbfc0f560c0cf41be2f9a1c5f2a5ab200000000"/>
@@ -354,8 +356,9 @@
 			<Metadata name="Enum.ТипыХарактеристик.EnumValue.ДробноеЧисло" id="696500ba-3358-4967-9180-d293729a6da1"/>
 			<Metadata name="Enum.ТипыХарактеристик.EnumValue.Строка" id="a87c6aca-7d43-4738-9b35-aebd93eefdbe"/>
 		</Metadata>
-		<Metadata name="InformationRegister.ЗарегистрированныеТО" id="bc9dbd3c-60c2-40cb-9411-88094489f222" configVersion="3c3dbd7e5895814d9997bda585275fd900000000">
+		<Metadata name="InformationRegister.ЗарегистрированныеТО" id="bc9dbd3c-60c2-40cb-9411-88094489f222" configVersion="6e21c216f2a67d4fa5d692f14ea76ae000000000">
 			<Metadata name="InformationRegister.ЗарегистрированныеТО.Dimension.Автомобиль" id="012eba73-b1da-4992-9e2c-77ecbc507d4d"/>
+			<Metadata name="InformationRegister.ЗарегистрированныеТО.Resource.Сумма" id="285fdc2f-79cf-4eb5-8cb6-7864c6886457"/>
 			<Metadata name="InformationRegister.ЗарегистрированныеТО.Resource.СтатусТО" id="37deb1a4-3326-4d29-a44b-5c43bdf968c0"/>
 			<Metadata name="InformationRegister.ЗарегистрированныеТО.Dimension.РегламентнаяРабота" id="5f3ff74b-b208-489f-8bbc-bd272fc480e3"/>
 		</Metadata>

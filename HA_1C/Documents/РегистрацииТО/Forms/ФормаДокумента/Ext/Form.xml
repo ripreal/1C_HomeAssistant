@@ -48,6 +48,11 @@
 					<ContextMenu name="АвтомобильКонтекстноеМеню" id="8"/>
 					<ExtendedTooltip name="АвтомобильРасширеннаяПодсказка" id="9"/>
 				</InputField>
+				<InputField name="Мастерская" id="14">
+					<DataPath>Объект.Мастерская</DataPath>
+					<ContextMenu name="МастерскаяКонтекстноеМеню" id="15"/>
+					<ExtendedTooltip name="МастерскаяРасширеннаяПодсказка" id="16"/>
+				</InputField>
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="ГруппаРаботы" id="10">
@@ -81,6 +86,20 @@
 			<UseAlways>
 				<Field>Объект.RegisterRecords</Field>
 			</UseAlways>
+		</Attribute>
+		<Attribute name="ПрошлоеТО" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Прошлое ТО</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
 		</Attribute>
 	</Attributes>
 	<CommandInterface>

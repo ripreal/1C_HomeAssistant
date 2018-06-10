@@ -233,6 +233,7 @@
 			<Catalog>Формулы</Catalog>
 			<Catalog>Автомобили</Catalog>
 			<Catalog>РегламентныеРаботы</Catalog>
+			<Catalog>СервисныеМастерские</Catalog>
 			<Document>Блокнот</Document>
 			<Document>РегистрацииТО</Document>
 			<Enum>АрифметическиеОператоры</Enum>
