@@ -217,6 +217,7 @@
 			<CommonModule>ФормыПроектыКлиентСервер</CommonModule>
 			<CommonModule>ФормыПроектыСервер</CommonModule>
 			<CommonModule>ОтчетыОбщиеФункции</CommonModule>
+			<CommonModule>Проверки</CommonModule>
 			<CommonCommand>СделатьАудиоЗапись</CommonCommand>
 			<CommonCommand>СделатьФотографию</CommonCommand>
 			<CommonCommand>СписокФайлов</CommonCommand>
