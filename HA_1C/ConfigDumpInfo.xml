@@ -315,20 +315,23 @@
 		<Metadata name="Document.Блокнот.Form.ФормаСписка" id="da877cad-ee36-4943-812d-4ce0827ba40c" configVersion="181243ea00d12648b97779901a604eb600000000"/>
 		<Metadata name="Document.Блокнот.Form.ФормаСписка.Form" id="da877cad-ee36-4943-812d-4ce0827ba40c.0" configVersion="9786bb8461060f48a00e2f8e9bb5e8e100000000"/>
 		<Metadata name="Document.Блокнот.ManagerModule" id="e42cd564-5b03-449f-8594-19036aa72419.2" configVersion="d21e31d95366254da077f50768bc887800000000"/>
-		<Metadata name="Document.РегистрацииТО" id="e048924e-00eb-494b-802a-42065b31bab6" configVersion="bd97dac59e56854b84d4da068176812500000000">
+		<Metadata name="Document.РегистрацииТО" id="e048924e-00eb-494b-802a-42065b31bab6" configVersion="172ffd42741861469e76faf5b7eda6a900000000">
 			<Metadata name="Document.РегистрацииТО.Attribute.Мастерская" id="2ad178cf-81b9-4a1c-9a18-d88cdd128c1a"/>
-			<Metadata name="Document.РегистрацииТО.TabularSection.ВыполненныеРаботы.Attribute.СтатусТО" id="8c06f45e-a2d3-4baa-9118-bf4c9ba6a8fb"/>
+			<Metadata name="Document.РегистрацииТО.TabularSection.ВыполненныеРаботы.Attribute.РегламентнаяРабота" id="357dd7cc-daf5-493c-88e3-cc46a54be9bb"/>
+			<Metadata name="Document.РегистрацииТО.TabularSection.ВыполненныеРаботы.Attribute.ПрошлоеТОПоФакту" id="8c06f45e-a2d3-4baa-9118-bf4c9ba6a8fb"/>
 			<Metadata name="Document.РегистрацииТО.Attribute.Автомобиль" id="92158fa0-d0a0-485f-86fe-83eb43da2eac"/>
-			<Metadata name="Document.РегистрацииТО.TabularSection.ВыполненныеРаботы.Attribute.ДатаВыполнения" id="b615a59c-b4fc-46c8-aa47-fbf88bbf63a4"/>
-			<Metadata name="Document.РегистрацииТО.TabularSection.ВыполненныеРаботы.Attribute.РегламентнаяРабота" id="c3fcff01-cac0-4cfd-ab8a-e5f2bcfb72fc"/>
+			<Metadata name="Document.РегистрацииТО.TabularSection.ВыполненныеРаботы.Attribute.СтатусТекущегоТО" id="9c832d20-7581-4896-9cbf-c5fa04a17d73"/>
+			<Metadata name="Document.РегистрацииТО.TabularSection.ВыполненныеРаботы.Attribute.ТекущееТОПоФакту" id="9d1fd7d5-6837-4d94-a2c3-9a79d5a55c1b"/>
+			<Metadata name="Document.РегистрацииТО.TabularSection.ВыполненныеРаботы.Attribute.ТекущееТОПоПлану" id="b615a59c-b4fc-46c8-aa47-fbf88bbf63a4"/>
+			<Metadata name="Document.РегистрацииТО.TabularSection.ВыполненныеРаботы.Attribute.ПрошлоеТОПоПлану" id="c3fcff01-cac0-4cfd-ab8a-e5f2bcfb72fc"/>
 			<Metadata name="Document.РегистрацииТО.TabularSection.ВыполненныеРаботы" id="cb5e5e83-71c6-46cb-bee0-784ac3f01baa"/>
 		</Metadata>
-		<Metadata name="Document.РегистрацииТО.Form.ФормаДокумента" id="a373008e-cc3d-4cfb-9722-654b8b9f01b6" configVersion="f4082bb74dc4cb4ea5805c9baf0408ab00000000"/>
-		<Metadata name="Document.РегистрацииТО.Form.ФормаДокумента.Form" id="a373008e-cc3d-4cfb-9722-654b8b9f01b6.0" configVersion="41d9c24704e0a446b7fcca4245dc0dd900000000"/>
+		<Metadata name="Document.РегистрацииТО.Form.ФормаДокумента" id="a373008e-cc3d-4cfb-9722-654b8b9f01b6" configVersion="5a5cd7b1ff17184186c5d85cda9c154a00000000"/>
+		<Metadata name="Document.РегистрацииТО.Form.ФормаДокумента.Form" id="a373008e-cc3d-4cfb-9722-654b8b9f01b6.0" configVersion="ffcbae432a43a9488a539b0e3998fa0800000000"/>
 		<Metadata name="Document.РегистрацииТО.Form.ФормаСписка" id="0ded5bd0-6146-4790-9423-93046f4fbe5a" configVersion="55acc8705cbdcf4381904b06d7289e6d00000000"/>
 		<Metadata name="Document.РегистрацииТО.Form.ФормаСписка.Form" id="0ded5bd0-6146-4790-9423-93046f4fbe5a.0" configVersion="76200608f514ea40bbcc3e39c217ebc800000000"/>
 		<Metadata name="Document.РегистрацииТО.ManagerModule" id="e048924e-00eb-494b-802a-42065b31bab6.2" configVersion="f7440ee94d67554dbea454f8bdc6fed700000000"/>
-		<Metadata name="Document.РегистрацииТО.ObjectModule" id="e048924e-00eb-494b-802a-42065b31bab6.0" configVersion="9ee5ff3f5373e0429065876204a02e4200000000"/>
+		<Metadata name="Document.РегистрацииТО.ObjectModule" id="e048924e-00eb-494b-802a-42065b31bab6.0" configVersion="6e9502000e1d614c9806489024650d1d00000000"/>
 		<Metadata name="Document.РегистрацииТО.Template.Макет" id="3c6ac719-6791-4577-94b9-a4b0156b0321" configVersion="f90de97c5879d44b90e9e3b81bd8a5a500000000"/>
 		<Metadata name="Document.РегистрацииТО.Template.Макет.Template" id="3c6ac719-6791-4577-94b9-a4b0156b0321.0" configVersion="06b7ce21d62aa84da73db9410cfe28bc00000000"/>
 		<Metadata name="Document.РегистрацииТО.Template.ОсновнаяСхемаКомпоновкиДанных" id="9f3c1af2-38e7-4ec1-b791-bfa667e928a6" configVersion="30b281407e6787448612bdba30029fc600000000"/>
@@ -359,7 +362,7 @@
 			<Metadata name="Enum.ТипыХарактеристик.EnumValue.ДробноеЧисло" id="696500ba-3358-4967-9180-d293729a6da1"/>
 			<Metadata name="Enum.ТипыХарактеристик.EnumValue.Строка" id="a87c6aca-7d43-4738-9b35-aebd93eefdbe"/>
 		</Metadata>
-		<Metadata name="InformationRegister.ЗарегистрированныеТО" id="bc9dbd3c-60c2-40cb-9411-88094489f222" configVersion="eda63c113f93eb4293dc6a442ebe235f00000000">
+		<Metadata name="InformationRegister.ЗарегистрированныеТО" id="bc9dbd3c-60c2-40cb-9411-88094489f222" configVersion="13090973a409b441aa47aae92e5f015500000000">
 			<Metadata name="InformationRegister.ЗарегистрированныеТО.Dimension.Автомобиль" id="012eba73-b1da-4992-9e2c-77ecbc507d4d"/>
 			<Metadata name="InformationRegister.ЗарегистрированныеТО.Resource.Сумма" id="285fdc2f-79cf-4eb5-8cb6-7864c6886457"/>
 			<Metadata name="InformationRegister.ЗарегистрированныеТО.Resource.СтатусТО" id="37deb1a4-3326-4d29-a44b-5c43bdf968c0"/>
