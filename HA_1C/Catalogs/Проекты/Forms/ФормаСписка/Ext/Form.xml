@@ -101,37 +101,7 @@
 									</Button>
 								</ChildItems>
 							</ContextMenu>
-							<AutoCommandBar name="СписокКоманднаяПанель" id="5">
-								<Autofill>false</Autofill>
-								<ChildItems>
-									<Button name="СписокСоздать" id="28">
-										<Type>CommandBarButton</Type>
-										<Representation>PictureAndText</Representation>
-										<CommandName>Form.Item.Список.StandardCommand.Create</CommandName>
-										<Picture>
-											<xr:Ref>StdPicture.NewWindow</xr:Ref>
-											<xr:LoadTransparent>true</xr:LoadTransparent>
-										</Picture>
-										<ExtendedTooltip name="СписокСоздатьРасширеннаяПодсказка" id="29"/>
-									</Button>
-									<ButtonGroup name="ГруппаСтандартныеКоманды" id="26">
-										<Title>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Группа стандартные команды</v8:content>
-											</v8:item>
-										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Группа стандартные команды</v8:content>
-											</v8:item>
-										</ToolTip>
-										<CommandSource>Item.Список</CommandSource>
-										<ExtendedTooltip name="ГруппаСтандартныеКомандыРасширеннаяПодсказка" id="27"/>
-									</ButtonGroup>
-								</ChildItems>
-							</AutoCommandBar>
+							<AutoCommandBar name="СписокКоманднаяПанель" id="5"/>
 							<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="6"/>
 							<SearchStringAddition name="СписокСтрокаПоиска" id="7">
 								<AdditionSource>

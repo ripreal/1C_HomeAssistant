@@ -88,28 +88,6 @@
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 			<DataHistory>DontUse</DataHistory>
 		</Properties>
-		<ChildObjects>
-			<TabularSection uuid="f38ca2aa-4239-433b-8923-19ea29047e15">
-				<InternalInfo>
-					<xr:GeneratedType name="CatalogTabularSection.РегламентныеРаботы.ТабличнаяЧасть1" category="TabularSection">
-						<xr:TypeId>50afbdc7-0acb-4276-9063-57cd336ba7c1</xr:TypeId>
-						<xr:ValueId>ecbff300-db99-4c43-beae-f74d36305981</xr:ValueId>
-					</xr:GeneratedType>
-					<xr:GeneratedType name="CatalogTabularSectionRow.РегламентныеРаботы.ТабличнаяЧасть1" category="TabularSectionRow">
-						<xr:TypeId>7555447c-6a22-49dc-b458-dafcfe4bb895</xr:TypeId>
-						<xr:ValueId>536137d7-c9cc-4d39-966a-57f7eaa13af7</xr:ValueId>
-					</xr:GeneratedType>
-				</InternalInfo>
-				<Properties>
-					<Name>ТабличнаяЧасть1</Name>
-					<Synonym/>
-					<Comment/>
-					<ToolTip/>
-					<FillChecking>DontCheck</FillChecking>
-					<Use>ForItem</Use>
-				</Properties>
-				<ChildObjects/>
-			</TabularSection>
-		</ChildObjects>
+		<ChildObjects/>
 	</Catalog>
 </MetaDataObject>

@@ -32,7 +32,7 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Home Assistant</v8:content>
+					<v8:content>Домашний ассистент</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
@@ -128,7 +128,7 @@
 			<BriefInformation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Home Assistant - Домашний помощник</v8:content>
+					<v8:content>Домашний ассистент</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
@@ -158,7 +158,7 @@
 			<ModalityUseMode>Use</ModalityUseMode>
 			<SynchronousPlatformExtensionAndAddInCallUseMode>Use</SynchronousPlatformExtensionAndAddInCallUseMode>
 			<InterfaceCompatibilityMode>Version8_2</InterfaceCompatibilityMode>
-			<CompatibilityMode>Version8_3_9</CompatibilityMode>
+			<CompatibilityMode>Version8_3_12</CompatibilityMode>
 			<DefaultConstantsForm/>
 		</Properties>
 		<ChildObjects>
@@ -167,6 +167,7 @@
 			<Subsystem>СтроительныеПроекты</Subsystem>
 			<Subsystem>Инфраструктура</Subsystem>
 			<Subsystem>ТехническоеОбслуживание</Subsystem>
+			<StyleItem>ЦветГиперссылки</StyleItem>
 			<CommonPicture>android</CommonPicture>
 			<CommonPicture>capacitor24</CommonPicture>
 			<CommonPicture>Crafting48</CommonPicture>
@@ -253,6 +254,7 @@
 			<Catalog>СервисныеМастерские</Catalog>
 			<Document>Блокнот</Document>
 			<Document>РегистрацииТО</Document>
+			<Document>РегистрацииВнеплановыхРабот</Document>
 			<Enum>АрифметическиеОператоры</Enum>
 			<Enum>СпособОткрытияПрикрепленногоФайла</Enum>
 			<Enum>ТипыХарактеристик</Enum>
