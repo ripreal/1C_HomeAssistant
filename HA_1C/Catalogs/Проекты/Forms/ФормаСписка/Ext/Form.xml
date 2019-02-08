@@ -57,6 +57,7 @@
 					<ChildItems>
 						<Table name="Список" id="3">
 							<Representation>List</Representation>
+							<TitleLocation>Auto</TitleLocation>
 							<Header>false</Header>
 							<UseAlternationRowColor>true</UseAlternationRowColor>
 							<InitialTreeView>ExpandTopLevel</InitialTreeView>
@@ -131,7 +132,6 @@
 								<LabelField name="Наименование" id="16">
 									<DataPath>СписокАктивных.Наименование</DataPath>
 									<DefaultItem>true</DefaultItem>
-									<TitleLocation>None</TitleLocation>
 									<ContextMenu name="НаименованиеКонтекстноеМеню" id="17"/>
 									<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="18"/>
 								</LabelField>
@@ -186,7 +186,6 @@
 								<xr:LoadTransparent>true</xr:LoadTransparent>
 							</RowsPicture>
 							<CommandSet>
-								<ExcludedCommand>Create</ExcludedCommand>
 								<ExcludedCommand>SetDeletionMark</ExcludedCommand>
 							</CommandSet>
 							<SearchStringLocation>None</SearchStringLocation>
@@ -204,53 +203,8 @@
 							<AllowRootChoice>false</AllowRootChoice>
 							<UpdateOnDataChange>Auto</UpdateOnDataChange>
 							<UserSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</UserSettingsGroup>
-							<ContextMenu name="СписокЗавершенныхКонтекстноеМеню" id="88">
-								<ChildItems>
-									<Button name="СписокКонтекстноеМенюСкопировать1" id="109">
-										<Type>CommandBarButton</Type>
-										<OnlyInAllActions>true</OnlyInAllActions>
-										<CommandName>Form.Item.Список.StandardCommand.Copy</CommandName>
-										<ExtendedTooltip name="СписокКонтекстноеМенюСкопировать1РасширеннаяПодсказка" id="110"/>
-									</Button>
-									<Button name="СписокКонтекстноеМенюУдалить1" id="111">
-										<Type>CommandBarButton</Type>
-										<OnlyInAllActions>true</OnlyInAllActions>
-										<CommandName>Form.Item.Список.StandardCommand.Delete</CommandName>
-										<ExtendedTooltip name="СписокКонтекстноеМенюУдалить1РасширеннаяПодсказка" id="112"/>
-									</Button>
-								</ChildItems>
-							</ContextMenu>
-							<AutoCommandBar name="СписокЗавершенныхКоманднаяПанель" id="89">
-								<Autofill>false</Autofill>
-								<ChildItems>
-									<Button name="СписокСоздать1" id="113">
-										<Type>CommandBarButton</Type>
-										<Representation>PictureAndText</Representation>
-										<CommandName>Form.Item.Список.StandardCommand.Create</CommandName>
-										<Picture>
-											<xr:Ref>StdPicture.NewWindow</xr:Ref>
-											<xr:LoadTransparent>true</xr:LoadTransparent>
-										</Picture>
-										<ExtendedTooltip name="СписокСоздать1РасширеннаяПодсказка" id="114"/>
-									</Button>
-									<ButtonGroup name="ГруппаСтандартныеКоманды1" id="115">
-										<Title>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Группа стандартные команды</v8:content>
-											</v8:item>
-										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Группа стандартные команды</v8:content>
-											</v8:item>
-										</ToolTip>
-										<CommandSource>Item.СписокЗавершенных</CommandSource>
-										<ExtendedTooltip name="ГруппаСтандартныеКоманды1РасширеннаяПодсказка" id="116"/>
-									</ButtonGroup>
-								</ChildItems>
-							</AutoCommandBar>
+							<ContextMenu name="СписокЗавершенныхКонтекстноеМеню" id="88"/>
+							<AutoCommandBar name="СписокЗавершенныхКоманднаяПанель" id="89"/>
 							<ExtendedTooltip name="СписокЗавершенныхРасширеннаяПодсказка" id="90"/>
 							<SearchStringAddition name="СписокЗавершенныхСтрокаПоиска" id="91">
 								<AdditionSource>

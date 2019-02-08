@@ -1,26 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
-	<CommandSet>
-		<ExcludedCommand>Abort</ExcludedCommand>
-		<ExcludedCommand>Cancel</ExcludedCommand>
-		<ExcludedCommand>CustomizeForm</ExcludedCommand>
-		<ExcludedCommand>Delete</ExcludedCommand>
-		<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
-		<ExcludedCommand>Help</ExcludedCommand>
-		<ExcludedCommand>Ignore</ExcludedCommand>
-		<ExcludedCommand>ListSettings</ExcludedCommand>
-		<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
-		<ExcludedCommand>No</ExcludedCommand>
-		<ExcludedCommand>OK</ExcludedCommand>
-		<ExcludedCommand>OutputList</ExcludedCommand>
-		<ExcludedCommand>RestoreValues</ExcludedCommand>
-		<ExcludedCommand>Retry</ExcludedCommand>
-		<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
-		<ExcludedCommand>SaveValues</ExcludedCommand>
-		<ExcludedCommand>SetDeletionMark</ExcludedCommand>
-		<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
-		<ExcludedCommand>Yes</ExcludedCommand>
-	</CommandSet>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<ChildItems>
 		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
@@ -44,25 +23,6 @@
 			<EnableStartDrag>true</EnableStartDrag>
 			<DataPath>Список</DataPath>
 			<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
-			<CommandSet>
-				<ExcludedCommand>CancelSearch</ExcludedCommand>
-				<ExcludedCommand>Change</ExcludedCommand>
-				<ExcludedCommand>Copy</ExcludedCommand>
-				<ExcludedCommand>CopyToClipboard</ExcludedCommand>
-				<ExcludedCommand>Create</ExcludedCommand>
-				<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
-				<ExcludedCommand>Find</ExcludedCommand>
-				<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
-				<ExcludedCommand>ListSettings</ExcludedCommand>
-				<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
-				<ExcludedCommand>OutputList</ExcludedCommand>
-				<ExcludedCommand>Refresh</ExcludedCommand>
-				<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
-				<ExcludedCommand>SearchHistory</ExcludedCommand>
-				<ExcludedCommand>SetDateInterval</ExcludedCommand>
-				<ExcludedCommand>SetDeletionMark</ExcludedCommand>
-				<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
-			</CommandSet>
 			<AutoRefresh>false</AutoRefresh>
 			<AutoRefreshPeriod>60</AutoRefreshPeriod>
 			<Period>
@@ -77,17 +37,10 @@
 			<AllowRootChoice>false</AllowRootChoice>
 			<UpdateOnDataChange>Auto</UpdateOnDataChange>
 			<UserSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</UserSettingsGroup>
-			<ContextMenu name="СписокКонтекстноеМеню" id="4">
-				<ChildItems>
-					<Button name="СписокКонтекстноеМенюУдалить" id="27">
-						<Type>CommandBarButton</Type>
-						<OnlyInAllActions>true</OnlyInAllActions>
-						<CommandName>Form.Item.Список.StandardCommand.Delete</CommandName>
-						<ExtendedTooltip name="СписокКонтекстноеМенюУдалитьРасширеннаяПодсказка" id="28"/>
-					</Button>
-				</ChildItems>
-			</ContextMenu>
-			<AutoCommandBar name="СписокКоманднаяПанель" id="5"/>
+			<ContextMenu name="СписокКонтекстноеМеню" id="4"/>
+			<AutoCommandBar name="СписокКоманднаяПанель" id="5">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
 			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="6"/>
 			<SearchStringAddition name="СписокСтрокаПоиска" id="7">
 				<AdditionSource>
@@ -114,16 +67,22 @@
 				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="15"/>
 			</SearchControlAddition>
 			<ChildItems>
-				<LabelField name="Дата" id="16">
-					<DataPath>Список.Date</DataPath>
+				<LabelField name="Наименование" id="16">
+					<DataPath>Список.Description</DataPath>
 					<DefaultItem>true</DefaultItem>
-					<ContextMenu name="ДатаКонтекстноеМеню" id="17"/>
-					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="18"/>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="18"/>
 				</LabelField>
-				<LabelField name="Текст" id="22">
-					<DataPath>Список.Текст</DataPath>
-					<ContextMenu name="ТекстКонтекстноеМеню" id="23"/>
-					<ExtendedTooltip name="ТекстРасширеннаяПодсказка" id="24"/>
+				<LabelField name="Код" id="19">
+					<DataPath>Список.Code</DataPath>
+					<Visible>false</Visible>
+					<ContextMenu name="КодКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="21"/>
+				</LabelField>
+				<LabelField name="ДатаПриобретения" id="22">
+					<DataPath>Список.ДатаПриобретения</DataPath>
+					<ContextMenu name="ДатаПриобретенияКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="ДатаПриобретенияРасширеннаяПодсказка" id="24"/>
 				</LabelField>
 			</ChildItems>
 		</Table>
@@ -137,7 +96,7 @@
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>false</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
-				<MainTable>Document.Блокнот</MainTable>
+				<MainTable>Catalog.Автомобили</MainTable>
 				<ListSettings>
 					<dcsset:filter>
 						<dcsset:viewMode>Normal</dcsset:viewMode>

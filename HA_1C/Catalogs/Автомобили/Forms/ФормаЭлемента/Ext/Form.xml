@@ -48,6 +48,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Регламентные работы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Services</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
@@ -127,6 +131,7 @@
 					<ChildItems>
 						<LabelField name="РегламентныеРаботыНомерСтроки" id="20">
 							<DataPath>Объект.РегламентныеРаботы.LineNumber</DataPath>
+							<Visible>false</Visible>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="РегламентныеРаботыНомерСтрокиКонтекстноеМеню" id="21"/>
 							<ExtendedTooltip name="РегламентныеРаботыНомерСтрокиРасширеннаяПодсказка" id="22"/>

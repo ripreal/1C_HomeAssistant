@@ -1,46 +1,46 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
-	<InformationRegister uuid="bc9dbd3c-60c2-40cb-9411-88094489f222">
+	<InformationRegister uuid="16530715-893a-4a6e-ace1-dcf6d4eaf9fe">
 		<InternalInfo>
-			<xr:GeneratedType name="InformationRegisterRecord.ЗарегистрированныеТО" category="Record">
-				<xr:TypeId>77ad8eec-5c1d-4041-81c8-a9fe623948e6</xr:TypeId>
-				<xr:ValueId>ee9ec128-9b13-432a-8a8c-bf6e6d388039</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecord.ЗарегистрированныеВР" category="Record">
+				<xr:TypeId>b8f25819-f74c-417d-8529-5700c60957d6</xr:TypeId>
+				<xr:ValueId>152ed6e3-abeb-494d-b55f-647a0ad300be</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterManager.ЗарегистрированныеТО" category="Manager">
-				<xr:TypeId>b60c1a1a-cd23-45ba-a0f7-eafa1088c3d5</xr:TypeId>
-				<xr:ValueId>6041d1eb-b255-4f4a-abcb-a7f97169ba1a</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterManager.ЗарегистрированныеВР" category="Manager">
+				<xr:TypeId>b040adbf-0795-44f0-90a6-be01f402464e</xr:TypeId>
+				<xr:ValueId>b868b7a2-fd44-4efe-a59f-6ff6b1062cc0</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterSelection.ЗарегистрированныеТО" category="Selection">
-				<xr:TypeId>220923f2-6683-4218-80c7-f64b50dc08b8</xr:TypeId>
-				<xr:ValueId>f3d3006a-4723-49cd-b2a7-2700211a0a14</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterSelection.ЗарегистрированныеВР" category="Selection">
+				<xr:TypeId>8c726f19-6335-45bd-8162-c7adf7ce2cbe</xr:TypeId>
+				<xr:ValueId>48265974-adba-437a-818c-eaeabfefef14</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterList.ЗарегистрированныеТО" category="List">
-				<xr:TypeId>5b6c825c-64a8-401d-acc9-cd1d4eeef602</xr:TypeId>
-				<xr:ValueId>b97c12e2-52f1-4115-bd8b-38c68a885e84</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterList.ЗарегистрированныеВР" category="List">
+				<xr:TypeId>de4b0552-0a00-4ec1-8d89-ceb1c9502c73</xr:TypeId>
+				<xr:ValueId>9ef7c214-ada9-491a-8427-f70909a5a64d</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordSet.ЗарегистрированныеТО" category="RecordSet">
-				<xr:TypeId>cbbb1189-35df-4a28-80a7-f4061c7d670c</xr:TypeId>
-				<xr:ValueId>d5ca0496-9667-431c-91cd-68d971c660f8</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ЗарегистрированныеВР" category="RecordSet">
+				<xr:TypeId>71dfd7bd-18b7-4f57-b8e5-15fe218475c9</xr:TypeId>
+				<xr:ValueId>06612cee-fffb-47cf-b92c-15cf2ad26bdc</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordKey.ЗарегистрированныеТО" category="RecordKey">
-				<xr:TypeId>07c2de84-7a74-43c5-bad6-c8ec9ad47d80</xr:TypeId>
-				<xr:ValueId>09536b6a-872f-4c5e-bebe-e15c45745548</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ЗарегистрированныеВР" category="RecordKey">
+				<xr:TypeId>1d73d309-bad2-40d9-978c-98b31c462270</xr:TypeId>
+				<xr:ValueId>d724175d-062f-4645-a0b6-e7d0db4e7333</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordManager.ЗарегистрированныеТО" category="RecordManager">
-				<xr:TypeId>991f7408-b9b1-4c1a-b84b-9d1f7203608b</xr:TypeId>
-				<xr:ValueId>e33d81f5-c69c-4b47-9168-1a11b0a399b8</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ЗарегистрированныеВР" category="RecordManager">
+				<xr:TypeId>2cec6f70-3a41-4558-bfe4-fcb79f831cd4</xr:TypeId>
+				<xr:ValueId>10644df4-b48c-493e-bc94-fdeb0f627795</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ЗарегистрированныеТО</Name>
+			<Name>ЗарегистрированныеВР</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Зарегистрированные ТО</v8:content>
+					<v8:content>Зарегистрированные ВР</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Auto service records</v8:content>
+					<v8:content>Auto repairs records</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -50,9 +50,9 @@
 			<DefaultListForm/>
 			<AuxiliaryRecordForm/>
 			<AuxiliaryListForm/>
-			<InformationRegisterPeriodicity>Year</InformationRegisterPeriodicity>
+			<InformationRegisterPeriodicity>Day</InformationRegisterPeriodicity>
 			<WriteMode>Independent</WriteMode>
-			<MainFilterOnPeriod>false</MainFilterOnPeriod>
+			<MainFilterOnPeriod>true</MainFilterOnPeriod>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<DataLockControlMode>Managed</DataLockControlMode>
 			<FullTextSearch>DontUse</FullTextSearch>
@@ -66,46 +66,7 @@
 			<DataHistory>DontUse</DataHistory>
 		</Properties>
 		<ChildObjects>
-			<Resource uuid="37deb1a4-3326-4d29-a44b-5c43bdf968c0">
-				<Properties>
-					<Name>СтатусТО</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Статус ТО</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>cfg:EnumRef.СтатусыВыполненияТО</v8:Type>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
-					<FillChecking>ShowError</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Resource>
-			<Resource uuid="285fdc2f-79cf-4eb5-8cb6-7864c6886457">
+			<Resource uuid="423e0e6e-972a-490d-b678-f623ea6074c5">
 				<Properties>
 					<Name>Сумма</Name>
 					<Synonym>
@@ -149,7 +110,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Resource>
-			<Dimension uuid="012eba73-b1da-4992-9e2c-77ecbc507d4d">
+			<Dimension uuid="cbc79b5c-5f07-432a-b446-afa8553ad969">
 				<Properties>
 					<Name>Автомобиль</Name>
 					<Synonym>
@@ -185,13 +146,13 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 					<Master>false</Master>
 					<MainFilter>true</MainFilter>
-					<DenyIncompleteValues>true</DenyIncompleteValues>
+					<DenyIncompleteValues>false</DenyIncompleteValues>
 					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Dimension>
-			<Dimension uuid="5f3ff74b-b208-489f-8bbc-bd272fc480e3">
+			<Dimension uuid="15a81a39-6916-408f-af96-ee4f3c29eb90">
 				<Properties>
 					<Name>РегламентнаяРабота</Name>
 					<Synonym>
@@ -199,61 +160,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Регламентная работа</v8:content>
 						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Service</v8:content>
-						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
 						<v8:Type>cfg:CatalogRef.РегламентныеРаботы</v8:Type>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Master>false</Master>
-					<MainFilter>true</MainFilter>
-					<DenyIncompleteValues>true</DenyIncompleteValues>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Dimension>
-			<Dimension uuid="d111443d-96b0-45c1-8552-e67ae513225b">
-				<Properties>
-					<Name>НомерТО</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Номер ТО</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>xs:decimal</v8:Type>
-						<v8:NumberQualifiers>
-							<v8:Digits>10</v8:Digits>
-							<v8:FractionDigits>1</v8:FractionDigits>
-							<v8:AllowedSign>Any</v8:AllowedSign>
-						</v8:NumberQualifiers>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>

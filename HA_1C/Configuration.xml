@@ -50,7 +50,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>R.I.P.real (Кудаков Роман)</Vendor>
-			<Version>1.1.0</Version>
+			<Version>1.3.0</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -254,11 +254,13 @@
 			<Catalog>СервисныеМастерские</Catalog>
 			<Document>Блокнот</Document>
 			<Document>РегистрацииТО</Document>
-			<Document>РегистрацииВнеплановыхРабот</Document>
+			<Document>ВнеплановыеРаботы</Document>
+			<DocumentJournal>РемонтыАвто</DocumentJournal>
 			<Enum>АрифметическиеОператоры</Enum>
 			<Enum>СпособОткрытияПрикрепленногоФайла</Enum>
 			<Enum>ТипыХарактеристик</Enum>
 			<Enum>СтатусыВыполненияТО</Enum>
+			<Enum>ВидыТО</Enum>
 			<DataProcessor>НастройкиПрограммы</DataProcessor>
 			<DataProcessor>НачальнаяСтраница</DataProcessor>
 			<DataProcessor>ТестКлассификаторЕдиницИзм</DataProcessor>
@@ -266,6 +268,7 @@
 			<DataProcessor>ТестФормулы</DataProcessor>
 			<InformationRegister>ПринадлежностьФайлов</InformationRegister>
 			<InformationRegister>ЗарегистрированныеТО</InformationRegister>
+			<InformationRegister>ЗарегистрированныеВР</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
