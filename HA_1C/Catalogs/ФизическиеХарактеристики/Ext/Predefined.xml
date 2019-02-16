@@ -264,6 +264,12 @@
 				<Description>Описание</Description>
 				<IsFolder>false</IsFolder>
 			</Item>
+			<Item id="7d61559e-e700-43ce-95dd-aa54a6f482ba">
+				<Name>Ценаруб</Name>
+				<Code/>
+				<Description>Цена</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
 		</ChildItems>
 	</Item>
 	<Item id="c3e4f755-f306-4fd6-8af9-4f890e7ec213">

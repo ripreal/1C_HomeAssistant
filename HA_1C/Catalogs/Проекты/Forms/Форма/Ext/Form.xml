@@ -237,6 +237,7 @@
 							<Events>
 								<Event name="Selection">ДеталиВыбор</Event>
 								<Event name="ChoiceProcessing">ДеталиОбработкаВыбора</Event>
+								<Event name="AfterDeleteRow">ДеталиПослеУдаления</Event>
 							</Events>
 							<ChildItems>
 								<ColumnGroup name="ДеталиГруппаОбщая" id="185">
@@ -988,6 +989,11 @@
 								</Table>
 							</ChildItems>
 						</UsualGroup>
+						<InputField name="ОбъектСумма" id="386">
+							<DataPath>Объект.Сумма</DataPath>
+							<ContextMenu name="ОбъектСуммаКонтекстноеМеню" id="387"/>
+							<ExtendedTooltip name="ОбъектСуммаРасширеннаяПодсказка" id="388"/>
+						</InputField>
 						<LabelDecoration name="ОшибкиРасчетаФормул" id="372">
 							<ContextMenu name="ОшибкиРасчетаФормулКонтекстноеМеню" id="373"/>
 							<ExtendedTooltip name="ОшибкиРасчетаФормулРасширеннаяПодсказка" id="374"/>
@@ -1012,6 +1018,10 @@
 						</v8:item>
 					</ToolTip>
 					<VerticalStretch>false</VerticalStretch>
+					<Picture>
+						<xr:Ref>CommonPicture.Камера48</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
 					<HorizontalAlign>Center</HorizontalAlign>
 					<VerticalAlign>Top</VerticalAlign>
 					<ExtendedTooltip name="СтраницаФотоРасширеннаяПодсказка" id="22"/>
@@ -1044,26 +1054,32 @@
 									<VerticalStretch>true</VerticalStretch>
 									<ExtendedTooltip name="СтраницаЭлементФото0РасширеннаяПодсказка" id="57"/>
 									<ChildItems>
-										<PictureDecoration name="Декорация1" id="100">
+										<PictureDecoration name="ДекорацияПустоеФото" id="392">
 											<MaxHeight>20</MaxHeight>
 											<HorizontalStretch>true</HorizontalStretch>
 											<VerticalStretch>true</VerticalStretch>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Декорация пустое фото</v8:content>
+												</v8:item>
+											</Title>
 											<GroupHorizontalAlign>Center</GroupHorizontalAlign>
 											<Hyperlink>true</Hyperlink>
 											<Picture>
 												<xr:Ref>CommonPicture.Камера48</xr:Ref>
 												<xr:LoadTransparent>true</xr:LoadTransparent>
 											</Picture>
-											<ContextMenu name="Декорация1КонтекстноеМеню" id="101"/>
-											<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="102"/>
+											<ContextMenu name="ДекорацияПустоеФотоКонтекстноеМеню" id="393"/>
+											<ExtendedTooltip name="ДекорацияПустоеФотоРасширеннаяПодсказка" id="394"/>
 											<Events>
 												<Event name="Click">Декорация1Нажатие</Event>
 											</Events>
 										</PictureDecoration>
-										<LabelDecoration name="ДекорацияЗагрузкаКартинки" id="377">
+										<PictureDecoration name="ДекорацияЗагрузкаКартинки" id="389">
 											<MaxHeight>7</MaxHeight>
 											<VerticalStretch>true</VerticalStretch>
-											<TextColor>#499F2C</TextColor>
+											<TextColor>style:TableFooterTextColor</TextColor>
 											<Font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
 											<Title formatted="false">
 												<v8:item>
@@ -1075,10 +1091,52 @@
 													<v8:content>Loading...</v8:content>
 												</v8:item>
 											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Идет загрузка....</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Loading...</v8:content>
+												</v8:item>
+											</ToolTip>
 											<GroupVerticalAlign>Top</GroupVerticalAlign>
-											<VerticalAlign>Center</VerticalAlign>
-											<ContextMenu name="ДекорацияЗагрузкаКартинкиКонтекстноеМеню" id="378"/>
-											<ExtendedTooltip name="ДекорацияЗагрузкаКартинкиРасширеннаяПодсказка" id="379"/>
+											<Picture>
+												<xr:Ref>CommonPicture.ОжиданиеКот</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<ContextMenu name="ДекорацияЗагрузкаКартинкиКонтекстноеМеню" id="390"/>
+											<ExtendedTooltip name="ДекорацияЗагрузкаКартинкиРасширеннаяПодсказка" id="391"/>
+										</PictureDecoration>
+										<LabelDecoration name="ДекорацияЗагрузкаТекст" id="395">
+											<MaxHeight>7</MaxHeight>
+											<VerticalStretch>true</VerticalStretch>
+											<TextColor>style:TableFooterTextColor</TextColor>
+											<Font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Идет загрузка...</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Loading...</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Идет загрузка....</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Loading...</v8:content>
+												</v8:item>
+											</ToolTip>
+											<GroupVerticalAlign>Top</GroupVerticalAlign>
+											<ContextMenu name="ДекорацияЗагрузкаТекстКонтекстноеМеню" id="396"/>
+											<ExtendedTooltip name="ДекорацияЗагрузкаТекстРасширеннаяПодсказка" id="397"/>
 										</LabelDecoration>
 									</ChildItems>
 								</Page>
@@ -1361,8 +1419,13 @@
 				</dcsset:filter>
 				<dcsset:appearance>
 					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:use>false</dcscor:use>
 						<dcscor:parameter>Видимость</dcscor:parameter>
 						<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
 					</dcscor:item>
 				</dcsset:appearance>
 			</dcsset:item>

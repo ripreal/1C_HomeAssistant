@@ -26,12 +26,12 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="DataProcessor.ТестКлассификаторЕдиницИзм.StandardCommand.Open">
+		<Command name="0:685b8cb6-5459-4ba3-9651-88a7ff529c5a">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="DataProcessor.ТестФормулы.StandardCommand.Open">
+		<Command name="0:8ec5d55f-0955-4913-96a2-6fc203ae0b93">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>

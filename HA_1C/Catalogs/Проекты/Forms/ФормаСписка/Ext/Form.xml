@@ -69,7 +69,10 @@
 								<xr:LoadTransparent>true</xr:LoadTransparent>
 							</RowsPicture>
 							<CommandSet>
+								<ExcludedCommand>CancelSearch</ExcludedCommand>
+								<ExcludedCommand>Find</ExcludedCommand>
 								<ExcludedCommand>SetDeletionMark</ExcludedCommand>
+								<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
 							</CommandSet>
 							<SearchStringLocation>None</SearchStringLocation>
 							<AutoRefresh>false</AutoRefresh>
@@ -186,7 +189,12 @@
 								<xr:LoadTransparent>true</xr:LoadTransparent>
 							</RowsPicture>
 							<CommandSet>
+								<ExcludedCommand>CancelSearch</ExcludedCommand>
+								<ExcludedCommand>Find</ExcludedCommand>
+								<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
+								<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
 								<ExcludedCommand>SetDeletionMark</ExcludedCommand>
+								<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
 							</CommandSet>
 							<SearchStringLocation>None</SearchStringLocation>
 							<AutoRefresh>false</AutoRefresh>

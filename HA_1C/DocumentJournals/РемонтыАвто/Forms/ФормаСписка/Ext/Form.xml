@@ -5,6 +5,10 @@
 			<v8:lang>ru</v8:lang>
 			<v8:content>Ремонты авто</v8:content>
 		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Car services</v8:content>
+		</v8:item>
 	</Title>
 	<AutoTitle>false</AutoTitle>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
@@ -57,6 +61,10 @@
 							<v8:content>Страница ТО</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Picture>
+						<xr:Ref>StdPicture.History</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
 					<ExtendedTooltip name="СтраницаТОРасширеннаяПодсказка" id="31"/>
 					<ChildItems>
 						<Table name="СписокТО" id="34">
@@ -118,6 +126,22 @@
 								<ExtendedTooltip name="СписокТОУправлениеПоискомРасширеннаяПодсказка" id="46"/>
 							</SearchControlAddition>
 							<ChildItems>
+								<LabelField name="СписокТОАвтомобиль" id="53">
+									<DataPath>СписокТО.Автомобиль</DataPath>
+									<ContextMenu name="СписокТОАвтомобильКонтекстноеМеню" id="54"/>
+									<ExtendedTooltip name="СписокТОАвтомобильРасширеннаяПодсказка" id="55"/>
+								</LabelField>
+								<LabelField name="ТекущийНомерТО" id="84">
+									<DataPath>СписокТО.ТекущийНомерТО</DataPath>
+									<Format>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ЧФ=№Ч</v8:content>
+										</v8:item>
+									</Format>
+									<ContextMenu name="ТекущийНомерТОКонтекстноеМеню" id="85"/>
+									<ExtendedTooltip name="ТекущийНомерТОРасширеннаяПодсказка" id="86"/>
+								</LabelField>
 								<LabelField name="СписокТОДата" id="47">
 									<DataPath>СписокТО.Date</DataPath>
 									<Format>
@@ -128,11 +152,6 @@
 									</Format>
 									<ContextMenu name="СписокТОДатаКонтекстноеМеню" id="48"/>
 									<ExtendedTooltip name="СписокТОДатаРасширеннаяПодсказка" id="49"/>
-								</LabelField>
-								<LabelField name="СписокТОАвтомобиль" id="53">
-									<DataPath>СписокТО.Автомобиль</DataPath>
-									<ContextMenu name="СписокТОАвтомобильКонтекстноеМеню" id="54"/>
-									<ExtendedTooltip name="СписокТОАвтомобильРасширеннаяПодсказка" id="55"/>
 								</LabelField>
 							</ChildItems>
 						</Table>
@@ -155,6 +174,10 @@
 							<v8:content>Страница ВР</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Picture>
+						<xr:Ref>CommonPicture.instrument</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
 					<ExtendedTooltip name="СтраницаВРРасширеннаяПодсказка" id="33"/>
 					<ChildItems>
 						<Table name="СписокВР" id="62">
@@ -166,7 +189,6 @@
 							<CommandSet>
 								<ExcludedCommand>CancelSearch</ExcludedCommand>
 								<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
-								<ExcludedCommand>Find</ExcludedCommand>
 								<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
 								<ExcludedCommand>ListSettings</ExcludedCommand>
 								<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
@@ -218,6 +240,11 @@
 								<ExtendedTooltip name="СписокВРУправлениеПоискомРасширеннаяПодсказка" id="74"/>
 							</SearchControlAddition>
 							<ChildItems>
+								<LabelField name="СписокВРАвтомобиль" id="81">
+									<DataPath>СписокВР.Автомобиль</DataPath>
+									<ContextMenu name="СписокВРАвтомобильКонтекстноеМеню" id="82"/>
+									<ExtendedTooltip name="СписокВРАвтомобильРасширеннаяПодсказка" id="83"/>
+								</LabelField>
 								<LabelField name="СписокВРДата" id="75">
 									<DataPath>СписокВР.Date</DataPath>
 									<Format>
@@ -228,11 +255,6 @@
 									</Format>
 									<ContextMenu name="СписокВРДатаКонтекстноеМеню" id="76"/>
 									<ExtendedTooltip name="СписокВРДатаРасширеннаяПодсказка" id="77"/>
-								</LabelField>
-								<LabelField name="СписокВРАвтомобиль" id="81">
-									<DataPath>СписокВР.Автомобиль</DataPath>
-									<ContextMenu name="СписокВРАвтомобильКонтекстноеМеню" id="82"/>
-									<ExtendedTooltip name="СписокВРАвтомобильРасширеннаяПодсказка" id="83"/>
 								</LabelField>
 							</ChildItems>
 						</Table>
@@ -307,5 +329,27 @@
 				</ListSettings>
 			</Settings>
 		</Attribute>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection/>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">СписокТО.Ссылка</dcsset:left>
+						<dcsset:comparisonType>Filled</dcsset:comparisonType>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Формат</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>ЧФ='№ Ч'</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
 	</Attributes>
 </Form>

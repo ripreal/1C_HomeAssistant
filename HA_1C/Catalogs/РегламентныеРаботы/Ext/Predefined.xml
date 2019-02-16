@@ -1,21 +1,91 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.6">
-	<Item id="20d73a18-d014-4a98-93ae-b7e1c149adb3">
-		<Name>ЗаменаВоздушногоФильтра</Name>
-		<Code>000000002</Code>
-		<Description>Замена воздушного фильтра</Description>
-		<IsFolder>false</IsFolder>
+	<Item id="2d0b894b-14a1-4050-a472-1a784cf7b612">
+		<Name>Внеплановые</Name>
+		<Code>000000006</Code>
+		<Description>Внеплановые</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="e4b9f720-9eab-4f53-94a1-671e91203c2d">
+				<Name>ЗаменаЗаднегоБампера</Name>
+				<Code>000000008</Code>
+				<Description>Замена заднего бампера</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="edb4fc39-a529-4826-9871-1de46fa40d17">
+				<Name>ЗаменаПереднегоБампера</Name>
+				<Code>000000007</Code>
+				<Description>Замена переднего бампера</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
 	</Item>
-	<Item id="ce8ff4a4-77ee-40eb-87df-b7ff8450bd55">
-		<Name>ЗаменаМаслаФильтра</Name>
-		<Code>000000001</Code>
-		<Description>Замена масла и фильтра</Description>
-		<IsFolder>false</IsFolder>
-	</Item>
-	<Item id="65a9b4d2-ad45-4a56-8453-229283543afe">
-		<Name>ЗаменаФильтраСалона</Name>
-		<Code>000000003</Code>
-		<Description>Замена фильтра салона</Description>
-		<IsFolder>false</IsFolder>
+	<Item id="1a217483-ed93-42a2-8739-5274c5b3a3d7">
+		<Name>Плановые</Name>
+		<Code>000000005</Code>
+		<Description>Плановые</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="633a6c75-0e1b-4709-9aaa-019731ceb6cd">
+				<Name>ЗадниеКолодки</Name>
+				<Code>000000015</Code>
+				<Description>Задние колодки</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="20d73a18-d014-4a98-93ae-b7e1c149adb3">
+				<Name>ЗаменаВоздушногоФильтра</Name>
+				<Code>000000002</Code>
+				<Description>Замена воздушного фильтра</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="ce8ff4a4-77ee-40eb-87df-b7ff8450bd55">
+				<Name>ЗаменаМаслаФильтра</Name>
+				<Code>000000001</Code>
+				<Description>Замена масла и фильтра</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="65a9b4d2-ad45-4a56-8453-229283543afe">
+				<Name>ЗаменаФильтраСалона</Name>
+				<Code>000000003</Code>
+				<Description>Замена фильтра салона</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="51954dc4-8df2-4474-b037-763d1f93ab19">
+				<Name>ОхлаждающаяЖидкость</Name>
+				<Code>000000012</Code>
+				<Description>Охлаждающая жидкость</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="6bbfe465-c875-4137-ace4-e455181c86ab">
+				<Name>ПередниеКолодки</Name>
+				<Code>000000014</Code>
+				<Description>Передние колодки</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="564e6927-3014-4410-97f9-3c475b55c4e8">
+				<Name>РеменьГРМ</Name>
+				<Code>000000009</Code>
+				<Description>Ремень ГРМ</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="83ac6c5d-27c9-459b-ae45-37d4383ba6c5">
+				<Name>СвечиЗажигания</Name>
+				<Code>000000010</Code>
+				<Description>Свечи зажигания</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="86dd3a05-f49c-480e-8cf7-3c945b2e5c0a">
+				<Name>ТопливныйФильтр</Name>
+				<Code>000000011</Code>
+				<Description>Топливный фильтр</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="2892c807-8bfb-4d13-bf7e-d1b612df295e">
+				<Name>ТормознаяЖидкость</Name>
+				<Code>000000013</Code>
+				<Description>Тормозная жидкость</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
 	</Item>
 </PredefinedData>

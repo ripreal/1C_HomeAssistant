@@ -35,9 +35,9 @@
 		</ChildItems>
 	</Item>
 	<Item id="d75d240b-d003-4e13-9ec3-3d6fd58c3747">
-		<Name>ОбщиеГабариты</Name>
+		<Name>Общие</Name>
 		<Code/>
-		<Description>Общие габариты</Description>
+		<Description>Общие</Description>
 		<IsFolder>true</IsFolder>
 		<ChildItems>
 			<Item id="9ad1d87f-b953-4861-ae3f-c33edd0b0d85">

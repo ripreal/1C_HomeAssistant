@@ -34,6 +34,7 @@
 		<ChildObjects>
 			<Form>Обзор</Form>
 			<Form>ФормаКонвертацииЕдиницИзмерения</Form>
+			<Form>Справка</Form>
 		</ChildObjects>
 	</DataProcessor>
 </MetaDataObject>

@@ -35,7 +35,7 @@
 						</v8:item>
 					</Title>
 					<Picture>
-						<xr:Ref>CommonPicture.ДлительнаяОперация48</xr:Ref>
+						<xr:Ref>CommonPicture.ОжиданиеКот</xr:Ref>
 						<xr:LoadTransparent>true</xr:LoadTransparent>
 					</Picture>
 					<ContextMenu name="ДекорацияБубликКонтекстноеМеню" id="2"/>
@@ -46,7 +46,7 @@
 					<Title formatted="false">
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Initialization. It may takes few minutes...</v8:content>
+							<v8:content>Initialization. It may take a few minutes...</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>ru</v8:lang>

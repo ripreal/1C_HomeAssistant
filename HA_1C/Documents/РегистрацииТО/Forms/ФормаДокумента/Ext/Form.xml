@@ -7,178 +7,383 @@
 	<Events>
 		<Event name="AfterWriteAtServer">ПослеЗаписиНаСервере</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="OnWriteAtServer">ПриЗаписиНаСервере</Event>
 	</Events>
 	<ChildItems>
-		<UsualGroup name="ГруппаШапка" id="12">
+		<Pages name="ГруппаСтраницы" id="27">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Главное</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Info</v8:content>
+					<v8:content>Группа страницы</v8:content>
 				</v8:item>
 			</Title>
+			<TitleFont ref="style:LargeTextFont" kind="StyleItem"/>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Группа шапка</v8:content>
+					<v8:content>Группа страницы</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Group>Vertical</Group>
-			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="13"/>
+			<ExtendedTooltip name="ГруппаСтраницыРасширеннаяПодсказка" id="28"/>
+			<Events>
+				<Event name="OnCurrentPageChange">СтраницыОперацийПриСменеСтраницы</Event>
+			</Events>
 			<ChildItems>
-				<InputField name="Номер" id="1">
-					<DataPath>Объект.Number</DataPath>
-					<Visible>false</Visible>
-					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
-					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
-				</InputField>
-				<UsualGroup name="ГруппаАвтоПробег" id="20">
+				<Page name="СтраницаАвто" id="41">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Группа авто пробег</v8:content>
-						</v8:item>
-					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Группа авто пробег</v8:content>
-						</v8:item>
-					</ToolTip>
-					<Group>AlwaysHorizontal</Group>
-					<Representation>None</Representation>
-					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="ГруппаАвтоПробегРасширеннаяПодсказка" id="21"/>
-					<ChildItems>
-						<InputField name="Дата" id="4">
-							<DataPath>Объект.Date</DataPath>
-							<EditMode>EnterOnInput</EditMode>
-							<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
-							<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
-							<Events>
-								<Event name="OnChange">ДатаПриИзменении</Event>
-							</Events>
-						</InputField>
-						<InputField name="Пробег" id="22">
-							<DataPath>Объект.Пробег</DataPath>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>км</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>km</v8:content>
-								</v8:item>
-							</Title>
-							<TitleLocation>Right</TitleLocation>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Пробег</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Mileage</v8:content>
-								</v8:item>
-							</ToolTip>
-							<ContextMenu name="ПробегКонтекстноеМеню" id="23"/>
-							<ExtendedTooltip name="ПробегРасширеннаяПодсказка" id="24"/>
-						</InputField>
-					</ChildItems>
-				</UsualGroup>
-				<UsualGroup name="ГруппаМастерскаяДата" id="25">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Группа мастерская дата</v8:content>
-						</v8:item>
-					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Группа мастерская дата</v8:content>
-						</v8:item>
-					</ToolTip>
-					<Group>AlwaysHorizontal</Group>
-					<Representation>None</Representation>
-					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="ГруппаМастерскаяДатаРасширеннаяПодсказка" id="26"/>
-				</UsualGroup>
-				<InputField name="Автомобиль" id="7">
-					<DataPath>Объект.Автомобиль</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<TextEdit>false</TextEdit>
-					<InputHint>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Автомобиль</v8:content>
+							<v8:content>Авто</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
 							<v8:content>Car</v8:content>
 						</v8:item>
-					</InputHint>
-					<ContextMenu name="АвтомобильКонтекстноеМеню" id="8"/>
-					<ExtendedTooltip name="АвтомобильРасширеннаяПодсказка" id="9"/>
-					<Events>
-						<Event name="OnChange">АвтомобильПриИзменении</Event>
-					</Events>
-				</InputField>
-				<InputField name="Мастерская" id="14">
-					<DataPath>Объект.Мастерская</DataPath>
-					<TextEdit>false</TextEdit>
-					<InputHint>
+					</Title>
+					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Мастерская</v8:content>
+							<v8:content>Страница авто</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаАвтоРасширеннаяПодсказка" id="42"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаШапка" id="12">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Главное</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Info</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа шапка</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="13"/>
+							<ChildItems>
+								<InputField name="Номер" id="1">
+									<DataPath>Объект.Number</DataPath>
+									<Visible>false</Visible>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+									<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+								</InputField>
+								<UsualGroup name="ГруппаАвтоПробег" id="20">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа авто пробег</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа авто пробег</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>AlwaysHorizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаАвтоПробегРасширеннаяПодсказка" id="21"/>
+									<ChildItems>
+										<InputField name="Дата" id="4">
+											<DataPath>Объект.Date</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<EditFormat>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>ДЛФ=D</v8:content>
+												</v8:item>
+											</EditFormat>
+											<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+											<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+											<Events>
+												<Event name="OnChange">ДатаПриИзменении</Event>
+											</Events>
+										</InputField>
+										<InputField name="Пробег" id="22">
+											<DataPath>Объект.Пробег</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>км</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>km</v8:content>
+												</v8:item>
+											</Title>
+											<TitleLocation>Right</TitleLocation>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Пробег</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Mileage</v8:content>
+												</v8:item>
+											</ToolTip>
+											<EditFormat>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>ЧЦ=6</v8:content>
+												</v8:item>
+											</EditFormat>
+											<ContextMenu name="ПробегКонтекстноеМеню" id="23"/>
+											<ExtendedTooltip name="ПробегРасширеннаяПодсказка" id="24"/>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаМастерскаяДата" id="25">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа мастерская дата</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа мастерская дата</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>AlwaysHorizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаМастерскаяДатаРасширеннаяПодсказка" id="26"/>
+								</UsualGroup>
+								<InputField name="Автомобиль" id="7">
+									<DataPath>Объект.Автомобиль</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<TextEdit>false</TextEdit>
+									<InputHint>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Автомобиль</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Car</v8:content>
+										</v8:item>
+									</InputHint>
+									<ContextMenu name="АвтомобильКонтекстноеМеню" id="8"/>
+									<ExtendedTooltip name="АвтомобильРасширеннаяПодсказка" id="9"/>
+									<Events>
+										<Event name="OnChange">АвтомобильПриИзменении</Event>
+									</Events>
+								</InputField>
+								<InputField name="Мастерская" id="14">
+									<DataPath>Объект.Мастерская</DataPath>
+									<TextEdit>false</TextEdit>
+									<InputHint>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Мастерская</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Workshop</v8:content>
+										</v8:item>
+									</InputHint>
+									<ContextMenu name="МастерскаяКонтекстноеМеню" id="15"/>
+									<ExtendedTooltip name="МастерскаяРасширеннаяПодсказка" id="16"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаРаботы" id="10">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Работа</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Services</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа работы</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаРаботыРасширеннаяПодсказка" id="11"/>
+							<ChildItems>
+								<RadioButtonField name="ДиапазонТО" id="17">
+									<DataPath>ДиапазонТО</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<RadioButtonType>Tumbler</RadioButtonType>
+									<ContextMenu name="ДиапазонТОКонтекстноеМеню" id="18"/>
+									<ExtendedTooltip name="ДиапазонТОРасширеннаяПодсказка" id="19"/>
+									<Events>
+										<Event name="OnChange">ДиапазонТОПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаФото" id="29">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Фото</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Workshop</v8:content>
+							<v8:content>Photo</v8:content>
 						</v8:item>
-					</InputHint>
-					<ContextMenu name="МастерскаяКонтекстноеМеню" id="15"/>
-					<ExtendedTooltip name="МастерскаяРасширеннаяПодсказка" id="16"/>
-				</InputField>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница фото</v8:content>
+						</v8:item>
+					</ToolTip>
+					<VerticalStretch>false</VerticalStretch>
+					<Picture>
+						<xr:Ref>CommonPicture.Камера48</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<HorizontalAlign>Center</HorizontalAlign>
+					<VerticalAlign>Top</VerticalAlign>
+					<ExtendedTooltip name="СтраницаФотоРасширеннаяПодсказка" id="30"/>
+					<ChildItems>
+						<Pages name="СтраницыСписокФото" id="31">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Страницы список фото</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Страницы список фото</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Height>26</Height>
+							<GroupVerticalAlign>Top</GroupVerticalAlign>
+							<PagesRepresentation>Swipe</PagesRepresentation>
+							<ExtendedTooltip name="СтраницыСписокФотоРасширеннаяПодсказка" id="32"/>
+							<ChildItems>
+								<Page name="СтраницаЭлементФото0" id="33">
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница элемент фото0</v8:content>
+										</v8:item>
+									</ToolTip>
+									<VerticalStretch>true</VerticalStretch>
+									<ExtendedTooltip name="СтраницаЭлементФото0РасширеннаяПодсказка" id="34"/>
+									<ChildItems>
+										<PictureDecoration name="ДекорацияПустоеФото" id="35">
+											<Visible>false</Visible>
+											<MaxHeight>20</MaxHeight>
+											<HorizontalStretch>true</HorizontalStretch>
+											<VerticalStretch>true</VerticalStretch>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Декорация пустое фото</v8:content>
+												</v8:item>
+											</Title>
+											<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+											<Hyperlink>true</Hyperlink>
+											<Picture>
+												<xr:Ref>CommonPicture.Камера48</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<ContextMenu name="ДекорацияПустоеФотоКонтекстноеМеню" id="36"/>
+											<ExtendedTooltip name="ДекорацияПустоеФотоРасширеннаяПодсказка" id="37"/>
+											<Events>
+												<Event name="Click">Декорация1Нажатие</Event>
+											</Events>
+										</PictureDecoration>
+										<PictureDecoration name="ДекорацияЗагрузкаКартинки" id="38">
+											<MaxHeight>7</MaxHeight>
+											<HorizontalStretch>true</HorizontalStretch>
+											<VerticalStretch>true</VerticalStretch>
+											<TextColor>style:TableFooterTextColor</TextColor>
+											<Font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Идет загрузка...</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Loading...</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Идет загрузка....</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Loading...</v8:content>
+												</v8:item>
+											</ToolTip>
+											<GroupVerticalAlign>Top</GroupVerticalAlign>
+											<Picture>
+												<xr:Ref>CommonPicture.ОжиданиеКот</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<ContextMenu name="ДекорацияЗагрузкаКартинкиКонтекстноеМеню" id="39"/>
+											<ExtendedTooltip name="ДекорацияЗагрузкаКартинкиРасширеннаяПодсказка" id="40"/>
+										</PictureDecoration>
+										<LabelDecoration name="ДекорацияЗагрузкаТекст" id="43">
+											<MaxHeight>7</MaxHeight>
+											<VerticalStretch>true</VerticalStretch>
+											<TextColor>style:TableFooterTextColor</TextColor>
+											<Font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Идет загрузка...</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Loading...</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Идет загрузка....</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Loading...</v8:content>
+												</v8:item>
+											</ToolTip>
+											<GroupVerticalAlign>Top</GroupVerticalAlign>
+											<ContextMenu name="ДекорацияЗагрузкаТекстКонтекстноеМеню" id="44"/>
+											<ExtendedTooltip name="ДекорацияЗагрузкаТекстРасширеннаяПодсказка" id="45"/>
+										</LabelDecoration>
+									</ChildItems>
+								</Page>
+							</ChildItems>
+						</Pages>
+					</ChildItems>
+				</Page>
 			</ChildItems>
-		</UsualGroup>
-		<UsualGroup name="ГруппаРаботы" id="10">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Работа</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Services</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Группа работы</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Group>Vertical</Group>
-			<ExtendedTooltip name="ГруппаРаботыРасширеннаяПодсказка" id="11"/>
-			<ChildItems>
-				<RadioButtonField name="ДиапазонТО" id="17">
-					<DataPath>ДиапазонТО</DataPath>
-					<TitleLocation>None</TitleLocation>
-					<RadioButtonType>Tumbler</RadioButtonType>
-					<ContextMenu name="ДиапазонТОКонтекстноеМеню" id="18"/>
-					<ExtendedTooltip name="ДиапазонТОРасширеннаяПодсказка" id="19"/>
-					<Events>
-						<Event name="OnChange">ДиапазонТОПриИзменении</Event>
-					</Events>
-				</RadioButtonField>
-			</ChildItems>
-		</UsualGroup>
+		</Pages>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -209,11 +414,22 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ТекущийНомерТО" id="3">
+		<Attribute name="ФотоЗагружены" id="3">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Текущий номер ТО</v8:content>
+					<v8:content>Фото загружены</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ИндексПоследнегоФото" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Индекс последнего фото</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -223,6 +439,17 @@
 					<v8:FractionDigits>0</v8:FractionDigits>
 					<v8:AllowedSign>Any</v8:AllowedSign>
 				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="СписокФото" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список фото</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
 			</Type>
 		</Attribute>
 	</Attributes>
