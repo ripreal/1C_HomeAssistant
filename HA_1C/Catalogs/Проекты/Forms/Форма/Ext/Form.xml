@@ -28,6 +28,12 @@
 		<Event name="c1bc0d3e-d35e-4207-a06b-ece68ed25314">ПриЗаписиНаСервере</Event>
 	</Events>
 	<ChildItems>
+		<InputField name="Дата" id="398">
+			<DataPath>Объект.Дата</DataPath>
+			<Visible>false</Visible>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="399"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="400"/>
+		</InputField>
 		<UsualGroup name="ГруппаШапка" id="242">
 			<Title>
 				<v8:item>
@@ -168,46 +174,6 @@
 							</ContextMenu>
 							<AutoCommandBar name="ДеталиКоманднаяПанель" id="174">
 								<Autofill>false</Autofill>
-								<ChildItems>
-									<ButtonGroup name="ДеталиОсновныеКоманды" id="233">
-										<Title>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Детали основные команды</v8:content>
-											</v8:item>
-										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Детали основные команды</v8:content>
-											</v8:item>
-										</ToolTip>
-										<ExtendedTooltip name="ДеталиОсновныеКомандыРасширеннаяПодсказка" id="234"/>
-										<ChildItems>
-											<Button name="ДеталиДобавитьДеталь" id="231">
-												<Type>CommandBarButton</Type>
-												<CommandName>Form.Command.ДобавитьДеталь</CommandName>
-												<ExtendedTooltip name="ДеталиДобавитьДетальРасширеннаяПодсказка" id="232"/>
-											</Button>
-										</ChildItems>
-									</ButtonGroup>
-									<ButtonGroup name="ДеталиСтандартныеКоманды" id="235">
-										<Title>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Детали стандартные команды</v8:content>
-											</v8:item>
-										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Детали стандартные команды</v8:content>
-											</v8:item>
-										</ToolTip>
-										<CommandSource>Item.Детали</CommandSource>
-										<ExtendedTooltip name="ДеталиСтандартныеКомандыРасширеннаяПодсказка" id="236"/>
-									</ButtonGroup>
-								</ChildItems>
 							</AutoCommandBar>
 							<ExtendedTooltip name="ДеталиРасширеннаяПодсказка" id="175"/>
 							<SearchStringAddition name="ДеталиСтрокаПоиска" id="176">
@@ -631,6 +597,54 @@
 								</ColumnGroup>
 							</ChildItems>
 						</Table>
+						<UsualGroup name="ДеталиОсновныеКоманды" id="404">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Детали основные команды</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Детали основные команды</v8:content>
+								</v8:item>
+							</ToolTip>
+							<HorizontalStretch>true</HorizontalStretch>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ДеталиОсновныеКомандыРасширеннаяПодсказка" id="405"/>
+							<ChildItems>
+								<Button name="ДеталиДобавитьДеталь" id="231">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ДобавитьДеталь</CommandName>
+									<ExtendedTooltip name="ДеталиДобавитьДетальРасширеннаяПодсказка" id="232"/>
+								</Button>
+								<LabelField name="Сумма" id="401">
+									<DataPath>Объект.Сумма</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<HorizontalStretch>true</HorizontalStretch>
+									<ContextMenu name="СуммаКонтекстноеМеню" id="402"/>
+									<ExtendedTooltip name="СуммаРасширеннаяПодсказка" id="403"/>
+								</LabelField>
+							</ChildItems>
+						</UsualGroup>
+						<CommandBar name="ДеталиОсновныеКоманды6" id="233">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Детали основные команды6</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Детали основные команды6</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="ДеталиОсновныеКоманды6РасширеннаяПодсказка" id="234"/>
+						</CommandBar>
 					</ChildItems>
 				</Page>
 				<Page name="СтраницаРасчеты" id="237">
@@ -989,11 +1003,6 @@
 								</Table>
 							</ChildItems>
 						</UsualGroup>
-						<InputField name="ОбъектСумма" id="386">
-							<DataPath>Объект.Сумма</DataPath>
-							<ContextMenu name="ОбъектСуммаКонтекстноеМеню" id="387"/>
-							<ExtendedTooltip name="ОбъектСуммаРасширеннаяПодсказка" id="388"/>
-						</InputField>
 						<LabelDecoration name="ОшибкиРасчетаФормул" id="372">
 							<ContextMenu name="ОшибкиРасчетаФормулКонтекстноеМеню" id="373"/>
 							<ExtendedTooltip name="ОшибкиРасчетаФормулРасширеннаяПодсказка" id="374"/>

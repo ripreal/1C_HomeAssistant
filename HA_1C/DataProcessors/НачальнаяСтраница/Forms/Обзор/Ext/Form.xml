@@ -10,6 +10,7 @@
 			</Button>
 			<Button name="ФормаСправка" id="162">
 				<Type>CommandBarButton</Type>
+				<OnlyInAllActions>false</OnlyInAllActions>
 				<CommandName>Form.Command.Справка</CommandName>
 				<Picture>
 					<xr:Ref>StdPicture.Help</xr:Ref>
@@ -26,6 +27,12 @@
 					</v8:item>
 				</Title>
 				<ExtendedTooltip name="ФормаСправкаРасширеннаяПодсказка" id="163"/>
+			</Button>
+			<Button name="ФормаОбновить" id="164">
+				<Type>CommandBarButton</Type>
+				<OnlyInAllActions>false</OnlyInAllActions>
+				<CommandName>Form.Command.Обновить</CommandName>
+				<ExtendedTooltip name="ФормаОбновитьРасширеннаяПодсказка" id="165"/>
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>

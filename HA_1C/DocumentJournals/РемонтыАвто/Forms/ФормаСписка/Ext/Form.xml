@@ -14,6 +14,9 @@
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
 	<ChildItems>
 		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
 			<Title>
@@ -144,6 +147,7 @@
 								</LabelField>
 								<LabelField name="СписокТОДата" id="47">
 									<DataPath>СписокТО.Date</DataPath>
+									<Width>8</Width>
 									<Format>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -245,8 +249,14 @@
 									<ContextMenu name="СписокВРАвтомобильКонтекстноеМеню" id="82"/>
 									<ExtendedTooltip name="СписокВРАвтомобильРасширеннаяПодсказка" id="83"/>
 								</LabelField>
+								<LabelField name="СписокВРТекущийНомерТО" id="87">
+									<DataPath>СписокВР.ТекущийНомерТО</DataPath>
+									<ContextMenu name="СписокВРТекущийНомерТОКонтекстноеМеню" id="88"/>
+									<ExtendedTooltip name="СписокВРТекущийНомерТОРасширеннаяПодсказка" id="89"/>
+								</LabelField>
 								<LabelField name="СписокВРДата" id="75">
 									<DataPath>СписокВР.Date</DataPath>
+									<Width>8</Width>
 									<Format>
 										<v8:item>
 											<v8:lang>ru</v8:lang>

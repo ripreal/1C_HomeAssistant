@@ -18,6 +18,18 @@
 				<Description>Замена переднего бампера</Description>
 				<IsFolder>false</IsFolder>
 			</Item>
+			<Item id="633a6c75-0e1b-4709-9aaa-019731ceb6cd">
+				<Name>ЗадниеКолодки</Name>
+				<Code>000000015</Code>
+				<Description>Задние колодки</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="6bbfe465-c875-4137-ace4-e455181c86ab">
+				<Name>ПередниеКолодки</Name>
+				<Code>000000014</Code>
+				<Description>Передние колодки</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
 		</ChildItems>
 	</Item>
 	<Item id="1a217483-ed93-42a2-8739-5274c5b3a3d7">
@@ -26,12 +38,6 @@
 		<Description>Плановые</Description>
 		<IsFolder>true</IsFolder>
 		<ChildItems>
-			<Item id="633a6c75-0e1b-4709-9aaa-019731ceb6cd">
-				<Name>ЗадниеКолодки</Name>
-				<Code>000000015</Code>
-				<Description>Задние колодки</Description>
-				<IsFolder>false</IsFolder>
-			</Item>
 			<Item id="20d73a18-d014-4a98-93ae-b7e1c149adb3">
 				<Name>ЗаменаВоздушногоФильтра</Name>
 				<Code>000000002</Code>
@@ -54,12 +60,6 @@
 				<Name>ОхлаждающаяЖидкость</Name>
 				<Code>000000012</Code>
 				<Description>Охлаждающая жидкость</Description>
-				<IsFolder>false</IsFolder>
-			</Item>
-			<Item id="6bbfe465-c875-4137-ace4-e455181c86ab">
-				<Name>ПередниеКолодки</Name>
-				<Code>000000014</Code>
-				<Description>Передние колодки</Description>
 				<IsFolder>false</IsFolder>
 			</Item>
 			<Item id="564e6927-3014-4410-97f9-3c475b55c4e8">

@@ -50,7 +50,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>R.I.P.real (Кудаков Роман)</Vendor>
-			<Version>1.6.1</Version>
+			<Version>1.7.0</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -238,6 +238,10 @@
 			<CommonModule>РаботаСФотоФормыКлиент</CommonModule>
 			<CommonModule>РаботаСФотоФормыСервер</CommonModule>
 			<CommonModule>РаботаСФотоФормыКлиентСервер</CommonModule>
+			<CommonModule>ФормыСервисныеРаботыКлиентСервер</CommonModule>
+			<CommonModule>ФормыСервисныеРаботыСервер</CommonModule>
+			<CommonModule>ФормыОбщиеДействияКлиент</CommonModule>
+			<CommonModule>ФормыОбщиеДействияКлиентСервер</CommonModule>
 			<CommonCommand>СделатьАудиоЗапись</CommonCommand>
 			<CommonCommand>СделатьФотографию</CommonCommand>
 			<CommonCommand>СписокФайлов</CommonCommand>
@@ -246,6 +250,7 @@
 			<Constant>КаталогФото</Constant>
 			<Constant>ПервоначальноеЗаполнениеПройдено</Constant>
 			<CommonForm>ОжиданиеДлительнойОперации</CommonForm>
+			<CommonForm>ФормаВводаДаты</CommonForm>
 			<Catalog>КлассификаторЕдиницИзмерения</Catalog>
 			<Catalog>ПрикрепленныеФайлы</Catalog>
 			<Catalog>ДеталиПроекта</Catalog>
