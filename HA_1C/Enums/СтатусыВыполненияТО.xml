@@ -38,18 +38,6 @@
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
-			<EnumValue uuid="2fbedf82-2a6d-447d-89ce-9fbef0cff260">
-				<Properties>
-					<Name>Пропущено</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Пропущено</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-				</Properties>
-			</EnumValue>
 			<EnumValue uuid="1f8776b8-20dc-41d0-a84f-a65eeaac0146">
 				<Properties>
 					<Name>Пройдено</Name>

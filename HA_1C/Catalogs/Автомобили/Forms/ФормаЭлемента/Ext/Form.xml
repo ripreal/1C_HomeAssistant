@@ -158,6 +158,9 @@
 							<EditMode>Directly</EditMode>
 							<ContextMenu name="РегламентныеРаботыИнтервалКонтекстноеМеню" id="27"/>
 							<ExtendedTooltip name="РегламентныеРаботыИнтервалРасширеннаяПодсказка" id="28"/>
+							<Events>
+								<Event name="TextEditEnd">РегламентныеРаботыИнтервалОкончаниеВводаТекста</Event>
+							</Events>
 						</InputField>
 					</ChildItems>
 				</Table>

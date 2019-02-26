@@ -6,28 +6,28 @@
 		<Description>Внеплановые</Description>
 		<IsFolder>true</IsFolder>
 		<ChildItems>
-			<Item id="e4b9f720-9eab-4f53-94a1-671e91203c2d">
-				<Name>ЗаменаЗаднегоБампера</Name>
-				<Code>000000008</Code>
-				<Description>Замена заднего бампера</Description>
-				<IsFolder>false</IsFolder>
-			</Item>
-			<Item id="edb4fc39-a529-4826-9871-1de46fa40d17">
-				<Name>ЗаменаПереднегоБампера</Name>
-				<Code>000000007</Code>
-				<Description>Замена переднего бампера</Description>
-				<IsFolder>false</IsFolder>
-			</Item>
 			<Item id="633a6c75-0e1b-4709-9aaa-019731ceb6cd">
 				<Name>ЗадниеКолодки</Name>
 				<Code>000000015</Code>
 				<Description>Задние колодки</Description>
 				<IsFolder>false</IsFolder>
 			</Item>
+			<Item id="e4b9f720-9eab-4f53-94a1-671e91203c2d">
+				<Name>ЗаднийБампер</Name>
+				<Code>000000008</Code>
+				<Description>Задний бампер</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
 			<Item id="6bbfe465-c875-4137-ace4-e455181c86ab">
 				<Name>ПередниеКолодки</Name>
 				<Code>000000014</Code>
 				<Description>Передние колодки</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="edb4fc39-a529-4826-9871-1de46fa40d17">
+				<Name>ПереднийБампер</Name>
+				<Code>000000007</Code>
+				<Description>Передний бампер</Description>
 				<IsFolder>false</IsFolder>
 			</Item>
 		</ChildItems>
@@ -39,21 +39,21 @@
 		<IsFolder>true</IsFolder>
 		<ChildItems>
 			<Item id="20d73a18-d014-4a98-93ae-b7e1c149adb3">
-				<Name>ЗаменаВоздушногоФильтра</Name>
+				<Name>ВоздушныйФильтр</Name>
 				<Code>000000002</Code>
-				<Description>Замена воздушного фильтра</Description>
-				<IsFolder>false</IsFolder>
-			</Item>
-			<Item id="ce8ff4a4-77ee-40eb-87df-b7ff8450bd55">
-				<Name>ЗаменаМаслаФильтра</Name>
-				<Code>000000001</Code>
-				<Description>Замена масла и фильтра</Description>
+				<Description>Воздушный фильтр</Description>
 				<IsFolder>false</IsFolder>
 			</Item>
 			<Item id="65a9b4d2-ad45-4a56-8453-229283543afe">
 				<Name>ЗаменаФильтраСалона</Name>
 				<Code>000000003</Code>
 				<Description>Замена фильтра салона</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="ce8ff4a4-77ee-40eb-87df-b7ff8450bd55">
+				<Name>МаслоИФильтр</Name>
+				<Code>000000001</Code>
+				<Description>Масло и фильтр</Description>
 				<IsFolder>false</IsFolder>
 			</Item>
 			<Item id="51954dc4-8df2-4474-b037-763d1f93ab19">
@@ -63,9 +63,9 @@
 				<IsFolder>false</IsFolder>
 			</Item>
 			<Item id="564e6927-3014-4410-97f9-3c475b55c4e8">
-				<Name>РеменьГРМ</Name>
+				<Name>РеменьГРМСРоликами</Name>
 				<Code>000000009</Code>
-				<Description>Ремень ГРМ</Description>
+				<Description>Ремень ГРМ с роликами</Description>
 				<IsFolder>false</IsFolder>
 			</Item>
 			<Item id="83ac6c5d-27c9-459b-ae45-37d4383ba6c5">
