@@ -50,7 +50,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>R.I.P.real (Кудаков Роман)</Vendor>
-			<Version>1.8.2</Version>
+			<Version>1.8.4</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -70,7 +70,7 @@
 			<RequiredMobileApplicationPermissions>
 				<v8:pair>
 					<v8:Key xsi:type="app:RequiredMobileApplicationPermissions">Multimedia</v8:Key>
-					<v8:Value xsi:type="xs:boolean">false</v8:Value>
+					<v8:Value xsi:type="xs:boolean">true</v8:Value>
 				</v8:pair>
 				<v8:pair>
 					<v8:Key xsi:type="app:RequiredMobileApplicationPermissions">Location</v8:Key>

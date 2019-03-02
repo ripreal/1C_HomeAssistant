@@ -210,6 +210,17 @@
 					</ToolTip>
 					<ExtendedTooltip name="СтраницаАвтоРасширеннаяПодсказка" id="42"/>
 					<ChildItems>
+						<RadioButtonField name="ДиапазонТО" id="17">
+							<DataPath>ДиапазонТО</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+							<RadioButtonType>Tumbler</RadioButtonType>
+							<ContextMenu name="ДиапазонТОКонтекстноеМеню" id="18"/>
+							<ExtendedTooltip name="ДиапазонТОРасширеннаяПодсказка" id="19"/>
+							<Events>
+								<Event name="OnChange">ДиапазонТОПриИзменении</Event>
+							</Events>
+						</RadioButtonField>
 						<UsualGroup name="ГруппаРаботы" id="10">
 							<Title>
 								<v8:item>
@@ -231,18 +242,6 @@
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаРаботыРасширеннаяПодсказка" id="11"/>
-							<ChildItems>
-								<RadioButtonField name="ДиапазонТО" id="17">
-									<DataPath>ДиапазонТО</DataPath>
-									<TitleLocation>None</TitleLocation>
-									<RadioButtonType>Tumbler</RadioButtonType>
-									<ContextMenu name="ДиапазонТОКонтекстноеМеню" id="18"/>
-									<ExtendedTooltip name="ДиапазонТОРасширеннаяПодсказка" id="19"/>
-									<Events>
-										<Event name="OnChange">ДиапазонТОПриИзменении</Event>
-									</Events>
-								</RadioButtonField>
-							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="ГруппаИтоги" id="49">
 							<Title>

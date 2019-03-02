@@ -209,6 +209,16 @@
 					</ToolTip>
 					<ExtendedTooltip name="СтраницаАвтоРасширеннаяПодсказка" id="34"/>
 					<ChildItems>
+						<RadioButtonField name="ДиапазонВР" id="17">
+							<DataPath>ДиапазонВР</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<RadioButtonType>Tumbler</RadioButtonType>
+							<ContextMenu name="ДиапазонВРКонтекстноеМеню" id="18"/>
+							<ExtendedTooltip name="ДиапазонВРРасширеннаяПодсказка" id="19"/>
+							<Events>
+								<Event name="OnChange">ДиапазонВРПриИзменении</Event>
+							</Events>
+						</RadioButtonField>
 						<UsualGroup name="ГруппаРаботы" id="10">
 							<Title>
 								<v8:item>
@@ -230,18 +240,6 @@
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаРаботыРасширеннаяПодсказка" id="11"/>
-							<ChildItems>
-								<RadioButtonField name="ДиапазонВР" id="17">
-									<DataPath>ДиапазонВР</DataPath>
-									<TitleLocation>None</TitleLocation>
-									<RadioButtonType>Tumbler</RadioButtonType>
-									<ContextMenu name="ДиапазонВРКонтекстноеМеню" id="18"/>
-									<ExtendedTooltip name="ДиапазонВРРасширеннаяПодсказка" id="19"/>
-									<Events>
-										<Event name="OnChange">ДиапазонВРПриИзменении</Event>
-									</Events>
-								</RadioButtonField>
-							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="ГруппаИтоги" id="52">
 							<Title>
@@ -372,6 +370,7 @@
 									<ExtendedTooltip name="СтраницаЭлементФото0РасширеннаяПодсказка" id="42"/>
 									<ChildItems>
 										<PictureDecoration name="ДекорацияПустоеФото" id="46">
+											<Visible>false</Visible>
 											<MaxHeight>20</MaxHeight>
 											<HorizontalStretch>true</HorizontalStretch>
 											<VerticalStretch>true</VerticalStretch>
@@ -395,6 +394,7 @@
 										</PictureDecoration>
 										<PictureDecoration name="ДекорацияЗагрузкаКартинки" id="43">
 											<MaxHeight>7</MaxHeight>
+											<HorizontalStretch>true</HorizontalStretch>
 											<VerticalStretch>true</VerticalStretch>
 											<TextColor>style:TableFooterTextColor</TextColor>
 											<Font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
