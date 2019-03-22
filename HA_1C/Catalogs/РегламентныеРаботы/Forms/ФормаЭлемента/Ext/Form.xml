@@ -17,11 +17,15 @@
 			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
 		</InputField>
-		<TextDocumentField name="Комментарий" id="7">
+		<InputField name="Комментарий" id="7">
 			<DataPath>Объект.Комментарий</DataPath>
+			<Width>50</Width>
+			<Height>5</Height>
+			<VerticalStretch>true</VerticalStretch>
+			<MultiLine>true</MultiLine>
 			<ContextMenu name="КомментарийКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="9"/>
-		</TextDocumentField>
+		</InputField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">

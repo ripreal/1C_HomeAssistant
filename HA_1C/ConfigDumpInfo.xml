@@ -110,8 +110,8 @@
 		<Metadata name="Catalog.РегламентныеРаботы.Form.ФормаВыбора.Form" id="85fb7ae2-327a-4752-b05d-77132089981a.0" configVersion="464678854178e045b2261b3bfc96120000000000"/>
 		<Metadata name="Catalog.РегламентныеРаботы.Form.ФормаСписка" id="868e3b8a-939d-4934-8466-2048a2c43eb5" configVersion="ca9c518a0787ac4f864ea99619718af700000000"/>
 		<Metadata name="Catalog.РегламентныеРаботы.Form.ФормаСписка.Form" id="868e3b8a-939d-4934-8466-2048a2c43eb5.0" configVersion="cc04666b34b05041b6856768794c802100000000"/>
-		<Metadata name="Catalog.РегламентныеРаботы.Form.ФормаЭлемента" id="d98bbea0-5419-461e-8211-c0e53d33bc86" configVersion="2c7255f0f849034497508d1e22aa6b6d00000000"/>
-		<Metadata name="Catalog.РегламентныеРаботы.Form.ФормаЭлемента.Form" id="d98bbea0-5419-461e-8211-c0e53d33bc86.0" configVersion="c08bd88ad967d747863ced77dcc9996c00000000"/>
+		<Metadata name="Catalog.РегламентныеРаботы.Form.ФормаЭлемента" id="d98bbea0-5419-461e-8211-c0e53d33bc86" configVersion="3fc8949593798246abc74aa0eac381a700000000"/>
+		<Metadata name="Catalog.РегламентныеРаботы.Form.ФормаЭлемента.Form" id="d98bbea0-5419-461e-8211-c0e53d33bc86.0" configVersion="ed006813a977484d823cbb22543eee7300000000"/>
 		<Metadata name="Catalog.РегламентныеРаботы.ObjectModule" id="316dc8f1-1c3f-4309-9e36-d1c6f491ee1b.0" configVersion="f8d66c8f929e3146abea8d556ce5c41a00000000"/>
 		<Metadata name="Catalog.РегламентныеРаботы.Predefined" id="316dc8f1-1c3f-4309-9e36-d1c6f491ee1b.1c" configVersion="62801fe6e5c811459213b6a04f1bc7b500000000"/>
 		<Metadata name="Catalog.СервисныеМастерские" id="d0b02df8-6e03-415d-8a13-97fc4162d951" configVersion="92349f5796f10944a5392a16816f058d00000000">
@@ -371,7 +371,7 @@
 		<Metadata name="Document.ВнеплановыеРаботы.Template.Макет.Template" id="aa8a5a27-3a34-40de-991c-05d42312a7ac.0" configVersion="32bcd9f113b3804c8ceb90f7f2cc288c00000000"/>
 		<Metadata name="Document.ВнеплановыеРаботы.Template.ОсновнаяСхемаКомпоновкиДанных" id="a732a66f-9a68-4e1b-bd75-dbe8beddaa7e" configVersion="90e6c401465f364c8534b3c4a3a9dad500000000"/>
 		<Metadata name="Document.ВнеплановыеРаботы.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="a732a66f-9a68-4e1b-bd75-dbe8beddaa7e.0" configVersion="d6f6c3e0ddc26c4e9aa82b4d84d00cc200000000"/>
-		<Metadata name="Document.РегистрацииТО" id="e048924e-00eb-494b-802a-42065b31bab6" configVersion="f29b52d88d494449887575dc5628ed0f00000000">
+		<Metadata name="Document.РегистрацииТО" id="e048924e-00eb-494b-802a-42065b31bab6" configVersion="c7f034326ced374ead87c475c356b17800000000">
 			<Metadata name="Document.РегистрацииТО.TabularSection.ВыполненныеРаботы.Attribute.СледующееТОВнеплановое" id="00062322-e990-438f-aa6f-4caebfc82e03"/>
 			<Metadata name="Document.РегистрацииТО.TabularSection.ВыполненныеРаботы.Attribute.ТекущееТОВнеплановое" id="01316ff1-8eed-4f55-8b1d-81704b01af43"/>
 			<Metadata name="Document.РегистрацииТО.Attribute.Пробег" id="06671213-f15d-4a83-bdf9-ea6e346528af"/>
@@ -397,11 +397,11 @@
 			<Metadata name="Document.РегистрацииТО.TabularSection.ВыполненныеРаботы.Attribute.ПрошлоеТОНомер" id="eef5edd3-95ce-45a7-afdd-aae191a9fb81"/>
 			<Metadata name="Document.РегистрацииТО.TabularSection.ВыполненныеРаботы.Attribute.СледующееТОСумма" id="feb550ed-2099-465d-ac28-b4ee43409f82"/>
 		</Metadata>
-		<Metadata name="Document.РегистрацииТО.Form.ФормаДокумента" id="a373008e-cc3d-4cfb-9722-654b8b9f01b6" configVersion="bc39dabfedd7b84e80645d119be1a75300000000"/>
-		<Metadata name="Document.РегистрацииТО.Form.ФормаДокумента.Form" id="a373008e-cc3d-4cfb-9722-654b8b9f01b6.0" configVersion="5817ab819e98354da79f33fcbbd1d3f700000000"/>
+		<Metadata name="Document.РегистрацииТО.Form.ФормаДокумента" id="a373008e-cc3d-4cfb-9722-654b8b9f01b6" configVersion="7061e699c5ab1f40ac2bb25cb534362a00000000"/>
+		<Metadata name="Document.РегистрацииТО.Form.ФормаДокумента.Form" id="a373008e-cc3d-4cfb-9722-654b8b9f01b6.0" configVersion="15f4de98322ac04e9286c4d0cce3624600000000"/>
 		<Metadata name="Document.РегистрацииТО.Form.ФормаСписка" id="088e602d-d99d-4df5-b78e-9d37f8ff3912" configVersion="d1e4279fdf83f542a0125df09179fee300000000"/>
 		<Metadata name="Document.РегистрацииТО.Form.ФормаСписка.Form" id="088e602d-d99d-4df5-b78e-9d37f8ff3912.0" configVersion="95cc2e050400ea498f32571d1d01ca9200000000"/>
-		<Metadata name="Document.РегистрацииТО.ManagerModule" id="e048924e-00eb-494b-802a-42065b31bab6.2" configVersion="d87a107d0759cc47b341370f3a53d78c00000000"/>
+		<Metadata name="Document.РегистрацииТО.ManagerModule" id="e048924e-00eb-494b-802a-42065b31bab6.2" configVersion="b5eb5a53f3bcfa439332f3d210466a9d00000000"/>
 		<Metadata name="Document.РегистрацииТО.ObjectModule" id="e048924e-00eb-494b-802a-42065b31bab6.0" configVersion="87766eafc1d04a48bac68483ea30b8d300000000"/>
 		<Metadata name="Document.РегистрацииТО.Template.Макет" id="3c6ac719-6791-4577-94b9-a4b0156b0321" configVersion="42190b6a23f663468d78ea2b8d0e69d300000000"/>
 		<Metadata name="Document.РегистрацииТО.Template.Макет.Template" id="3c6ac719-6791-4577-94b9-a4b0156b0321.0" configVersion="2de90c1defe89444b1365b05176f4bde00000000"/>

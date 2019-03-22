@@ -213,7 +213,6 @@
 						<RadioButtonField name="ДиапазонТО" id="17">
 							<DataPath>ДиапазонТО</DataPath>
 							<TitleLocation>None</TitleLocation>
-							<GroupHorizontalAlign>Center</GroupHorizontalAlign>
 							<RadioButtonType>Tumbler</RadioButtonType>
 							<ContextMenu name="ДиапазонТОКонтекстноеМеню" id="18"/>
 							<ExtendedTooltip name="ДиапазонТОРасширеннаяПодсказка" id="19"/>
