@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
 	<CommandSet>
 		<ExcludedCommand>CustomizeForm</ExcludedCommand>
 		<ExcludedCommand>Help</ExcludedCommand>
@@ -17,6 +17,12 @@
 				<OnlyInAllActions>false</OnlyInAllActions>
 				<CommandName>Form.Command.ИзменитьДату</CommandName>
 				<ExtendedTooltip name="ФормаИзменитьДатуРасширеннаяПодсказка" id="371"/>
+			</Button>
+			<Button name="ФормаИзменитьОбъект" id="409">
+				<Type>CommandBarButton</Type>
+				<OnlyInAllActions>false</OnlyInAllActions>
+				<CommandName>Form.Command.ИзменитьОбъект</CommandName>
+				<ExtendedTooltip name="ФормаИзменитьОбъектРасширеннаяПодсказка" id="410"/>
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
@@ -79,6 +85,23 @@
 				</Button>
 			</ChildItems>
 		</UsualGroup>
+		<InputField name="ОбъектОбъект" id="406">
+			<DataPath>Объект.Объект</DataPath>
+			<TitleLocation>None</TitleLocation>
+			<TextEdit>false</TextEdit>
+			<InputHint>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Объект</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Object</v8:content>
+				</v8:item>
+			</InputHint>
+			<ContextMenu name="ОбъектОбъектКонтекстноеМеню" id="407"/>
+			<ExtendedTooltip name="ОбъектОбъектРасширеннаяПодсказка" id="408"/>
+		</InputField>
 		<Pages name="СтраницыОпераций" id="17">
 			<Title>
 				<v8:item>
@@ -127,6 +150,7 @@
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>Объект.Детали</DataPath>
 							<RowPictureDataPath>Объект.Детали.Завершен</RowPictureDataPath>
 							<RowsPicture>
@@ -305,13 +329,13 @@
 													<Format>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>БЛ=-; БИ=X</v8:content>
+															<v8:content>ЧРГ=' '; БЛ=-; БИ=X</v8:content>
 														</v8:item>
 													</Format>
 													<EditFormat>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>БЛ=-; БИ=X</v8:content>
+															<v8:content>ЧРГ=' '; БЛ=-; БИ=X</v8:content>
 														</v8:item>
 													</EditFormat>
 													<Font ref="style:SmallTextFont" kind="StyleItem"/>
@@ -371,13 +395,13 @@
 													<Format>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>БЛ=-; БИ=X</v8:content>
+															<v8:content>ЧРГ=' '; БЛ=-; БИ=X</v8:content>
 														</v8:item>
 													</Format>
 													<EditFormat>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>БЛ=-; БИ=X</v8:content>
+															<v8:content>ЧРГ=' '; БЛ=-; БИ=X</v8:content>
 														</v8:item>
 													</EditFormat>
 													<Font ref="style:SmallTextFont" kind="StyleItem"/>
@@ -437,13 +461,13 @@
 													<Format>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>БЛ=-; БИ=X</v8:content>
+															<v8:content>ЧРГ=' '; БЛ=-; БИ=X</v8:content>
 														</v8:item>
 													</Format>
 													<EditFormat>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>БЛ=-; БИ=X</v8:content>
+															<v8:content>ЧРГ=' '; БЛ=-; БИ=X</v8:content>
 														</v8:item>
 													</EditFormat>
 													<Font ref="style:SmallTextFont" kind="StyleItem"/>
@@ -501,13 +525,13 @@
 													<Format>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>БЛ=-; БИ=X</v8:content>
+															<v8:content>ЧРГ=' '; БЛ=-; БИ=X</v8:content>
 														</v8:item>
 													</Format>
 													<EditFormat>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>БЛ=-; БИ=X</v8:content>
+															<v8:content>ЧРГ=' '; БЛ=-; БИ=X</v8:content>
 														</v8:item>
 													</EditFormat>
 													<Font ref="style:SmallTextFont" kind="StyleItem"/>
@@ -565,13 +589,13 @@
 													<Format>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>БЛ=-; БИ=X</v8:content>
+															<v8:content>ЧРГ=' '; БЛ=-; БИ=X</v8:content>
 														</v8:item>
 													</Format>
 													<EditFormat>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>БЛ=-; БИ=X</v8:content>
+															<v8:content>ЧРГ=' '; БЛ=-; БИ=X</v8:content>
 														</v8:item>
 													</EditFormat>
 													<Font ref="style:SmallTextFont" kind="StyleItem"/>
@@ -694,6 +718,7 @@
 									<AutoInsertNewRow>true</AutoInsertNewRow>
 									<EnableStartDrag>true</EnableStartDrag>
 									<EnableDrag>true</EnableDrag>
+									<FileDragMode>AsFile</FileDragMode>
 									<DataPath>Объект.Формулы</DataPath>
 									<CommandSet>
 										<ExcludedCommand>Add</ExcludedCommand>
@@ -1079,6 +1104,7 @@
 												<xr:Ref>CommonPicture.Камера48</xr:Ref>
 												<xr:LoadTransparent>true</xr:LoadTransparent>
 											</Picture>
+											<FileDragMode>AsFile</FileDragMode>
 											<ContextMenu name="ДекорацияПустоеФотоКонтекстноеМеню" id="393"/>
 											<ExtendedTooltip name="ДекорацияПустоеФотоРасширеннаяПодсказка" id="394"/>
 											<Events>
@@ -1115,6 +1141,7 @@
 												<xr:Ref>CommonPicture.ОжиданиеКот</xr:Ref>
 												<xr:LoadTransparent>true</xr:LoadTransparent>
 											</Picture>
+											<FileDragMode>AsFile</FileDragMode>
 											<ContextMenu name="ДекорацияЗагрузкаКартинкиКонтекстноеМеню" id="390"/>
 											<ExtendedTooltip name="ДекорацияЗагрузкаКартинкиРасширеннаяПодсказка" id="391"/>
 										</PictureDecoration>
@@ -1731,6 +1758,25 @@
 			</Picture>
 			<Action>СкопироватьДеталь</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ИзменитьОбъект" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить объект</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Change object</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить объект</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ИзменитьОбъект</Action>
 		</Command>
 	</Commands>
 </Form>

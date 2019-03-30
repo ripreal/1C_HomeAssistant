@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
 			<Button name="Сервис" id="1">
@@ -108,6 +108,7 @@
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>ТаблицаОперации</DataPath>
 							<CommandSet>
 								<ExcludedCommand>Add</ExcludedCommand>
@@ -292,26 +293,40 @@
 						</Table>
 					</ChildItems>
 				</Page>
-				<Page name="СтраницаСправочники" id="11">
+				<Page name="СтраницаОтчеты" id="11">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Все операции</v8:content>
+							<v8:content>Отчеты</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>All operations</v8:content>
+							<v8:content>Reports</v8:content>
 						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Страница справочники</v8:content>
+							<v8:content>Страница отчеты</v8:content>
 						</v8:item>
 					</ToolTip>
 					<Height>15</Height>
 					<ScrollOnCompress>true</ScrollOnCompress>
-					<ExtendedTooltip name="СтраницаСправочникиРасширеннаяПодсказка" id="12"/>
+					<ExtendedTooltip name="СтраницаОтчетыРасширеннаяПодсказка" id="12"/>
+					<ChildItems>
+						<Button name="ЗатратыНаПроекты" id="166">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ЗатратыНаПроекты</CommandName>
+							<Font ref="style:LargeTextFont" kind="StyleItem"/>
+							<ExtendedTooltip name="ЗатратыНаПроектыРасширеннаяПодсказка" id="167"/>
+						</Button>
+						<Button name="ЗатратыНаТО" id="168">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ЗатратыНаТО</CommandName>
+							<Font ref="style:LargeTextFont" kind="StyleItem"/>
+							<ExtendedTooltip name="ЗатратыНаТОРасширеннаяПодсказка" id="169"/>
+						</Button>
+					</ChildItems>
 				</Page>
 			</ChildItems>
 		</Pages>
@@ -1332,6 +1347,44 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Справка</Action>
+		</Command>
+		<Command name="ЗатратыНаПроекты" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Затраты на проекты</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Projects cost</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Затраты на проекты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗатратыНаПроекты</Action>
+		</Command>
+		<Command name="ЗатратыНаТО" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Затраты на ТО</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Auto services cost</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Затраты на ТО</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗатратыНаТО</Action>
 		</Command>
 	</Commands>
 </Form>

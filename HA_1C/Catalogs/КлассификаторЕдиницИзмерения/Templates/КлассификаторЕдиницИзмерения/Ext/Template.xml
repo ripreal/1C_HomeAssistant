@@ -4006,7 +4006,7 @@ DMQ</v8:content>
 					</tl>
 					<detailParameter>Расшифровка</detailParameter>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>28</formatIndex>
 						<text>
@@ -4025,7 +4025,6 @@ DMQ</v8:content>
 						<endColumnOffset>1638</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -37685,7 +37684,7 @@ NMB</v8:content>
 					</tl>
 					<detailParameter>Расшифровка</detailParameter>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>28</formatIndex>
 						<text>
@@ -37705,7 +37704,6 @@ NMB</v8:content>
 						<endColumnOffset>2304</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
