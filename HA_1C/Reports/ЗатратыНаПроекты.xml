@@ -25,7 +25,7 @@
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
-			<DefaultForm/>
+			<DefaultForm>Report.ЗатратыНаПроекты.Form.ФормаОтчета</DefaultForm>
 			<AuxiliaryForm/>
 			<MainDataCompositionSchema>Report.ЗатратыНаПроекты.Template.ОсновнаяСхемаКомпоновкиДанных</MainDataCompositionSchema>
 			<DefaultSettingsForm/>
@@ -38,6 +38,7 @@
 			<Explanation/>
 		</Properties>
 		<ChildObjects>
+			<Form>ФормаОтчета</Form>
 			<Template>ОсновнаяСхемаКомпоновкиДанных</Template>
 		</ChildObjects>
 	</Report>

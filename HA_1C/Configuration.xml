@@ -49,7 +49,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>R.I.P.real (Кудаков Роман)</Vendor>
-			<Version>1.9.1</Version>
+			<Version>1.9.3</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -273,7 +273,7 @@
 			<Enum>СтатусыВыполненияТО</Enum>
 			<Enum>ВидыТО</Enum>
 			<Report>ЗатратыНаПроекты</Report>
-			<Report>ЗатратыНаТО</Report>
+			<Report>ЗатратыНаАвтомобиль</Report>
 			<DataProcessor>НастройкиПрограммы</DataProcessor>
 			<DataProcessor>НачальнаяСтраница</DataProcessor>
 			<InformationRegister>ПринадлежностьФайлов</InformationRegister>
