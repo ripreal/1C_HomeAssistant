@@ -152,6 +152,9 @@
 					</EditFormat>
 					<ContextMenu name="ПробегКонтекстноеМеню" id="23"/>
 					<ExtendedTooltip name="ПробегРасширеннаяПодсказка" id="24"/>
+					<Events>
+						<Event name="OnChange">ПробегПриИзменении</Event>
+					</Events>
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
@@ -261,26 +264,27 @@
 							<ChildItems>
 								<Button name="ДобавитьРаботу" id="27">
 									<Type>UsualButton</Type>
+									<Width>18</Width>
 									<CommandName>Form.Command.ДобавитьРаботу</CommandName>
 									<ExtendedTooltip name="ДобавитьРаботуРасширеннаяПодсказка" id="28"/>
 								</Button>
 								<LabelField name="ПрошлоеВРСумма" id="54">
 									<DataPath>ПрошлоеВРСумма</DataPath>
-									<TitleLocation>None</TitleLocation>
+									<Visible>false</Visible>
 									<HorizontalStretch>true</HorizontalStretch>
 									<ContextMenu name="ПрошлоеВРСуммаКонтекстноеМеню" id="55"/>
 									<ExtendedTooltip name="ПрошлоеВРСуммаРасширеннаяПодсказка" id="56"/>
 								</LabelField>
 								<LabelField name="ТекущееВРСумма" id="57">
 									<DataPath>ТекущееВРСумма</DataPath>
-									<TitleLocation>None</TitleLocation>
+									<TitleLocation>Left</TitleLocation>
 									<HorizontalStretch>true</HorizontalStretch>
 									<ContextMenu name="ТекущееВРСуммаКонтекстноеМеню" id="58"/>
 									<ExtendedTooltip name="ТекущееВРСуммаРасширеннаяПодсказка" id="59"/>
 								</LabelField>
 								<LabelField name="СледующееВРСумма" id="60">
 									<DataPath>СледующееВРСумма</DataPath>
-									<TitleLocation>None</TitleLocation>
+									<Visible>false</Visible>
 									<HorizontalStretch>true</HorizontalStretch>
 									<ContextMenu name="СледующееВРСуммаКонтекстноеМеню" id="61"/>
 									<ExtendedTooltip name="СледующееВРСуммаРасширеннаяПодсказка" id="62"/>

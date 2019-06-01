@@ -198,12 +198,14 @@
 								<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
 								<ExcludedCommand>ListSettings</ExcludedCommand>
 								<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
+								<ExcludedCommand>Post</ExcludedCommand>
 								<ExcludedCommand>Refresh</ExcludedCommand>
 								<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
 								<ExcludedCommand>SearchHistory</ExcludedCommand>
 								<ExcludedCommand>SetDateInterval</ExcludedCommand>
 								<ExcludedCommand>SetDeletionMark</ExcludedCommand>
 								<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+								<ExcludedCommand>UndoPosting</ExcludedCommand>
 							</CommandSet>
 							<AutoRefresh>false</AutoRefresh>
 							<AutoRefreshPeriod>60</AutoRefreshPeriod>

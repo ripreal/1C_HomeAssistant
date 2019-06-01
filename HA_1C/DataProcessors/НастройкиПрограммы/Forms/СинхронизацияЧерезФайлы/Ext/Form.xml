@@ -50,6 +50,12 @@
 					<ContextMenu name="Декорация1КонтекстноеМеню" id="97"/>
 					<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="98"/>
 				</LabelDecoration>
+				<CheckBoxField name="ВыгружатьКартинки" id="104">
+					<DataPath>ВыгружатьКартинки</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ВыгружатьКартинкиКонтекстноеМеню" id="105"/>
+					<ExtendedTooltip name="ВыгружатьКартинкиРасширеннаяПодсказка" id="106"/>
+				</CheckBoxField>
 				<Button name="ВыгрузитьФайл" id="94">
 					<Type>UsualButton</Type>
 					<CommandName>Form.Command.ВыгрузитьФайл</CommandName>
@@ -324,6 +330,25 @@
 			<SavedData>true</SavedData>
 			<Save>
 				<Field>ПутьКФайламВыгрузки</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ВыгружатьКартинки" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгружать картинки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>With pictures</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<SavedData>true</SavedData>
+			<Save>
+				<Field>ВыгружатьКартинки</Field>
 			</Save>
 		</Attribute>
 	</Attributes>

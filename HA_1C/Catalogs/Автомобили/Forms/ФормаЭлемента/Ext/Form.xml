@@ -3,7 +3,66 @@
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
 	<ChildItems>
+		<UsualGroup name="ГруппаМодельАктивность" id="41">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа модель активность</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа модель активность</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаМодельАктивностьРасширеннаяПодсказка" id="42"/>
+			<ChildItems>
+				<InputField name="Наименование" id="4">
+					<DataPath>Объект.Description</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Модель</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Model</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<InputHint>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Введите модель авто</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Print model auto </v8:content>
+						</v8:item>
+					</InputHint>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+				</InputField>
+				<CheckBoxField name="Активен" id="38">
+					<DataPath>Объект.Активен</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="АктивенКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="АктивенРасширеннаяПодсказка" id="40"/>
+					<Events>
+						<Event name="OnChange">АктивенПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
 		<InputField name="Код" id="1">
 			<DataPath>Объект.Code</DataPath>
 			<Visible>false</Visible>
@@ -11,36 +70,60 @@
 			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
 			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
 		</InputField>
-		<InputField name="Наименование" id="4">
-			<DataPath>Объект.Description</DataPath>
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Модель</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Model</v8:content>
-				</v8:item>
-			</Title>
-			<EditMode>EnterOnInput</EditMode>
-			<InputHint>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Введите модель авто</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Print model auto </v8:content>
-				</v8:item>
-			</InputHint>
-			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
-			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
-		</InputField>
 		<InputField name="ДатаПриобретения" id="35">
 			<DataPath>Объект.ДатаПриобретения</DataPath>
 			<ContextMenu name="ДатаПриобретенияКонтекстноеМеню" id="36"/>
 			<ExtendedTooltip name="ДатаПриобретенияРасширеннаяПодсказка" id="37"/>
+		</InputField>
+		<RadioButtonField name="ИзмерительТО" id="43">
+			<DataPath>Объект.ИзмерительТО</DataPath>
+			<RadioButtonType>Tumbler</RadioButtonType>
+			<ChoiceList>
+				<xr:Item>
+					<xr:Presentation/>
+					<xr:CheckState>0</xr:CheckState>
+					<xr:Value xsi:type="FormChoiceListDesTimeValue">
+						<Presentation>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Время</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Time</v8:content>
+							</v8:item>
+						</Presentation>
+						<Value xsi:type="xs:string">ВРЕМЯ</Value>
+					</xr:Value>
+				</xr:Item>
+				<xr:Item>
+					<xr:Presentation/>
+					<xr:CheckState>0</xr:CheckState>
+					<xr:Value xsi:type="FormChoiceListDesTimeValue">
+						<Presentation>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Пробег</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Mileage</v8:content>
+							</v8:item>
+						</Presentation>
+						<Value xsi:type="xs:string">ПРОБЕГ</Value>
+					</xr:Value>
+				</xr:Item>
+			</ChoiceList>
+			<ContextMenu name="ИзмерительТОКонтекстноеМеню" id="44"/>
+			<ExtendedTooltip name="ИзмерительТОРасширеннаяПодсказка" id="45"/>
+			<Events>
+				<Event name="OnChange">ИзмерительТОПриИзменении</Event>
+			</Events>
+		</RadioButtonField>
+		<InputField name="МежсервисныйИнтервал" id="46">
+			<DataPath>Объект.МежсервисныйИнтервал</DataPath>
+			<ContextMenu name="МежсервисныйИнтервалКонтекстноеМеню" id="47"/>
+			<ExtendedTooltip name="МежсервисныйИнтервалРасширеннаяПодсказка" id="48"/>
 		</InputField>
 		<UsualGroup name="ГруппаРегламентныеРаботы" id="33">
 			<Title>

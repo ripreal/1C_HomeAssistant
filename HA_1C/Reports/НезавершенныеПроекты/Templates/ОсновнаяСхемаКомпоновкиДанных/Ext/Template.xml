@@ -71,7 +71,8 @@
 			КОГДА ПроектыДетали.ДеталиХаракт5 = ЗНАЧЕНИЕ(Справочник.ФизическиеХарактеристики.Ценаруб)
 				ТОГДА ИСТИНА
 			ИНАЧЕ ЛОЖЬ
-		КОНЕЦ</query>
+		КОНЕЦ
+	И ПроектыДетали.Завершен = ЛОЖЬ</query>
 	</dataSet>
 	<totalField>
 		<dataPath>Сумма</dataPath>
@@ -291,11 +292,11 @@
 					<dcscor:value xsi:type="v8:LocalStringType">
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Затраты на проекты</v8:content>
+							<v8:content>Незавершенные проекты</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Projects cost</v8:content>
+							<v8:content>Projects in progress</v8:content>
 						</v8:item>
 					</dcscor:value>
 				</dcscor:item>

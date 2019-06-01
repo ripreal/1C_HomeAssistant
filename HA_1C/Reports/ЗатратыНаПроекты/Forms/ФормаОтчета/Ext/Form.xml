@@ -3,6 +3,7 @@
 	<CommandBarLocation>None</CommandBarLocation>
 	<CommandSet>
 		<ExcludedCommand>LoadVariant</ExcludedCommand>
+		<ExcludedCommand>ReportSettings</ExcludedCommand>
 	</CommandSet>
 	<ReportResult>Результат</ReportResult>
 	<DetailsData>ДанныеРасшифровки</DetailsData>

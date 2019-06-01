@@ -433,7 +433,11 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Размер файла (байт)</v8:content>
+							<v8:content>Размер (кбайт)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Size (kb)</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

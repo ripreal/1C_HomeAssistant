@@ -49,7 +49,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>R.I.P.real (Кудаков Роман)</Vendor>
-			<Version>1.9.3</Version>
+			<Version>2.1.0</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -120,7 +120,7 @@
 				</v8:pair>
 				<v8:pair>
 					<v8:Key xsi:type="app:RequiredMobileApplicationPermissions">FileExchangeWithPersonalComputer</v8:Key>
-					<v8:Value xsi:type="xs:boolean">false</v8:Value>
+					<v8:Value xsi:type="xs:boolean">true</v8:Value>
 				</v8:pair>
 			</RequiredMobileApplicationPermissions>
 			<MainClientApplicationWindowMode>Normal</MainClientApplicationWindowMode>
@@ -251,6 +251,7 @@
 			<Constant>КаталогКартинок</Constant>
 			<Constant>КаталогФото</Constant>
 			<Constant>ПервоначальноеЗаполнениеПройдено</Constant>
+			<Constant>ВерсияКонфигурации</Constant>
 			<CommonForm>ОжиданиеДлительнойОперации</CommonForm>
 			<CommonForm>ФормаВводаДаты</CommonForm>
 			<Catalog>КлассификаторЕдиницИзмерения</Catalog>
@@ -274,6 +275,7 @@
 			<Enum>ВидыТО</Enum>
 			<Report>ЗатратыНаПроекты</Report>
 			<Report>ЗатратыНаАвтомобиль</Report>
+			<Report>НезавершенныеПроекты</Report>
 			<DataProcessor>НастройкиПрограммы</DataProcessor>
 			<DataProcessor>НачальнаяСтраница</DataProcessor>
 			<InformationRegister>ПринадлежностьФайлов</InformationRegister>

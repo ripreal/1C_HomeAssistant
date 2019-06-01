@@ -1,40 +1,45 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
-	<DataProcessor uuid="d4ee2c40-97c5-449d-a173-1e40343feb69">
+	<Report uuid="ff6b9607-306f-4572-9521-1302930d4d9a">
 		<InternalInfo>
-			<xr:GeneratedType name="DataProcessorObject.НачальнаяСтраница" category="Object">
-				<xr:TypeId>ab865b8c-aaf3-4dc2-9660-4eff40ff68f7</xr:TypeId>
-				<xr:ValueId>b8cf925d-e898-4193-8757-ecd8e57a209e</xr:ValueId>
+			<xr:GeneratedType name="ReportObject.НезавершенныеПроекты" category="Object">
+				<xr:TypeId>9a9e9dd1-8827-45c2-86ec-e5b1f7982dfe</xr:TypeId>
+				<xr:ValueId>ab1bb522-29db-4f5f-9cf2-13cab0f0fdcc</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DataProcessorManager.НачальнаяСтраница" category="Manager">
-				<xr:TypeId>2ae9d7cb-cebb-4dcb-addb-ee83e0d6f3ee</xr:TypeId>
-				<xr:ValueId>8a5a4bb5-0406-4216-b3a5-4d473ed36818</xr:ValueId>
+			<xr:GeneratedType name="ReportManager.НезавершенныеПроекты" category="Manager">
+				<xr:TypeId>a93567b8-1a8f-4d74-bbae-68c5b910d48c</xr:TypeId>
+				<xr:ValueId>c358e393-63d2-4a49-8411-f81f402acea5</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>НачальнаяСтраница</Name>
+			<Name>НезавершенныеПроекты</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Главная</v8:content>
+					<v8:content>Незавершенные проекты</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Home</v8:content>
+					<v8:content>Projects in progress</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
-			<DefaultForm>DataProcessor.НачальнаяСтраница.Form.Обзор</DefaultForm>
+			<DefaultForm>Report.НезавершенныеПроекты.Form.ФормаОтчета</DefaultForm>
 			<AuxiliaryForm/>
+			<MainDataCompositionSchema>Report.НезавершенныеПроекты.Template.ОсновнаяСхемаКомпоновкиДанных</MainDataCompositionSchema>
+			<DefaultSettingsForm/>
+			<AuxiliarySettingsForm/>
+			<DefaultVariantForm/>
+			<VariantsStorage/>
+			<SettingsStorage/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<ExtendedPresentation/>
 			<Explanation/>
 		</Properties>
 		<ChildObjects>
-			<Form>Обзор</Form>
-			<Form>ФормаКонвертацииЕдиницИзмерения</Form>
-			<Form>Справка</Form>
+			<Form>ФормаОтчета</Form>
+			<Template>ОсновнаяСхемаКомпоновкиДанных</Template>
 		</ChildObjects>
-	</DataProcessor>
+	</Report>
 </MetaDataObject>

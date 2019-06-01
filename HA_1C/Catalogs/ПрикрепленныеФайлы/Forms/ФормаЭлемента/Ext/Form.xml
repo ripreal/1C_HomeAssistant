@@ -99,26 +99,17 @@
 									<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
 									<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
 								</InputField>
-								<InputField name="РасширениеФайла" id="54">
-									<DataPath>Объект.РасширениеФайла</DataPath>
-									<ReadOnly>true</ReadOnly>
-									<TitleLocation>None</TitleLocation>
-									<Width>4</Width>
-									<AutoMaxWidth>false</AutoMaxWidth>
-									<MaxWidth>6</MaxWidth>
-									<InputHint>
+								<LabelField name="РазмерФайла" id="54">
+									<DataPath>Объект.РазмерФайла</DataPath>
+									<Format>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>расширение</v8:content>
+											<v8:content>ЧФ='Ч kb'</v8:content>
 										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>Extension</v8:content>
-										</v8:item>
-									</InputHint>
-									<ContextMenu name="РасширениеФайлаКонтекстноеМеню" id="55"/>
-									<ExtendedTooltip name="РасширениеФайлаРасширеннаяПодсказка" id="56"/>
-								</InputField>
+									</Format>
+									<ContextMenu name="РазмерФайлаКонтекстноеМеню" id="55"/>
+									<ExtendedTooltip name="РазмерФайлаРасширеннаяПодсказка" id="56"/>
+								</LabelField>
 							</ChildItems>
 						</UsualGroup>
 						<InputField name="Комментарий" id="13">

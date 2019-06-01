@@ -320,6 +320,12 @@
 							<Font ref="style:LargeTextFont" kind="StyleItem"/>
 							<ExtendedTooltip name="ЗатратыНаПроектыРасширеннаяПодсказка" id="167"/>
 						</Button>
+						<Button name="НезавершенныеПроекты" id="172">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.НезавершенныеПроекты</CommandName>
+							<Font ref="style:LargeTextFont" kind="StyleItem"/>
+							<ExtendedTooltip name="НезавершенныеПроектыРасширеннаяПодсказка" id="173"/>
+						</Button>
 						<Button name="ЗатратыНаТО" id="168">
 							<Type>UsualButton</Type>
 							<CommandName>Form.Command.ЗатратыНаТО</CommandName>
@@ -1375,7 +1381,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Auto cost</v8:content>
+					<v8:content>Car cost</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -1385,6 +1391,25 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ЗатратыНаТО</Action>
+		</Command>
+		<Command name="НезавершенныеПроекты" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Незавершенные проекты</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Projects in progress</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Незавершенные проекты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>НезавершенныеПроекты</Action>
 		</Command>
 	</Commands>
 </Form>

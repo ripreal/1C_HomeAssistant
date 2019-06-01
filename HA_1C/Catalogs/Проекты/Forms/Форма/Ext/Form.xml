@@ -181,6 +181,7 @@
 									</Button>
 									<Button name="ДеталиКонтекстноеМенюИзменитьДеталь" id="361">
 										<Type>CommandBarButton</Type>
+										<Visible>false</Visible>
 										<CommandName>Form.Command.ИзменитьДеталь</CommandName>
 										<ExtendedTooltip name="ДеталиКонтекстноеМенюИзменитьДетальРасширеннаяПодсказка" id="362"/>
 									</Button>
@@ -188,6 +189,16 @@
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.СкопироватьДеталь</CommandName>
 										<ExtendedTooltip name="ДеталиКонтекстноеМенюСкопироватьДетальРасширеннаяПодсказка" id="383"/>
+									</Button>
+									<Button name="ДеталиКонтекстноеМенюСдвинутьВверх" id="415">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.СдвинутьВверх</CommandName>
+										<ExtendedTooltip name="ДеталиКонтекстноеМенюСдвинутьВверхРасширеннаяПодсказка" id="416"/>
+									</Button>
+									<Button name="ДеталиКонтекстноеМенюСдвинутьВниз" id="417">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.СдвинутьВниз</CommandName>
+										<ExtendedTooltip name="ДеталиКонтекстноеМенюСдвинутьВнизРасширеннаяПодсказка" id="418"/>
 									</Button>
 									<Button name="ДеталиКонтекстноеМенюУдалить" id="384">
 										<Type>CommandBarButton</Type>
@@ -635,6 +646,7 @@
 								</v8:item>
 							</ToolTip>
 							<HorizontalStretch>true</HorizontalStretch>
+							<Group>AlwaysHorizontal</Group>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ДеталиОсновныеКомандыРасширеннаяПодсказка" id="405"/>
@@ -643,6 +655,16 @@
 									<Type>UsualButton</Type>
 									<CommandName>Form.Command.ДобавитьДеталь</CommandName>
 									<ExtendedTooltip name="ДеталиДобавитьДетальРасширеннаяПодсказка" id="232"/>
+								</Button>
+								<Button name="СдвинутьВверх" id="411">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.СдвинутьВверх</CommandName>
+									<ExtendedTooltip name="СдвинутьВверхРасширеннаяПодсказка" id="412"/>
+								</Button>
+								<Button name="СдвинутьВниз" id="413">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.СдвинутьВниз</CommandName>
+									<ExtendedTooltip name="СдвинутьВнизРасширеннаяПодсказка" id="414"/>
 								</Button>
 								<LabelField name="Сумма" id="401">
 									<DataPath>Объект.Сумма</DataPath>
@@ -837,7 +859,6 @@
 													</ChildItems>
 												</ColumnGroup>
 												<ColumnGroup name="ФормулыГруппаФормула1" id="271">
-													<Visible>false</Visible>
 													<ToolTip>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -1089,6 +1110,7 @@
 									<ExtendedTooltip name="СтраницаЭлементФото0РасширеннаяПодсказка" id="57"/>
 									<ChildItems>
 										<PictureDecoration name="ДекорацияПустоеФото" id="392">
+											<Visible>false</Visible>
 											<MaxHeight>20</MaxHeight>
 											<HorizontalStretch>true</HorizontalStretch>
 											<VerticalStretch>true</VerticalStretch>
@@ -1113,6 +1135,7 @@
 										</PictureDecoration>
 										<PictureDecoration name="ДекорацияЗагрузкаКартинки" id="389">
 											<MaxHeight>7</MaxHeight>
+											<HorizontalStretch>true</HorizontalStretch>
 											<VerticalStretch>true</VerticalStretch>
 											<TextColor>style:TableFooterTextColor</TextColor>
 											<Font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
@@ -1777,6 +1800,54 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ИзменитьОбъект</Action>
+		</Command>
+		<Command name="СдвинутьВверх" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вверх</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Up</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сдвинуть вверх</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.MoveUp</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>СдвинутьВверх</Action>
+			<Representation>Picture</Representation>
+		</Command>
+		<Command name="СдвинутьВниз" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вниз</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Down</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сдвинуть вниз</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.MoveDown</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>СдвинутьВниз</Action>
+			<Representation>Picture</Representation>
 		</Command>
 	</Commands>
 </Form>

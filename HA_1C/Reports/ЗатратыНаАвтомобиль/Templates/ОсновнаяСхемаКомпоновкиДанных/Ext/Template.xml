@@ -24,9 +24,6 @@
 		<field xsi:type="DataSetFieldField">
 			<dataPath>РегламентнаяРабота</dataPath>
 			<field>РегламентнаяРабота</field>
-			<role>
-				<dcscom:dimension>true</dcscom:dimension>
-			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Автомобиль</dataPath>
@@ -67,14 +64,25 @@
 				</v8:item>
 			</title>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПериодДата</dataPath>
+			<field>ПериодДата</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Период дата</v8:content>
+				</v8:item>
+			</title>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	ГОД(ЗарегистрированныеТО.Период) КАК Период,
 	ЗарегистрированныеТО.Автомобиль КАК Автомобиль,
-	ЗарегистрированныеТО.РегламентнаяРабота КАК РегламентнаяРабота,
+	ВЫРАЗИТЬ(ЗарегистрированныеТО.РегламентнаяРабота.Наименование КАК СТРОКА(50)) КАК РегламентнаяРабота,
 	ЗарегистрированныеТО.НомерТО КАК НомерТО,
 	ЗарегистрированныеТО.Сумма КАК Сумма,
-	ВЫРАЗИТЬ("ТО" КАК СТРОКА(10)) КАК ТипТО
+	ВЫРАЗИТЬ("ТО" КАК СТРОКА(10)) КАК ТипТО,
+	ЗарегистрированныеТО.Период КАК ПериодДата
 ИЗ
 	РегистрСведений.ЗарегистрированныеТО КАК ЗарегистрированныеТО
 
@@ -83,12 +91,16 @@
 ВЫБРАТЬ
 	ГОД(ЗарегистрированныеВР.Период),
 	ЗарегистрированныеВР.Автомобиль,
-	ЗарегистрированныеВР.РегламентнаяРабота,
+	ВЫРАЗИТЬ(ЗарегистрированныеВР.РегламентнаяРабота.Наименование КАК СТРОКА(50)),
 	ЗарегистрированныеВР.НомерТО,
 	ЗарегистрированныеВР.Сумма,
-	ВЫРАЗИТЬ("Ремонт" КАК СТРОКА(10))
+	ВЫРАЗИТЬ("Ремонт" КАК СТРОКА(10)),
+	ЗарегистрированныеВР.Период
 ИЗ
-	РегистрСведений.ЗарегистрированныеВР КАК ЗарегистрированныеВР</query>
+	РегистрСведений.ЗарегистрированныеВР КАК ЗарегистрированныеВР
+
+УПОРЯДОЧИТЬ ПО
+	ПериодДата УБЫВ</query>
 	</dataSet>
 	<calculatedField>
 		<dataPath>ПериодНомерТО</dataPath>
@@ -104,10 +116,6 @@
 	<totalField>
 		<dataPath>Сумма</dataPath>
 		<expression>Сумма(Сумма)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>Период</dataPath>
-		<expression>Минимум(Период)</expression>
 	</totalField>
 	<template>
 		<name>Макет1</name>
@@ -126,28 +134,14 @@
 							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
-				</dcsat:tableCell>
-				<dcsat:tableCell>
-					<dcsat:item xsi:type="dcsat:Field">
-						<dcsat:value xsi:type="v8:LocalStringType">
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Тип</v8:content>
-							</v8:item>
-							<v8:item>
-								<v8:lang>en</v8:lang>
-								<v8:content>Type</v8:content>
-							</v8:item>
-						</dcsat:value>
-					</dcsat:item>
 					<dcsat:appearance>
 						<dcscor:item>
 							<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
-							<dcscor:value xsi:type="xs:decimal">6.625</dcscor:value>
+							<dcscor:value xsi:type="xs:decimal">35</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
-							<dcscor:value xsi:type="xs:decimal">6.625</dcscor:value>
+							<dcscor:value xsi:type="xs:decimal">35</dcscor:value>
 						</dcscor:item>
 					</dcsat:appearance>
 				</dcsat:tableCell>
@@ -178,20 +172,12 @@
 					</dcsat:item>
 					<dcsat:appearance>
 						<dcscor:item>
-							<dcscor:parameter>Отступ</dcscor:parameter>
-							<dcscor:value xsi:type="xs:decimal">1</dcscor:value>
-						</dcscor:item>
-					</dcsat:appearance>
-				</dcsat:tableCell>
-				<dcsat:tableCell>
-					<dcsat:appearance>
-						<dcscor:item>
 							<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
-							<dcscor:value xsi:type="xs:decimal">6.625</dcscor:value>
+							<dcscor:value xsi:type="xs:decimal">35</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
-							<dcscor:value xsi:type="xs:decimal">6.625</dcscor:value>
+							<dcscor:value xsi:type="xs:decimal">35</dcscor:value>
 						</dcscor:item>
 					</dcsat:appearance>
 				</dcsat:tableCell>
@@ -221,20 +207,12 @@
 					</dcsat:item>
 					<dcsat:appearance>
 						<dcscor:item>
-							<dcscor:parameter>Отступ</dcscor:parameter>
-							<dcscor:value xsi:type="xs:decimal">2</dcscor:value>
-						</dcscor:item>
-					</dcsat:appearance>
-				</dcsat:tableCell>
-				<dcsat:tableCell>
-					<dcsat:appearance>
-						<dcscor:item>
 							<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
-							<dcscor:value xsi:type="xs:decimal">6.625</dcscor:value>
+							<dcscor:value xsi:type="xs:decimal">35</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
-							<dcscor:value xsi:type="xs:decimal">6.625</dcscor:value>
+							<dcscor:value xsi:type="xs:decimal">35</dcscor:value>
 						</dcscor:item>
 					</dcsat:appearance>
 				</dcsat:tableCell>
@@ -265,22 +243,15 @@
 					<dcsat:appearance>
 						<dcscor:item>
 							<dcscor:parameter>Отступ</dcscor:parameter>
-							<dcscor:value xsi:type="xs:decimal">3</dcscor:value>
+							<dcscor:value xsi:type="xs:decimal">2</dcscor:value>
 						</dcscor:item>
-					</dcsat:appearance>
-				</dcsat:tableCell>
-				<dcsat:tableCell>
-					<dcsat:item xsi:type="dcsat:Field">
-						<dcsat:value xsi:type="dcscor:Parameter">ТипТО</dcsat:value>
-					</dcsat:item>
-					<dcsat:appearance>
 						<dcscor:item>
 							<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
-							<dcscor:value xsi:type="xs:decimal">6.625</dcscor:value>
+							<dcscor:value xsi:type="xs:decimal">35</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
-							<dcscor:value xsi:type="xs:decimal">6.625</dcscor:value>
+							<dcscor:value xsi:type="xs:decimal">35</dcscor:value>
 						</dcscor:item>
 					</dcsat:appearance>
 				</dcsat:tableCell>
@@ -295,6 +266,41 @@
 			<dcsat:name>РегламентнаяРабота</dcsat:name>
 			<dcsat:expression>Представление(РегламентнаяРабота)</dcsat:expression>
 		</parameter>
+		<parameter xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:ExpressionAreaTemplateParameter">
+			<dcsat:name>Сумма</dcsat:name>
+			<dcsat:expression>Сумма</dcsat:expression>
+		</parameter>
+	</template>
+	<template>
+		<name>Макет5</name>
+		<template xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:AreaTemplate">
+			<dcsat:item xsi:type="dcsat:TableRow">
+				<dcsat:tableCell>
+					<dcsat:item xsi:type="dcsat:Field">
+						<dcsat:value xsi:type="dcscor:Parameter">ТипТО</dcsat:value>
+					</dcsat:item>
+					<dcsat:appearance>
+						<dcscor:item>
+							<dcscor:parameter>Отступ</dcscor:parameter>
+							<dcscor:value xsi:type="xs:decimal">1</dcscor:value>
+						</dcscor:item>
+						<dcscor:item>
+							<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+							<dcscor:value xsi:type="xs:decimal">35</dcscor:value>
+						</dcscor:item>
+						<dcscor:item>
+							<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+							<dcscor:value xsi:type="xs:decimal">35</dcscor:value>
+						</dcscor:item>
+					</dcsat:appearance>
+				</dcsat:tableCell>
+				<dcsat:tableCell>
+					<dcsat:item xsi:type="dcsat:Field">
+						<dcsat:value xsi:type="dcscor:Parameter">Сумма</dcsat:value>
+					</dcsat:item>
+				</dcsat:tableCell>
+			</dcsat:item>
+		</template>
 		<parameter xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:ExpressionAreaTemplateParameter">
 			<dcsat:name>ТипТО</dcsat:name>
 			<dcsat:expression>ТипТО</dcsat:expression>
@@ -318,6 +324,11 @@
 		<groupName>ГруппировкаРабота</groupName>
 		<templateType>Header</templateType>
 		<template>Макет4</template>
+	</groupTemplate>
+	<groupTemplate>
+		<groupName>ГруппировкаТипТО</groupName>
+		<templateType>Header</templateType>
+		<template>Макет5</template>
 	</groupTemplate>
 	<groupHeaderTemplate>
 		<groupName>ГруппировкаАвтомобиль</groupName>
@@ -356,7 +367,7 @@
 			</dcsset:filter>
 			<dcsset:order>
 				<dcsset:item xsi:type="dcsset:OrderItemField">
-					<dcsset:field>ПериодНомерТО</dcsset:field>
+					<dcsset:field>НомерТО</dcsset:field>
 					<dcsset:orderType>Desc</dcsset:orderType>
 				</dcsset:item>
 			</dcsset:order>
@@ -417,7 +428,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Auto cost</v8:content>
+							<v8:content>Car cost</v8:content>
 						</v8:item>
 					</dcscor:value>
 				</dcscor:item>
@@ -449,6 +460,13 @@
 							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
 							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
 						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>НомерТО</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
 					</dcsset:groupItems>
 					<dcsset:order>
 						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
@@ -464,15 +482,8 @@
 						</dcscor:item>
 					</dcsset:outputParameters>
 					<dcsset:item xsi:type="dcsset:StructureItemGroup">
-						<dcsset:name>ГруппировкаРабота</dcsset:name>
+						<dcsset:name>ГруппировкаТипТО</dcsset:name>
 						<dcsset:groupItems>
-							<dcsset:item xsi:type="dcsset:GroupItemField">
-								<dcsset:field>РегламентнаяРабота</dcsset:field>
-								<dcsset:groupType>Items</dcsset:groupType>
-								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
-								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
-								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
-							</dcsset:item>
 							<dcsset:item xsi:type="dcsset:GroupItemField">
 								<dcsset:field>ТипТО</dcsset:field>
 								<dcsset:groupType>Items</dcsset:groupType>
@@ -487,6 +498,17 @@
 						<dcsset:selection>
 							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
 						</dcsset:selection>
+						<dcsset:item xsi:type="dcsset:StructureItemGroup">
+							<dcsset:name>ГруппировкаРабота</dcsset:name>
+							<dcsset:order>
+								<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+							</dcsset:order>
+							<dcsset:selection>
+								<dcsset:item xsi:type="dcsset:SelectedItemField">
+									<dcsset:field>РегламентнаяРабота</dcsset:field>
+								</dcsset:item>
+							</dcsset:selection>
+						</dcsset:item>
 					</dcsset:item>
 				</dcsset:item>
 			</dcsset:item>
