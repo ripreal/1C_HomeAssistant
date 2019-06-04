@@ -440,6 +440,12 @@
 				</Page>
 			</ChildItems>
 		</Pages>
+		<InputField name="ТекущееТОСумма1" id="64">
+			<DataPath>ТекущееТОСумма</DataPath>
+			<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+			<ContextMenu name="ТекущееТОСумма1КонтекстноеМеню" id="65"/>
+			<ExtendedTooltip name="ТекущееТОСумма1РасширеннаяПодсказка" id="66"/>
+		</InputField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
