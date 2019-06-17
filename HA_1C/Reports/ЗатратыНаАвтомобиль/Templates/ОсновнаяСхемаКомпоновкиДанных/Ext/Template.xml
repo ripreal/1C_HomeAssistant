@@ -9,6 +9,12 @@
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Период</dataPath>
 			<field>Период</field>
+			<valueType>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</valueType>
 			<appearance>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Формат</dcscor:parameter>
@@ -24,17 +30,36 @@
 		<field xsi:type="DataSetFieldField">
 			<dataPath>РегламентнаяРабота</dataPath>
 			<field>РегламентнаяРабота</field>
+			<valueType>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>30</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</valueType>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Автомобиль</dataPath>
 			<field>Автомобиль</field>
-			<role>
-				<dcscom:dimension>true</dcscom:dimension>
-			</role>
+			<valueType>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>30</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</valueType>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Сумма</dataPath>
 			<field>Сумма</field>
+			<valueType>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>6</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</valueType>
 			<appearance>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Формат</dcscor:parameter>
@@ -53,6 +78,14 @@
 			<role>
 				<dcscom:dimension>true</dcscom:dimension>
 			</role>
+			<valueType>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>5</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</valueType>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>ТипТО</dataPath>
@@ -63,6 +96,13 @@
 					<v8:content>Тип ТО</v8:content>
 				</v8:item>
 			</title>
+			<valueType>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>10</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</valueType>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>ПериодДата</dataPath>
@@ -73,12 +113,18 @@
 					<v8:content>Период дата</v8:content>
 				</v8:item>
 			</title>
+			<valueType>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</valueType>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	ГОД(ЗарегистрированныеТО.Период) КАК Период,
-	ЗарегистрированныеТО.Автомобиль КАК Автомобиль,
-	ВЫРАЗИТЬ(ЗарегистрированныеТО.РегламентнаяРабота.Наименование КАК СТРОКА(50)) КАК РегламентнаяРабота,
+	ВЫРАЗИТЬ(ЗарегистрированныеТО.Автомобиль.Наименование КАК СТРОКА(30)) КАК Автомобиль,
+	ВЫРАЗИТЬ(ЗарегистрированныеТО.РегламентнаяРабота.Наименование КАК СТРОКА(30)) КАК РегламентнаяРабота,
 	ЗарегистрированныеТО.НомерТО КАК НомерТО,
 	ЗарегистрированныеТО.Сумма КАК Сумма,
 	ВЫРАЗИТЬ("ТО" КАК СТРОКА(10)) КАК ТипТО,
@@ -90,8 +136,8 @@
 
 ВЫБРАТЬ
 	ГОД(ЗарегистрированныеВР.Период),
-	ЗарегистрированныеВР.Автомобиль,
-	ВЫРАЗИТЬ(ЗарегистрированныеВР.РегламентнаяРабота.Наименование КАК СТРОКА(50)),
+	ВЫРАЗИТЬ(ЗарегистрированныеВР.Автомобиль.Наименование КАК СТРОКА(30)),
+	ВЫРАЗИТЬ(ЗарегистрированныеВР.РегламентнаяРабота.Наименование КАК СТРОКА(30)),
 	ЗарегистрированныеВР.НомерТО,
 	ЗарегистрированныеВР.Сумма,
 	ВЫРАЗИТЬ("Ремонт" КАК СТРОКА(10)),
@@ -112,6 +158,13 @@
 				<v8:content>Период номер ТО</v8:content>
 			</v8:item>
 		</title>
+		<valueType>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>50</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</valueType>
 	</calculatedField>
 	<totalField>
 		<dataPath>Сумма</dataPath>
@@ -137,11 +190,11 @@
 					<dcsat:appearance>
 						<dcscor:item>
 							<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
-							<dcscor:value xsi:type="xs:decimal">35</dcscor:value>
+							<dcscor:value xsi:type="xs:decimal">30</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
-							<dcscor:value xsi:type="xs:decimal">35</dcscor:value>
+							<dcscor:value xsi:type="xs:decimal">30</dcscor:value>
 						</dcscor:item>
 					</dcsat:appearance>
 				</dcsat:tableCell>
@@ -173,11 +226,11 @@
 					<dcsat:appearance>
 						<dcscor:item>
 							<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
-							<dcscor:value xsi:type="xs:decimal">35</dcscor:value>
+							<dcscor:value xsi:type="xs:decimal">30</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
-							<dcscor:value xsi:type="xs:decimal">35</dcscor:value>
+							<dcscor:value xsi:type="xs:decimal">30</dcscor:value>
 						</dcscor:item>
 					</dcsat:appearance>
 				</dcsat:tableCell>
@@ -208,11 +261,11 @@
 					<dcsat:appearance>
 						<dcscor:item>
 							<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
-							<dcscor:value xsi:type="xs:decimal">35</dcscor:value>
+							<dcscor:value xsi:type="xs:decimal">30</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
-							<dcscor:value xsi:type="xs:decimal">35</dcscor:value>
+							<dcscor:value xsi:type="xs:decimal">30</dcscor:value>
 						</dcscor:item>
 					</dcsat:appearance>
 				</dcsat:tableCell>
@@ -247,11 +300,11 @@
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
-							<dcscor:value xsi:type="xs:decimal">35</dcscor:value>
+							<dcscor:value xsi:type="xs:decimal">30</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
-							<dcscor:value xsi:type="xs:decimal">35</dcscor:value>
+							<dcscor:value xsi:type="xs:decimal">30</dcscor:value>
 						</dcscor:item>
 					</dcsat:appearance>
 				</dcsat:tableCell>
@@ -286,11 +339,11 @@
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
-							<dcscor:value xsi:type="xs:decimal">35</dcscor:value>
+							<dcscor:value xsi:type="xs:decimal">30</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
-							<dcscor:value xsi:type="xs:decimal">35</dcscor:value>
+							<dcscor:value xsi:type="xs:decimal">30</dcscor:value>
 						</dcscor:item>
 					</dcsat:appearance>
 				</dcsat:tableCell>

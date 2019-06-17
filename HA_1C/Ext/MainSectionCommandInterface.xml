@@ -41,6 +41,11 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
+		<Command name="Constant.ВерсияКонфигурации.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
 		<Command name="Constant.ДелатьФотоАндроидАПИ.StandardCommand.Open">
 			<Visibility>
 				<xr:Common>false</xr:Common>
