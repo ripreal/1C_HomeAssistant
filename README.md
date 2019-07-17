@@ -1,4 +1,5 @@
 [![release](https://img.shields.io/github/release/ripreal/1C_HomeAssistant.svg)](https://github.com/ripreal/1C_HomeAssistant/releases)
+[![license](https://img.shields.io/github/license/ripreal/1C_HomeAssistant.svg)](LICENSE)
 
 ## Краткое описание
 #### Домашний ассистент доступен для Android устройств в Google play по [cсылке](https://play.google.com/store/apps/details?id=com.ripreal.ha)
