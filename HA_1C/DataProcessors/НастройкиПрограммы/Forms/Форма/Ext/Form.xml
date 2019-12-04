@@ -35,6 +35,7 @@
 				</CheckBoxField>
 				<Button name="УстановитьHA_Paint" id="40">
 					<Type>UsualButton</Type>
+					<Visible>false</Visible>
 					<Height>1</Height>
 					<CommandName>Form.Command.УстановитьHA_Paint</CommandName>
 					<ExtendedTooltip name="УстановитьHA_PaintРасширеннаяПодсказка" id="41"/>

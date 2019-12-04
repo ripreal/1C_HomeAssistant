@@ -49,7 +49,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>R.I.P.real (Кудаков Роман)</Vendor>
-			<Version>2.1.1</Version>
+			<Version>2.1.3</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -72,7 +72,7 @@
 			<RequiredMobileApplicationPermissions>
 				<v8:pair>
 					<v8:Key xsi:type="app:RequiredMobileApplicationPermissions">Multimedia</v8:Key>
-					<v8:Value xsi:type="xs:boolean">true</v8:Value>
+					<v8:Value xsi:type="xs:boolean">false</v8:Value>
 				</v8:pair>
 				<v8:pair>
 					<v8:Key xsi:type="app:RequiredMobileApplicationPermissions">Location</v8:Key>
@@ -120,7 +120,7 @@
 				</v8:pair>
 				<v8:pair>
 					<v8:Key xsi:type="app:RequiredMobileApplicationPermissions">FileExchangeWithPersonalComputer</v8:Key>
-					<v8:Value xsi:type="xs:boolean">true</v8:Value>
+					<v8:Value xsi:type="xs:boolean">false</v8:Value>
 				</v8:pair>
 			</RequiredMobileApplicationPermissions>
 			<MainClientApplicationWindowMode>Normal</MainClientApplicationWindowMode>

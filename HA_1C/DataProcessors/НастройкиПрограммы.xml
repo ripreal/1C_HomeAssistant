@@ -34,7 +34,6 @@
 		<ChildObjects>
 			<Form>Форма</Form>
 			<Form>СинхронизацияЧерезФайлы</Form>
-			<Template>HA_Paint</Template>
 		</ChildObjects>
 	</DataProcessor>
 </MetaDataObject>
