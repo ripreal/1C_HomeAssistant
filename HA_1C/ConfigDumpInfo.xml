@@ -171,14 +171,14 @@
 		<Metadata name="CommonCommand.СделатьФотографию.CommandModule" id="69a16d88-8195-4b84-940e-16e7ad399df2.2" configVersion="7042d7beebf47341b5e9b933cc50cbc600000000"/>
 		<Metadata name="CommonCommand.СписокФайлов" id="f632f2de-c232-4730-b365-955406aa3ed0" configVersion="554b18da9212b9439a75957b12df029700000000"/>
 		<Metadata name="CommonCommand.СписокФайлов.CommandModule" id="f632f2de-c232-4730-b365-955406aa3ed0.2" configVersion="b523470e4708c54191538c7cb4c7ae3300000000"/>
-		<Metadata name="CommonForm.ОжиданиеДлительнойОперации" id="ddeb4f04-b4f4-48e8-ac8f-feca67b26385" configVersion="f5f83a4078d3ce42af298e39d64130db00000000"/>
-		<Metadata name="CommonForm.ОжиданиеДлительнойОперации.Form" id="ddeb4f04-b4f4-48e8-ac8f-feca67b26385.0" configVersion="aa8660485d284644bec66bdf4da3484c00000000"/>
+		<Metadata name="CommonForm.ОжиданиеДлительнойОперации" id="ddeb4f04-b4f4-48e8-ac8f-feca67b26385" configVersion="e5e0f7d11f76294f9741aa4a86a0ac8300000000"/>
+		<Metadata name="CommonForm.ОжиданиеДлительнойОперации.Form" id="ddeb4f04-b4f4-48e8-ac8f-feca67b26385.0" configVersion="5c136bf28fbe6146bc557a3d2b8b877900000000"/>
 		<Metadata name="CommonForm.ФормаВводаДаты" id="c13f78ae-04bc-4ecd-8b05-44470822d64b" configVersion="08ebe7914849d545b831e0d4098ae69600000000"/>
 		<Metadata name="CommonForm.ФормаВводаДаты.Form" id="c13f78ae-04bc-4ecd-8b05-44470822d64b.0" configVersion="c7245e8142a3ed4fa39c14bfd17d729500000000"/>
 		<Metadata name="CommonModule.ДанныеИБВызовСервера" id="5543d99a-f2d8-40db-a94a-13bbf494da70" configVersion="4d2d63451bef944a8b19a2f253cc491f00000000"/>
 		<Metadata name="CommonModule.ДанныеИБВызовСервера.Module" id="5543d99a-f2d8-40db-a94a-13bbf494da70.0" configVersion="664b0382b6f3f4428f8c7ef4d97001e000000000"/>
-		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыВызовСервера" id="1968c289-d213-41e3-8773-bebf350ab2f0" configVersion="71042e7ef1b98d479ea5f06977bacc7400000000"/>
-		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыВызовСервера.Module" id="1968c289-d213-41e3-8773-bebf350ab2f0.0" configVersion="abc75eecacbb644d8c1529b3af37e79800000000"/>
+		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыВызовСервера" id="1968c289-d213-41e3-8773-bebf350ab2f0" configVersion="efd4d097097efd43a9e485157bc428fc00000000"/>
+		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыВызовСервера.Module" id="1968c289-d213-41e3-8773-bebf350ab2f0.0" configVersion="684b39bef50c4147891f799f1697c0f500000000"/>
 		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыКлиент" id="bf83585c-2ac0-4cba-ac96-c99c0d279c58" configVersion="acb0c046ea7664428ead979aedac6bd000000000"/>
 		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыКлиент.Module" id="bf83585c-2ac0-4cba-ac96-c99c0d279c58.0" configVersion="699aa94b4c57c34ab81f00232c0e40f200000000"/>
 		<Metadata name="CommonModule.ОбщегоНазначения" id="9110ce7f-4d38-47ed-8157-49a1e4407da1" configVersion="63508670dab9f348b33b4d02a830309d00000000"/>
@@ -321,7 +321,7 @@
 		<Metadata name="CommonPicture.СписокОпераций.Picture" id="af81ab2f-8661-4a56-9f83-aaf72e205aa0.0" configVersion="d1a769f67197ca40b86e8da0c59fba1300000000"/>
 		<Metadata name="CommonPicture.СтрелкаВниз" id="0ef50fe9-bb8d-4900-b810-08e5436bf0e7" configVersion="a7a06ee346c19347a2dbd16340ec667a00000000"/>
 		<Metadata name="CommonPicture.СтрелкаВниз.Picture" id="0ef50fe9-bb8d-4900-b810-08e5436bf0e7.0" configVersion="042800f8f81b56428642b89fa4c2f0ad00000000"/>
-		<Metadata name="Configuration.HomeAssistant" id="d64d25ef-af89-4754-9ed8-9fd075861321" configVersion="f062aa929978794f85154c4afd03cdab00000000"/>
+		<Metadata name="Configuration.HomeAssistant" id="d64d25ef-af89-4754-9ed8-9fd075861321" configVersion="ff97443f14285c4dad7c9b036a38556a00000000"/>
 		<Metadata name="Configuration.HomeAssistant.HomePageWorkArea" id="7bf78424-7e44-43c9-8db6-08bd12c6fc75.8" configVersion="e90f8cc14881224f82e8c357661576a100000000"/>
 		<Metadata name="Configuration.HomeAssistant.Logo" id="7bf78424-7e44-43c9-8db6-08bd12c6fc75.1" configVersion="e9e6e7861989b242a3b569fdbc90e88000000000"/>
 		<Metadata name="Configuration.HomeAssistant.MainSectionCommandInterface" id="7bf78424-7e44-43c9-8db6-08bd12c6fc75.9" configVersion="0f39183fc4c0154f9263d75d6bfa565a00000000"/>
